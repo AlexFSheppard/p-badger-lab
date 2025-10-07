@@ -13,16 +13,16 @@ We utilize multivariate genomic methods to better understand the underlying fact
 
 GenomicSEM is an openly available R-package for structural equation modeling based on GWAS summary data. 
 
+{% endcapture %}
+
 {%
   include button.html
-  link=https://github.com/GenomicSEM/GenomicSEM
+  link="https://github.com/GenomicSEM/GenomicSEM"
   text="GenomicSEM"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
-
-{% endcapture %}
 
 {% capture text %}
 
