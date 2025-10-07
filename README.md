@@ -5,6 +5,6 @@
 
   # AlexFSheppard's Website
 
-  Visit **[alexfsheppard.github.io/p-badger-lab](https://alexfsheppard.github.io/p-badger-lab)** 🚀
+  Visit **[www.p-badger-lab.com](http://www.p-badger-lab.com)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
