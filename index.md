@@ -1,13 +1,28 @@
 ---
 ---
 
-# AlexFSheppard's Website
+# The P-Badger Lab
 
-An engaging 1-3 sentence description of your lab.
+We utilize multivariate genomic methods to better understand the underlying factors that impact psychiatric and cognitive traits.
 
 {% include section.html %}
 
 ## Highlights
+
+{% capture text %}
+
+GenomicSEM is an openly available R-package for structural equation modeling based on GWAS summary data. 
+
+{%
+  include button.html
+  link=https://github.com/GenomicSEM/GenomicSEM
+  text="GenomicSEM"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
 
 {% capture text %}
 
@@ -34,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We currently work on a variety of projects investigating the genetics behind neurodevelopment, immune health, cognitive aging, and psychiatric traits.
 
 {%
   include button.html
@@ -59,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our curious, excited, and collaborative team loves to make connections and to celebrate progress in the field.
 
 {%
   include button.html
