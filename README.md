@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # AlexFSheppard's Website
+  # The P-Badger Lab Website
 
   Visit **[www.p-badger-lab.com](http://www.p-badger-lab.com)** 🚀
 
