@@ -1,6 +1,6 @@
 ---
 ---
-
+ 
 # The P-Badger Lab
 
 We utilize multivariate genomic methods to better understand the underlying factors that impact psychiatric and cognitive traits.
