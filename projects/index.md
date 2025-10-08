@@ -16,9 +16,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Featured
+## Current
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html component="card" data="projects" filter="group == 'current'" %}
 
 {% include section.html %}
 

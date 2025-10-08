@@ -1,8 +1,8 @@
 - title: Longitudinal Multi-omic Biomarkers for Neurocognitive Decline Prior to Dementia Onset
   subtitle: 09/30/2024 to 06/30/2029
-  group: featured
+  group: current
   image: images/UoElogo.png
-  link: https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102
+  link: "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102"
   description: Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829
   key collaborators:
     - Sarah Harris (UoE)
@@ -13,7 +13,7 @@
 
 - title: Differential Diagnosis in Learning Disabilities
   subtitle: a subtitle
-  group: featured
+  group: current
   image: images/photo.jpg
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: HD027802
   key collaborators:
@@ -25,7 +25,7 @@
 - title: Dissecting the Multivariate Genetic Architecture of Psychiatric Diseases
   subtitle: 07/17/2020 to 04/30/2025
   image: images/photo.jpg
-  link: https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details
+  link: "https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details"
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 5R01MH120219-05
   key collaborators:
     - Elliot Tucker-Drop (UT Austin)
@@ -37,7 +37,7 @@
 - title: Large-scale Genomic Analysis of Aging-related Cognitive Change Prior to Dementia Onset
   subtitle: 8/15/2021 to 7/31/2024
   image: images/photo.jpg
-  link: https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400
+  link: "https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400"
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01
   key collaborators:
     - Elliot Tucker-Drop (UT Austin)
