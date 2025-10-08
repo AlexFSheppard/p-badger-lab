@@ -3,6 +3,7 @@ name: Luke Schaffer
 image: images/photo.jpg
 description: Clinical Psychology Ph.D. Student
 role: phd
+year: 3
 links:
   email: lukas.schaffer@colorado.edu
   orcid: 0000-0002-0584-6246
