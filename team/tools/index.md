@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
-We develop and maintain freely available, open source software implementations of genomic data science tools. 
+Open source software for genomic data science are available at the links below. 
 
 
 {% include search-info.html %}
@@ -17,11 +17,5 @@ We develop and maintain freely available, open source software implementations o
 ## Featured
 
 {% include list.html data="tools" component="card" filters="group: main" style="small"%}
-
-{% include section.html %}
-
-## More
-
-{% include list.html data="tools" component="card" filters="group: contributor " style="small" %}
 
 {% include section.html %}
