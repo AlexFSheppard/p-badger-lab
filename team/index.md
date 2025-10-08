@@ -11,7 +11,7 @@ nav:
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and group != 'alum'" %}
 {% include list.html data="members" component="portrait" filter="role == 'postdoc' and role != 'phd' and role != 'principal-investigator' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year = '4' and year != '3' and year != '2' and year != '1' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year = '3' and year != '4' and year != '2' and year != '1' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year = '2' and year != '4' and year != '3' and year != '1' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year = '1' and year != '4' and year != '3' and year != '2' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == '4' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == '3' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == '2' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == '1' and group != 'alum'" %}
