@@ -1,7 +1,7 @@
 ---
 name: Sophie Breunig
 image: images/photo.jpg
-description: Behavioral, Psychiatric and Statistical Genetics Ph.D. Student
+description: Behavioral, Psychiatric, and Statistical Genetics Ph.D. Student
 role: phd
 links:
   email: "mailto:sophie.breunig@colorado.edu"
