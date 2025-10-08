@@ -1,0 +1,25 @@
+- title: GenomicSEM
+  subtitle: 
+  group: main
+  image: images/GenomicSEM.png
+  link: https://github.com/GenomicSEM/GenomicSEM/wiki
+  description: R-package for structural equation modeling based on GWAS summary data
+  repo: https://github.com/GenomicSEM/GenomicSEM
+  tags:
+    - software
+    - R package
+    - developer
+    - maintainer
+
+- title: GenomicNetworkAnalysis
+  subtitle: 
+  group: main
+  image: images/GNAbanner.png
+  link: https://github.com/GenomicNetworkAnalysis/GNA/wiki
+  description: GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
+  repo: https://github.com/GenomicNetworkAnalysis/GNA
+  tags:
+    - software
+    - R package
+    - developer
+    - maintainer
