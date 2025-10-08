@@ -1,10 +1,14 @@
 ---
-name: John Doe
-image: images/photo.jpg
-role: phd
+name: Alex Sheppard
+image: images/Alex.jpeg
+role: Clinical Psychology Ph.D. Student
 group: alum
 links:
-  github: john-doe
+  email: "mailto:alex.sheppard@colorado.edu"
+  orcid: 0000-0001-7852-9244
+  google-scholar: z01JOtcAAAAJ&hl
+  github: AlexFSheppard
+  linkedin: alex-sheppard-522a081b9
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I am interested in what promotes healthy functioning in later life. I seek to understand psychological and neurological factors impacting health using genomic methods. And to leverage these factors, such as apathy or dementia biomarkers, to promote well-being.
