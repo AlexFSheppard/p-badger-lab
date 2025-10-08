@@ -1,7 +1,7 @@
 ---
 name: Alex Sheppard
 image: images/Alex.jpeg
-role: Clinical Psychology Ph.D. Student
+role: clinical-psychology-Ph.D.-student
 group: alum
 links:
   email: "mailto:alex.sheppard@colorado.edu"
@@ -11,4 +11,5 @@ links:
   linkedin: alex-sheppard-522a081b9
 ---
 
+**Research Interests:**
 I am interested in what promotes healthy functioning in later life. I seek to understand psychological and neurological factors impacting health using genomic methods. And to leverage these factors, such as apathy or dementia biomarkers, to promote well-being.
