@@ -4,9 +4,6 @@
   image: images/UoElogo.png
   link: https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102
   description: Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829
-  key collaborators:
-    - Sarah Harris (UoE)
-    - Elliot Tucker-Drop (UT Austin)
   tags:
     - Grant
     - Subcontract PI
@@ -16,8 +13,6 @@
   group: current
   image: images/photo.jpg
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: HD027802
-  key collaborators:
-    - Erik Willicut (CU Boulder)
   tags:
     - Grant
     - Co-Investigator on Data Core
@@ -28,9 +23,6 @@
   image: images/photo.jpg
   link: https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 5R01MH120219-05
-  key collaborators:
-    - Elliot Tucker-Drop (UT Austin)
-    - Michel Nivard (VU Amsterdam)
   tags:
     - Grant
     - Co-Investigator
@@ -41,8 +33,6 @@
   image: images/photo.jpg
   link: https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01
-  key collaborators:
-    - Elliot Tucker-Drop (UT Austin)
   tags:
     - Grant
     - Co-Investigator
@@ -52,8 +42,6 @@
   group: past
   image: images/photo.jpg
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01
-  key collaborators:
-    - Name
   tags:
     - Grant
     - Subcontract PI
