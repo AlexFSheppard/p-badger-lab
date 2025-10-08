@@ -173,6 +173,27 @@
   orcid: 0000-0001-6594-0587
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2021.02.23.21252211
+  title: "The Genetic Architecture of Alzheimer\u2019s Disease Risk: A Genomic Structural\
+    \ Equation Modelling Study"
+  authors:
+  - Isabelle F Foote
+  - Benjamin M Jacobs
+  - Georgina Mathlin
+  - Cameron J Watson
+  - Phazha LK Bothongo
+  - Sheena Waters
+  - Ruth Dobson
+  - Alastair J Noyce
+  - Kamaldeep S Bhui
+  - Ania Korszun
+  - Charles R Marshall
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-03-02'
+  link: https://doi.org/g953vw
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
