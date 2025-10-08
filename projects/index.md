@@ -16,12 +16,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
-## Current
+## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'current'" %}
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
 ## Completed
 
-{% include list.html component="card" data="projects" filter="group == past" style="small" %}
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
