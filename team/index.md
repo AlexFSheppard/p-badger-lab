@@ -15,3 +15,8 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == 3 and group != 'alum'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == 2 and group != 'alum'" %}
 {% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and year == 1 and group != 'alum'" %}
+
+{%
+  include feature.html
+  image="images/Gambingisfun.jpg"
+%}
