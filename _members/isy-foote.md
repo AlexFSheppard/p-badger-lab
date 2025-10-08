@@ -2,7 +2,7 @@
 name: Isy Foote
 image: images/photo.jpg
 description: Post-doctoral Scholar
-role: alum
+role: postdoc
 links:
   email: isabelle.foote@colorado.edu
   twitter: IsabelleFFoote
