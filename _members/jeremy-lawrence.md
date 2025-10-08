@@ -3,6 +3,7 @@ name: Jeremy Lawrence
 image: images/photo.jpg
 description: Clinical Psychology Ph.D. Student
 role: phd
+year: 4
 links:
   email: "mailto:jeremy.lawrence@colorado.edu"
   google-scholar: X5Jmb3sAAAAJ&hl
