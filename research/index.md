@@ -14,7 +14,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits" style="rich" %}
 
 {% include section.html %}
 
