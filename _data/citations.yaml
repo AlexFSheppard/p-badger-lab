@@ -1,5 +1,178 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41398-025-03470-9
+  title: Examining the genetic links between clusters of immune-mediated diseases
+    and psychiatric disorders
+  authors:
+  - Sophie Breunig
+  - Younga Heather Lee
+  - Elizabeth W. Karlson
+  - Arjun Krishnan
+  - Jeremy M. Lawrence
+  - Lukas S. Schaffer
+  - Andrew D. Grotzinger
+  publisher: Translational Psychiatry
+  date: '2025-07-21'
+  link: https://doi.org/g953t9
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/braincomms/fcaf112
+  title: "Examining the genetic relationship between Alzheimer\u2019s disease, schizophrenia\
+    \ and their shared risk factors using genomic structural equation modelling"
+  authors:
+  - "In\xEAs Almeida e Sousa"
+  - Andrew D Grotzinger
+  - Jeremy M Lawrence
+  - Sophie Breunig
+  - Charles R Marshall
+  - Ania Korszun
+  - Isabelle F Foote
+  publisher: Brain Communications
+  date: '2025-01-01'
+  link: https://doi.org/g953vb
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.08.02.24311427
+  title: Shared Genetic Liability across Systems of Psychiatric and Physical Illness
+  authors:
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Sophie Breunig
+  - Lukas S. Schaffer
+  - Travis T. Mallard
+  - Andrew D. Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-08-04'
+  link: https://doi.org/g953vc
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.07.18.24310651
+  title: Examining the Genetic Links between Clusters of Immune-mediated Diseases
+    and Psychiatric Disorders
+  authors:
+  - Sophie Breunig
+  - Younga Heather Lee
+  - Elizabeth W. Karlson
+  - Arjun Krishnan
+  - Jeremy M. Lawrence
+  - Lukas S. Schaffer
+  - Andrew D. Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-07-19'
+  link: https://doi.org/g953vd
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/s0033291723002957
+  title: Genomic SEM applied to explore etiological divergences in bipolar subtypes
+  authors:
+  - Jeremy M. Lawrence
+  - Sophie Breunig
+  - Isabelle F. Foote
+  - Connor B. Tallis
+  - Andrew D. Grotzinger
+  publisher: Psychological Medicine
+  date: '2023-10-27'
+  link: https://doi.org/g953vf
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.06.07.24308616
+  title: Characterizing Genetic Pathways Unique to Autism Spectrum Disorder at Multiple
+    Levels of Biological Analysis
+  authors:
+  - Lukas S. Schaffer
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Andrew D. Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-06-09'
+  link: https://doi.org/g953vg
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s13229-024-00624-2
+  title: Characterizing genetic pathways unique to autism spectrum disorder at multiple
+    levels of biological analysis
+  authors:
+  - Lukas S. Schaffer
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Andrew D. Grotzinger
+  publisher: Molecular Autism
+  date: '2024-10-15'
+  link: https://doi.org/g953vh
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpsgos.2024.100307
+  title: Examining Differences in the Genetic and Functional Architecture of Attention-Deficit/Hyperactivity
+    Disorder Diagnosed in Childhood and Adulthood
+  authors:
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Hannah J. Gebhardt
+  - Erik G. Willcutt
+  - Andrew D. Grotzinger
+  publisher: Biological Psychiatry Global Open Science
+  date: '2024-05-01'
+  link: https://doi.org/g953vj
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.08.02.23293439
+  title: Examining Differences in the Genetic and Functional Architecture of ADHD
+    Diagnosed in Childhood and Adulthood
+  authors:
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Hannah J. Gebhardt
+  - Erik G. Willcutt
+  - Andrew D. Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-08-07'
+  link: https://doi.org/g953vk
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.04.29.23289281
+  title: Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes
+  authors:
+  - Jeremy M. Lawrence
+  - Sophie Breunig
+  - Isabelle F. Foote
+  - Connor B. Tallis
+  - Andrew D. Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-05-09'
+  link: https://doi.org/g953vm
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41562-023-01609-6
+  title: Maximizing the value of twin studies in health and behaviour
+  authors:
+  - Fiona A. Hagenbeek
+  - Jana S. Hirzinger
+  - Sophie Breunig
+  - Susanne Bruins
+  - Dmitry V. Kuznetsov
+  - Kirsten Schut
+  - Veronika V. Odintsova
+  - Dorret I. Boomsma
+  publisher: Nature Human Behaviour
+  date: '2023-05-15'
+  link: https://doi.org/g9ttvg
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
   title: Open collaborative writing with Manubot
   authors:
