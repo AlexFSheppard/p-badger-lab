@@ -2,7 +2,7 @@
 name: Andrew Grotzinger
 image: images/Andrew.png
 role: principal-investigator
-affiliation: University of Colorado
+affiliation: University of Colorado Boulder
 links:
   email: "mailto:andrew.grotzinger@colorado.edu"
   orcid: 0000-0001-7852-9244
