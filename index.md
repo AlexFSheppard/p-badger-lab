@@ -11,21 +11,6 @@ We utilize multivariate genomic methods to better understand the underlying fact
 
 {% capture text %}
 
-GenomicSEM is an openly available R-package for structural equation modeling based on GWAS summary data. 
-
-{% endcapture %}
-
-{%
-  include button.html
-  link="https://github.com/GenomicSEM/GenomicSEM"
-  text="GenomicSEM"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% capture text %}
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {%
@@ -41,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/DNA.png"
   link="research"
   title="Our Research"
   text=text
@@ -64,7 +49,7 @@ We currently work on a variety of projects investigating the genetics behind neu
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/Frailty.webp"
   link="projects"
   title="Our Projects"
   flip=true
@@ -89,7 +74,7 @@ Our curious, excited, and collaborative team loves to make connections and to ce
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/badger lab.jpg"
   link="team"
   title="Our Team"
   text=text
