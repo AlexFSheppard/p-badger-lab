@@ -19,9 +19,13 @@ nav:
 {% include section.html %}
 
 ## Gallery
-{%
+
+<div class="grid">
+  {% include feature.html image="images/Gamblingisfun.jpg" %}
+  {% include feature.html image="images/Gamblingisfun2.jpg" %}
+</div>
   include feature.html
-  image="images/Gamblingisfun.jpg"
+  image="images/Gamblingisfun2.jpg"
   width="100%"
 %}
 
