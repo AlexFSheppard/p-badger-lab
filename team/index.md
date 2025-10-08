@@ -10,5 +10,5 @@ nav:
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role = 'postdoc' and role != 'phd' and rol !='principal-investigator' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role = 'phd' and role !='postdoc' and role != 'principal-investigator and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc' and role != 'phd' and role != 'principal-investigator' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and role != 'postdoc' and role != 'principal-investigator' and group != 'alum'" %}
