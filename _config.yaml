@@ -10,9 +10,9 @@ proofer: false
 links:
   email: "mailto:andrew.grotzinger@colorado.edu"
   orcid: 0000-0001-7852-9244
-  google-scholar: "https://scholar.google.com/citations?user=m6VyKjkAAAAJ&hl=en"
+  google-scholar: m6VyKjkAAAAJ&hl
   github: agrotzin
-  twitter: AlexFSheppard
+  bluesky: andrewgrotzinger
 
 ### jekyll settings
 
