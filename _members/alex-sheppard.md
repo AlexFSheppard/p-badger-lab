@@ -2,7 +2,7 @@
 name: Alex Sheppard
 image: images/Alex.jpeg
 description: Clinical Psychology Ph.D. Student
-role: alum
+role: alumni
 links:
   email: "mailto:alex.sheppard@colorado.edu"
   orcid: 0000-0001-7852-9244
