@@ -1,7 +1,7 @@
 ---
 name: Luke Schaffer
 image: images/photo.jpg
-description: clinical-psychology-Ph.D.-Student
+description: Clinical Psychology Ph.D. Student
 role: alum
 links:
   email: lukas.schaffer@colorado.edu
