@@ -1,47 +1,59 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Longitudinal Multi-omic Biomarkers for Neurocognitive Decline Prior to Dementia Onset
+  subtitle: 09/30/2024 to 06/30/2029
+  group: current
+  image: images/UoElogo.png
+  link: https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102
+  description: Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829
+  key collaborators:
+    - Sarah Harris (UoE)
+    - Elliot Tucker-Drop (UT Austin)
   tags:
-    - resource
+    - Grant
+    - Subcontract PI
 
-- title: Cool Package
+- title: Differential Diagnosis in Learning Disabilities
   subtitle: a subtitle
-  group: featured
+  group: current
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: HD027802
+  key collaborators:
+    - Erik Willicut (CU Boulder)
   tags:
-    - resource
+    - Grant
+    - Co-Investigator on Data Core
 
-- title: Cool Tutorial
-  subtitle: a subtitle
+- title: Dissecting the Multivariate Genetic Architecture of Psychiatric Diseases
+  subtitle: 07/17/2020 to 04/30/2025
+  group: past
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 5R01MH120219-05
+  key collaborators:
+    - Elliot Tucker-Drop (UT Austin)
+    - Michel Nivard (VU Amsterdam)
   tags:
-    - resource
-    - publication
+    - Grant
+    - Co-Investigator
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Large-scale Genomic Analysis of Aging-related Cognitive Change Prior to Dementia Onset
+  subtitle: 8/15/2021 to 7/31/2024
+  group: past
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01
+  key collaborators:
+    - Elliot Tucker-Drop (UT Austin)
   tags:
-    - software
+    - Grant
+    - Co-Investigator
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Mapping Genomics to Brain Structure, Psychiatric Disorders, and Therapeutic Targets
+  subtitle: 1/1/2022 to 12/31/23
+  group: past
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01
+  key collaborators:
+    - Name
   tags:
-    - software
+    - Grant
+    - Subcontract PI
