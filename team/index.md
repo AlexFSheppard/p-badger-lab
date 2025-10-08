@@ -18,5 +18,5 @@ nav:
 
 {%
   include feature.html
-  image="images/Gambingisfun.jpg"
+  image="images/Gamblingisfun.jpg"
 %}
