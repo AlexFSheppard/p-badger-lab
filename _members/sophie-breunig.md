@@ -1,6 +1,6 @@
 ---
 name: Sophie Breunig
-image: images/photo.jpg
+image: images/sophie.jpeg
 description: Behavioral, Psychiatric, and Statistical Genetics Ph.D. Student
 role: phd
 year: 4
