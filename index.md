@@ -11,12 +11,12 @@ We utilize multivariate genomic methods to better understand the underlying fact
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+For powerful and open-access genomic data science tools developed by our lab, visit our Tools page
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="tools"
+  text="Use our Tools"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,9 +26,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/DNA.png"
-  link="research"
-  title="Our Research"
+  image="images/GenomicSEM.png"
+  link="tools"
+  title="Tools"
   text=text
 %}
 
