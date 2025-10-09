@@ -48,14 +48,22 @@
               {% if person.url %}
                 <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer" class="collaborator-link">
                   {% if person.image %}
-                    <img src="{{ person.image | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
+                    {% assign _img = person.image %}
+                    {% unless _img contains '/' %}
+                      {% assign _img = 'images/' | append: _img %}
+                    {% endunless %}
+                    <img src="{{ _img | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
                   {% else %}
                     <div class="collaborator-initials">{{ person.name | split: " " | map: "first" | slice: 0,2 | join: "" | upcase }}</div>
                   {% endif %}
                 </a>
               {% else %}
                 {% if person.image %}
-                  <img src="{{ person.image | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
+                  {% assign _img = person.image %}
+                  {% unless _img contains '/' %}
+                    {% assign _img = 'images/' | append: _img %}
+                  {% endunless %}
+                  <img src="{{ _img | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
                 {% else %}
                   <div class="collaborator-initials">{{ person.name | split: " " | map: "first" | slice: 0,2 | join: "" | upcase }}</div>
                 {% endif %}
