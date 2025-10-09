@@ -1,7 +1,7 @@
 - title: GenomicSEM
   subtitle: 
   group: main
-  image: images/GenomicSEM.png
+  image: images/GenomicSEM2.png
   link: https://github.com/GenomicSEM/GenomicSEM/wiki
   description: R-package for structural equation modeling based on GWAS summary data
   repo: https://github.com/GenomicSEM/GenomicSEM

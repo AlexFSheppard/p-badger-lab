@@ -93,6 +93,24 @@ main {
 /* Removed per-child `order` overrides: use `flex-direction: row-reverse`
    on even features to flip layout deterministically. */
 
+/* Final small-screen safeguard: ensure any later row-reverse rules do not
+   prevent stacked mobile layout. This sits near the end so it wins the
+   cascade when the viewport is narrow. */
+@media (max-width: 800px) {
+  .feature[data-style="home"],
+  .feature[data-style="home"]:nth-of-type(2n) {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .feature[data-style="home"] .feature-image {
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    max-width: none !important;
+  }
+}
+
 /* Final cleanup: ensure any leftover debug outlines/box-shadows are removed.
    This sits at the end and uses !important to override earlier debug rules. */
 .feature[data-style="home"],
