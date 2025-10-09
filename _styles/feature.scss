@@ -19,6 +19,11 @@ $wrap: 800px;
   box-shadow: var(--shadow);
 }
 
+/* small image variant used on the home page */
+.feature[data-style="home"] .feature-image {
+  width: 24%;
+}
+
 .feature-image img {
   width: 100%;
   height: 100%;

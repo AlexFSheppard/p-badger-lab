@@ -30,6 +30,7 @@ For powerful and open-access genomic data science tools developed by our lab, vi
   link="tools"
   title="Tools"
   text=text
+  style="home"
 %}
 
 {% capture text %}
@@ -53,7 +54,7 @@ We currently work on a variety of projects investigating the genetics behind neu
   link="projects"
   title="Our Projects"
   flip=true
-  style="bare"
+  style="home"
   text=text
 %}
 
@@ -78,4 +79,5 @@ Our curious, excited, and collaborative team loves to make connections and to ce
   link="team"
   title="Our Team"
   text=text
+  style="home"
 %}
