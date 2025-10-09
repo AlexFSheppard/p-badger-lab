@@ -51,24 +51,24 @@ $wrap: 800px;
   }
 }
 
-/* Make feature images larger when placed inside a grid intended for large gallery items */
-.grid.grid-large {
+/* Make feature images larger when inside the Team page gallery only */
+.team-gallery {
   --repeat: 2; /* reduce columns so images are wider */
 }
 
-.grid.grid-large .feature {
+.team-gallery .feature {
   gap: 20px;
 }
 
-.grid.grid-large .feature-image {
+.team-gallery .feature-image {
   width: 60%;
 }
 
 @media (max-width: $two) {
-  .grid.grid-large {
+  .team-gallery {
     --repeat: 1;
   }
-  .grid.grid-large .feature-image {
+  .team-gallery .feature-image {
     width: 100%;
     max-width: none;
   }
