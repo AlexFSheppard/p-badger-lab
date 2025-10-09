@@ -1,5 +1,48 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.5055/jom.0948
+  title: 'Context-based evidence: Pilot study to extract, repurpose, and distribute
+    published data on OUD'
+  authors:
+  - Alexander Sheppard
+  - Carly Milliren
+  - Douglas Schatz
+  - David Krag
+  publisher: Journal of Opioid Management
+  date: '2025-08-01'
+  link: https://doi.org/g95562
+  orcid: 0009-0002-6259-6738
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1176/appi.neuropsych.20230175
+  title: 'Socioemotional Dysfunction From Temporal Lobe Involvement in Frontotemporal
+    Dementia: A Preliminary Report'
+  authors:
+  - Kelsey A. Holiday
+  - Alexander Sheppard
+  - Youssef I. Khattab
+  - Diana Chavez
+  - Rebecca J. Melrose
+  - Mario F. Mendez
+  publisher: The Journal of Neuropsychiatry and Clinical Neurosciences
+  date: '2024-10-01'
+  link: https://doi.org/g95563
+  orcid: 0009-0002-6259-6738
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jns.2023.120779
+  title: Jargonaphasia in logopenic variant primary progressive aphasia
+  authors:
+  - Mario F. Mendez
+  - Alexander Sheppard
+  - Diana Chavez
+  - Kelsey A. Holiday
+  publisher: Journal of the Neurological Sciences
+  date: '2023-10-01'
+  link: https://doi.org/g95564
+  orcid: 0009-0002-6259-6738
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41398-025-03470-9
   title: Examining the genetic links between clusters of immune-mediated diseases
     and psychiatric disorders
