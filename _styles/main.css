@@ -64,5 +64,21 @@ main {
     max-width: none !important;
   }
 }
+/* Desktop stagger: ensure every 2nd home feature flips (image on right)
+   and mirror margins so spacing matches. Placed in main.scss so it
+   definitely exists in the compiled main.css that the site loads. */
+.feature[data-style=home]:nth-of-type(2n) {
+  flex-direction: row-reverse !important;
+}
+
+.feature[data-style=home] .feature-image {
+  margin-right: 20px !important;
+  margin-left: 0 !important;
+}
+
+.feature[data-style=home]:nth-of-type(2n) .feature-image {
+  margin-left: 20px !important;
+  margin-right: 0 !important;
+}
 
 /*# sourceMappingURL=main.css.map */
