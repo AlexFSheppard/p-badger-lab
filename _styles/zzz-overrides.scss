@@ -9,7 +9,7 @@
 }
 
 /* Re-assert ordering to guarantee image/text positions */
-.feature[data-style="home"] .feature-image { order: 0 !important; }
-.feature[data-style="home"] .feature-text { order: 1 !important; }
-.feature[data-style="home"]:nth-of-type(2n) .feature-image { order: 1 !important; }
-.feature[data-style="home"]:nth-of-type(2n) .feature-text { order: 0 !important; }
+/* Removed per-child order overrides so layout flipping is handled by
+  `flex-direction` and logical margins. Keeping order rules here
+  caused conflicts with flex-based flipping and made layout harder
+  to reason about. */
