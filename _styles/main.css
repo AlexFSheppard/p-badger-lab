@@ -15,10 +15,10 @@ main {
 .feature[data-style=home] .feature-image {
   display: block !important;
   /* match the clamp-based sizing from feature.scss but keep the rule
-     important to override cached/strong selectors */
-  flex: 0 0 clamp(160px, 35vw, 560px) !important;
-  width: clamp(160px, 35vw, 560px) !important;
-  max-width: 560px !important;
+    important to override cached/strong selectors */
+  flex: 0 0 clamp(160px, 35vw, 450px) !important;
+  width: clamp(160px, 35vw, 450px) !important;
+  max-width: 450px !important;
   margin-right: 20px !important;
   box-sizing: border-box !important;
 }
@@ -36,9 +36,9 @@ main {
 }
 
 .feature[data-style=home] .feature-image {
-  flex: 0 0 clamp(160px, 35vw, 560px) !important;
-  width: clamp(160px, 35vw, 560px) !important;
-  max-width: 560px !important;
+  flex: 0 0 clamp(160px, 35vw, 450px) !important;
+  width: clamp(160px, 35vw, 450px) !important;
+  max-width: 450px !important;
 }
 
 .feature[data-style=home] .feature-text {

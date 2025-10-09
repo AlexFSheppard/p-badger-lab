@@ -23,9 +23,9 @@ $wrap: 800px;
 .feature[data-style="home"] .feature-image {
   /* allow the home image to scale between a sensible minimum and a
      larger maximum so it can expand up to 560px on wide layouts */
-  flex: 0 0 clamp(160px, 35vw, 560px);
-  width: clamp(160px, 35vw, 560px);
-  max-width: 560px;
+  flex: 0 0 clamp(160px, 35vw, 450px);
+  width: clamp(160px, 35vw, 450px);
+  max-width: 450px;
 }
 /* On small screens stack and make the image full width */
 @media (max-width: 800px) {
