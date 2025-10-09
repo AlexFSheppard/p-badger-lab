@@ -1,3 +1,7 @@
+
+
+$wrap: 800px;
+
 .feature {
   display: flex;
   justify-content: center;
@@ -9,7 +13,7 @@
 .feature-image {
   flex-shrink: 0;
   width: 40%;
-  aspect-ratio: 3/2;
+  aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -36,14 +40,36 @@
   flex-direction: row-reverse;
 }
 
-@media (max-width: 800px) {
+@media (max-width: $wrap) {
   .feature {
     flex-direction: column !important;
   }
+
   .feature-image {
     width: 100%;
-    max-width: 400px;
+    max-width: calc($wrap / 2);
   }
 }
 
-/*# sourceMappingURL=feature.css.map */
+/* Make feature images larger when placed inside a grid intended for large gallery items */
+.grid.grid-large {
+  --repeat: 2; /* reduce columns so images are wider */
+}
+
+.grid.grid-large .feature {
+  gap: 20px;
+}
+
+.grid.grid-large .feature-image {
+  width: 60%;
+}
+
+@media (max-width: $two) {
+  .grid.grid-large {
+    --repeat: 1;
+  }
+  .grid.grid-large .feature-image {
+    width: 100%;
+    max-width: none;
+  }
+}

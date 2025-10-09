@@ -47,4 +47,55 @@
   font-style: italic;
 }
 
+/* Collaborator bar under card descriptions */
+.card-collaborators {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.collaborator {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.collaborator-image,
+.collaborator-initials {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--muted);
+  color: var(--foreground-muted);
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.collaborator-image {
+  object-fit: cover;
+  display: inline-block;
+}
+
+.collaborator-meta {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.collaborator-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.collaborator-aff {
+  font-size: 0.8rem;
+  color: var(--foreground-muted);
+}
+
 /*# sourceMappingURL=card.css.map */
