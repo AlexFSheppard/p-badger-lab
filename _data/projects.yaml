@@ -6,13 +6,13 @@
   description: "Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829"
   key_collaborators:
     - name: Sarah Harris
-      affiliation: UoE
-      image: sarrahharris.jpg
+      affiliation: UoEdinburgh
+      image: sarahharris.jpg
       url: "https://www.ed.ac.uk/profile/sarah-harris"
-    - name: Elliot Tucker-Drop
+    - name: Elliot Tucker-Drob
       affiliation: UT Austin
-      image: elliottucker-drop.jpg
-      url: https://liberalarts.utexas.edu/psychology/faculty/et5793
+      image: elliottucker-drob.jpg
+      url: "https://liberalarts.utexas.edu/psychology/faculty/et5793"
   tags:
     - Grant
     - Subcontract PI
@@ -25,6 +25,8 @@
   key_collaborators:
     - name: Erik Willicut
       affiliation: CU Boulder
+      image: willcutt.jpeg
+      url: "https://www.colorado.edu/neuroscience/erik-willcutt"
   tags:
     - Grant
     - Co-Investigator on Data Core
@@ -35,10 +37,14 @@
   link: "https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details"
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 5R01MH120219-05"
   key_collaborators:
-    - name: Elliot Tucker-Drop
+    - name: Elliot Tucker-Drob
       affiliation: UT Austin
+      image: elliottucker-drob.jpg
+      url: "https://liberalarts.utexas.edu/psychology/faculty/et5793"
     - name: Michel Nivard
-      affiliation: VU Amsterdam
+      affiliation: UoBristol
+      image: mnivard.jpeg
+      url: "https://research-information.bris.ac.uk/en/persons/michel-g-nivard"
   tags:
     - Grant
     - Co-Investigator
@@ -49,8 +55,10 @@
   link: "https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400"
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01"
   key_collaborators:
-    - name: Elliot Tucker-Drop
+    - name: Elliot Tucker-Drob
       affiliation: UT Austin
+      image: elliottucker-drob.jpg
+      url: "https://liberalarts.utexas.edu/psychology/faculty/et5793"
   tags:
     - Grant
     - Co-Investigator
@@ -59,9 +67,6 @@
   subtitle: "1/1/2022 to 12/31/23"
   image: images/photo.jpg
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01"
-  key_collaborators:
-    - name: Name
-      affiliation: ""
   tags:
     - Grant
     - Subcontract PI
