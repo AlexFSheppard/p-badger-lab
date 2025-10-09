@@ -40,7 +40,41 @@
       </p>
     {% endif %}
 
-    {% if include.tags or include.repo %}
+    {% if include.key_collaborators or include.tags or include.repo %}
+      {% if include.key_collaborators %}
+        <div class="card-collaborators">
+          {% for person in include.key_collaborators %}
+            <div class="collaborator">
+              {% if person.url %}
+                <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer" class="collaborator-link">
+                  {% if person.image %}
+                    <img src="{{ person.image | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
+                  {% else %}
+                    <div class="collaborator-initials">{{ person.name | split: " " | map: "first" | slice: 0,2 | join: "" | upcase }}</div>
+                  {% endif %}
+                </a>
+              {% else %}
+                {% if person.image %}
+                  <img src="{{ person.image | relative_url | uri_escape }}" alt="{{ person.name }}" class="collaborator-image" loading="lazy" {% include fallback.html %}>
+                {% else %}
+                  <div class="collaborator-initials">{{ person.name | split: " " | map: "first" | slice: 0,2 | join: "" | upcase }}</div>
+                {% endif %}
+              {% endif %}
+              <div class="collaborator-meta">
+                {% if person.url %}
+                  <a href="{{ person.url }}" target="_blank" rel="noopener noreferrer" class="collaborator-link">
+                    <div class="collaborator-name">{{ person.name }}</div>
+                  </a>
+                {% else %}
+                  <div class="collaborator-name">{{ person.name }}</div>
+                {% endif %}
+                {% if person.affiliation %}<div class="collaborator-aff">{{ person.affiliation }}</div>{% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
       {% include tags.html tags=include.tags repo=include.repo %}
     {% endif %}
   </div>

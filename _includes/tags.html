@@ -1,14 +1,5 @@
-{% assign tags = include.tags
-  | object_items
-  | join: ","
-  | downcase
-  | split: ","
-  | array_filter
-  | join: ","
-  | regex_replace: "\s+", "-"
-  | split: ","
-  | uniq
-%}
+{% assign tags_raw = include.tags | object_items | join: "," | split: "," | array_filter %}
+{% assign tags = tags_raw | uniq %}
 {% assign link = include.link | default: page.dir %}
 {% if tags.size > 0 or include.repo %}
   <div
@@ -18,8 +9,9 @@
     {% endif %}
   >
     {% for tag in tags %}
+      {% assign tag_norm = tag | downcase | regex_replace: "\s+", "-" %}
       <a
-        href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
+        href="{{ link | relative_url }}?search=&quot;tag: {{ tag_norm }}&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >

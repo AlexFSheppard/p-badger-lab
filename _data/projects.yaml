@@ -1,12 +1,18 @@
 - title: Longitudinal Multi-omic Biomarkers for Neurocognitive Decline Prior to Dementia Onset
   subtitle: "09/30/2024 to 06/30/2029"
   group: current
-  image: images/UoElogo.png
+  image: images/UoE.png
   link: "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102"
   description: "Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829"
-  key collaborators:
-    - Sarah Harris (UoE)
-    - Elliot Tucker-Drop (UT Austin)
+  key_collaborators:
+    - name: Sarah Harris
+      affiliation: UoE
+      image: sarrahharris.jpg
+      url: "https://www.ed.ac.uk/profile/sarah-harris"
+    - name: Elliot Tucker-Drop
+      affiliation: UT Austin
+      image: elliottucker-drop.jpg
+      url: https://liberalarts.utexas.edu/psychology/faculty/et5793
   tags:
     - Grant
     - Subcontract PI
@@ -16,8 +22,9 @@
   group: current
   image: images/photo.jpg
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: HD027802"
-  key collaborators:
-    - Erik Willicut (CU Boulder)
+  key_collaborators:
+    - name: Erik Willicut
+      affiliation: CU Boulder
   tags:
     - Grant
     - Co-Investigator on Data Core
@@ -27,9 +34,11 @@
   image: images/photo.jpg
   link: "https://reporter.nih.gov/search/PBq_kmaVYkSw1rP1ys7_iw/project-details/10844398#details"
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 5R01MH120219-05"
-  key collaborators:
-    - Elliot Tucker-Drop (UT Austin)
-    - Michel Nivard (VU Amsterdam)
+  key_collaborators:
+    - name: Elliot Tucker-Drop
+      affiliation: UT Austin
+    - name: Michel Nivard
+      affiliation: VU Amsterdam
   tags:
     - Grant
     - Co-Investigator
@@ -39,8 +48,9 @@
   image: images/photo.jpg
   link: "https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400"
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01"
-  key collaborators:
-    - Elliot Tucker-Drop (UT Austin)
+  key_collaborators:
+    - name: Elliot Tucker-Drop
+      affiliation: UT Austin
   tags:
     - Grant
     - Co-Investigator
@@ -49,8 +59,9 @@
   subtitle: "1/1/2022 to 12/31/23"
   image: images/photo.jpg
   description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01"
-  key collaborators:
-    - Name
+  key_collaborators:
+    - name: Name
+      affiliation: ""
   tags:
     - Grant
     - Subcontract PI

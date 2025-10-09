@@ -1,5 +1,4 @@
----
----
+
 
 $wrap: 800px;
 
@@ -49,5 +48,28 @@ $wrap: 800px;
   .feature-image {
     width: 100%;
     max-width: calc($wrap / 2);
+  }
+}
+
+/* Make feature images larger when placed inside a grid intended for large gallery items */
+.grid.grid-large {
+  --repeat: 2; /* reduce columns so images are wider */
+}
+
+.grid.grid-large .feature {
+  gap: 20px;
+}
+
+.grid.grid-large .feature-image {
+  width: 60%;
+}
+
+@media (max-width: $two) {
+  .grid.grid-large {
+    --repeat: 1;
+  }
+  .grid.grid-large .feature-image {
+    width: 100%;
+    max-width: none;
   }
 }

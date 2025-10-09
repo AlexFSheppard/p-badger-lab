@@ -14,7 +14,7 @@
 - title: GenomicNetworkAnalysis
   subtitle: 
   group: main
-  image: images/GNAbanner.png
+  image: images/GNA.png
   link: https://github.com/GenomicNetworkAnalysis/GNA/wiki
   description: GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
   repo: https://github.com/GenomicNetworkAnalysis/GNA

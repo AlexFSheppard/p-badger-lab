@@ -1,0 +1,25 @@
+{
+  "name": "p-badger-lab Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "runArgs": ["--init"],
+  "postCreateCommand": "bundle config set path 'vendor/bundle' || true && bundle install || true && yarn install --silent || true",
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "rebornix.Ruby",
+        "castwide.solargraph",
+        "sdenisov.vscode-jekyll",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
