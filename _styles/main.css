@@ -4,4 +4,48 @@ main {
   flex-grow: 1;
 }
 
+/* Homepage feature overrides: keep flex layout but constrain image
+   to a fixed width so text sits to the left/right. Placed here
+   because main.css is always linked in the generated site. */
+.feature[data-style=home] {
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.feature[data-style=home] .feature-image {
+  display: block !important;
+  flex: 0 0 160px !important;
+  width: 160px !important;
+  max-width: 160px !important;
+  margin-right: 20px !important;
+  box-sizing: border-box !important;
+}
+
+.feature[data-style=home] .feature-image img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Strong explicit layout: ensure text flexes and image stays fixed */
+.feature[data-style=home] {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.feature[data-style=home] .feature-image {
+  flex: 0 0 160px !important;
+  width: 160px !important;
+  max-width: 160px !important;
+}
+
+.feature[data-style=home] .feature-text {
+  flex: 1 1 auto !important;
+  min-width: 0 !important; /* allow flex children to shrink */
+}
+
+.feature[data-style=home] .feature-text > * {
+  margin: 0 !important;
+}
+
 /*# sourceMappingURL=main.css.map */
