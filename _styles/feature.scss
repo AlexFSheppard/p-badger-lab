@@ -21,22 +21,53 @@ $wrap: 800px;
 
 /* small image variant used on the home page */
 .feature[data-style="home"] .feature-image {
-  width: 5%;
+  flex: 0 0 160px; /* fixed image container width on desktop */
+  width: 160px;
+  max-width: 25%;
 }
 
 /* Forceful override for environments where other rules are more specific or cached. */
 body .feature[data-style="home"] .feature-image {
-  width: 5% !important;
-  max-width: none !important;
+  width: 5% !important; /* This line remains unchanged */
+  max-width: none !important; /* This line remains unchanged */
 }
 
 /* On small screens increase the home feature image to remain visible */
 @media (max-width: 800px) {
   body .feature[data-style="home"] .feature-image {
-    width: 30% !important;
+    width: 30% !important; /* This line remains unchanged */
   }
 }
 
+/* Homepage variant: keep flex layout but limit the image to a sane max width so text sits to the left/right (like greenelab). Use a fixed max size so the image doesn't grow with the page. */
+.feature[data-style="home"] {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* make the image inside the home feature scale naturally and not force full-height cropping */
+.feature[data-style="home"] .feature-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive: stack on smaller screens and make image full width */
+@media (max-width: $wrap) {
+  .feature[data-style="home"] {
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+  .feature[data-style="home"] .feature-image {
+    width: 100%;
+    flex: 0 0 auto;
+    max-width: none;
+  }
+  .feature[data-style="home"] .feature-image img {
+    height: auto;
+    object-fit: cover;
+  }
+}
 .feature-image img {
   width: 100%;
   height: 100%;
