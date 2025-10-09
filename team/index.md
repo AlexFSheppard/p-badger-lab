@@ -20,9 +20,8 @@ nav:
 
 ## Gallery
 
-<div class="grid grid-large">
+<div class="grid team-gallery">
   {% include feature.html image="images/Gamblingisfun.jpg" %}
   {% include feature.html image="images/Gamblingisfun2.jpg" %}
 </div>
-%}
 
