@@ -66,11 +66,11 @@ main {
   }
 }
 
-/* Desktop stagger: ensure every 2nd home feature flips (image on right)
-   and mirror margins so spacing matches. Placed in main.scss so it
-   definitely exists in the compiled main.css that the site loads. */
-.feature[data-style="home"]:nth-of-type(2n) {
-  flex-direction: row-reverse !important;
+.feature[data-style="home"] {
+  /* desktop-stagger: remove the default per-component gap so the
+     image/text spacing is driven only by the explicit image margins
+     below. This prevents combined gap+margin from shifting elements. */
+  gap: 0 !important;
 }
 .feature[data-style="home"] .feature-image {
   margin-right: 20px !important;
