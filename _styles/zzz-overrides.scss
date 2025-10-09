@@ -1,0 +1,15 @@
+/* Last-resort overrides to neutralize any debug outlines/box-shadows
+   and ensure feature ordering is applied. This file is intentionally
+   named to sort near the end so it is loaded after other compiled CSS. */
+
+.feature[data-style="home"],
+.feature[data-style="home"] * {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Re-assert ordering to guarantee image/text positions */
+.feature[data-style="home"] .feature-image { order: 0 !important; }
+.feature[data-style="home"] .feature-text { order: 1 !important; }
+.feature[data-style="home"]:nth-of-type(2n) .feature-image { order: 1 !important; }
+.feature[data-style="home"]:nth-of-type(2n) .feature-text { order: 0 !important; }

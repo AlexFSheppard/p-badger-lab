@@ -1,47 +1,8 @@
-/* Overrides to ensure the feature image sizing rules are loaded
-   and have sufficient specificity. This file compiles to
-   /_styles/overrides.css and is linked in the site head. */
+/* Minimal overrides (no debug outlines). Keep this file small and
+   only add rules that must be forceful. */
 
-.feature[data-style=home] {
+/* Example: ensure home features align center when needed */
+.feature[data-style="home"] {
   align-items: center !important;
 }
-.feature[data-style=home] .feature-image {
-  display: block !important;
-  flex: 0 0 160px !important;
-  width: 160px !important;
-  max-width: 160px !important;
-  margin-right: 20px !important;
-  outline: 3px solid magenta !important;
-  box-sizing: border-box !important;
-}
-.feature[data-style=home] .feature-image img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: contain !important;
-}
----
----
 
-/* Overrides to ensure the feature image sizing rules are loaded
-   and have sufficient specificity. This file compiles to
-   /_styles/overrides.css and is linked in the site head. */
-
-.feature[data-style="home"] .feature-image {
-  width: 5% !important;
-  max-width: none !important;
-}
-
-@media (max-width: 800px) {
-  .feature[data-style="home"] .feature-image {
-    width: 30% !important;
-  }
-}
-
-.team-gallery .feature-image {
-  width: 60% !important;
-}
-
-/* fallback: ensure default feature images are a sensible size */
-.feature-image {
-  width: 30% !important;
-}
