@@ -81,4 +81,18 @@ main {
   margin-right: 0 !important;
 }
 
+/* DEBUG: visual outlines to confirm which features are being matched
+   by the nth-of-type selector. Remove once confirmed. */
+.feature[data-style=home]:nth-of-type(2n) {
+  outline: 4px solid rgba(255, 0, 128, 0.6) !important;
+}
+
+.feature[data-style=home]:nth-of-type(2n) .feature-image {
+  box-shadow: 0 0 0 4px rgba(255, 0, 128, 0.15) !important;
+}
+
+.feature[data-style=home]:nth-of-type(2n + 1) {
+  outline: 4px solid rgba(0, 128, 255, 0.25) !important;
+}
+
 /*# sourceMappingURL=main.css.map */
