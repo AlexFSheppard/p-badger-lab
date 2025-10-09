@@ -28,7 +28,7 @@ For powerful and open-access genomic data science tools developed by our lab, vi
   include feature.html
   image="images/GenomicSEM.png"
   link="tools"
-  title="Tools"
+  title="**Tools**"
   text=text
   style="home"
 %}
@@ -52,7 +52,7 @@ We currently work on a variety of projects investigating the genetics behind neu
   include feature.html
   image="images/Frailty.webp"
   link="projects"
-  title="Our Projects"
+  title="**Our Projects**"
   flip=true
   style="home"
   text=text
@@ -77,7 +77,7 @@ Our curious, excited, and collaborative team loves to make connections and to ce
   include feature.html
   image="images/badger lab.jpg"
   link="team"
-  title="Our Team"
+  title="**Our Team**"
   text=text
   style="home"
 %}
