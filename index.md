@@ -53,7 +53,6 @@ We currently work on a variety of projects investigating the genetics behind neu
   image="images/Frailty.webp"
   link="projects"
   title="**Our Projects**"
-  flip=true
   style="home"
   text=text
 %}

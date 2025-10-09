@@ -23,7 +23,9 @@
   </a>
   <div class="feature-text">
     {% if include.title %}
-      <p class="feature-title">{{ include.title }}</p>
+      {%- assign _ft = include.title | markdownify -%}
+      {%- assign _ft = _ft | remove: '<p>' | remove: '</p>' -%}
+      <p class="feature-title">{{ _ft }}</p>
     {% endif %}
     {{ include.text | markdownify }}
   </div>
