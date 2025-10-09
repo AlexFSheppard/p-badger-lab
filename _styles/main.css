@@ -14,9 +14,11 @@ main {
 
 .feature[data-style=home] .feature-image {
   display: block !important;
-  flex: 0 0 160px !important;
-  width: 160px !important;
-  max-width: 160px !important;
+  /* match the clamp-based sizing from feature.scss but keep the rule
+     important to override cached/strong selectors */
+  flex: 0 0 clamp(160px, 35vw, 560px) !important;
+  width: clamp(160px, 35vw, 560px) !important;
+  max-width: 560px !important;
   margin-right: 20px !important;
   box-sizing: border-box !important;
 }
@@ -34,9 +36,9 @@ main {
 }
 
 .feature[data-style=home] .feature-image {
-  flex: 0 0 160px !important;
-  width: 160px !important;
-  max-width: 160px !important;
+  flex: 0 0 clamp(160px, 35vw, 560px) !important;
+  width: clamp(160px, 35vw, 560px) !important;
+  max-width: 560px !important;
 }
 
 .feature[data-style=home] .feature-text {
@@ -46,6 +48,21 @@ main {
 
 .feature[data-style=home] .feature-text > * {
   margin: 0 !important;
+}
+
+/* Small screens: stacked layout should ignore stagger flipping and
+   ensure margins collapse appropriately. */
+@media (max-width: 800px) {
+  .feature[data-style=home]:nth-of-type(2n) {
+    flex-direction: column !important;
+  }
+  .feature[data-style=home] .feature-image {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    flex: 0 0 auto !important;
+    max-width: none !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

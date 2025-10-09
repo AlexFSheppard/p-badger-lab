@@ -21,21 +21,16 @@ $wrap: 800px;
 
 /* small image variant used on the home page */
 .feature[data-style="home"] .feature-image {
-  flex: 0 0 160px; /* fixed image container width on desktop */
-  width: 160px;
-  max-width: 25%;
+  /* allow the home image to scale between a sensible minimum and a
+     larger maximum so it can expand up to 560px on wide layouts */
+  flex: 0 0 clamp(160px, 35vw, 560px);
+  width: clamp(160px, 35vw, 560px);
+  max-width: 560px;
 }
-
-/* Forceful override for environments where other rules are more specific or cached. */
-body .feature[data-style="home"] .feature-image {
-  width: 5% !important; /* This line remains unchanged */
-  max-width: none !important; /* This line remains unchanged */
-}
-
-/* On small screens increase the home feature image to remain visible */
+/* On small screens stack and make the image full width */
 @media (max-width: 800px) {
-  body .feature[data-style="home"] .feature-image {
-    width: 30% !important; /* This line remains unchanged */
+  .feature[data-style="home"] .feature-image {
+    width: 30% !important;
   }
 }
 
@@ -87,6 +82,23 @@ body .feature[data-style="home"] .feature-image {
 
 .feature[data-flip] {
   flex-direction: row-reverse;
+}
+
+/* Staggered layout for homepage: flip every second feature so the
+   image/text alternate sides (image right for even features). */
+.feature[data-style="home"]:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+/* Ensure image margins mirror the layout: default (image left) has a
+   right margin; flipped items get a left margin instead. */
+.feature[data-style="home"] .feature-image {
+  margin-right: 20px;
+  margin-left: 0;
+}
+.feature[data-style="home"]:nth-of-type(2n) .feature-image {
+  margin-left: 20px;
+  margin-right: 0;
 }
 
 @media (max-width: $wrap) {
