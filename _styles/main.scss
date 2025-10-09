@@ -90,23 +90,8 @@ main {
   margin-inline-end: 0 !important;
 }
 
-/* DEBUG: visual outlines to confirm which features are being matched
-   by the nth-of-type selector. Remove once confirmed. */
-.feature[data-style="home"] .feature-image {
-  /* default ordering: image first, text second */
-  order: 0 !important;
-}
-.feature[data-style="home"] .feature-text {
-  order: 1 !important;
-}
-
-/* For even (2n) home features swap the order so image appears on the right */
-.feature[data-style="home"]:nth-of-type(2n) .feature-image {
-  order: 1 !important;
-}
-.feature[data-style="home"]:nth-of-type(2n) .feature-text {
-  order: 0 !important;
-}
+/* Removed per-child `order` overrides: use `flex-direction: row-reverse`
+   on even features to flip layout deterministically. */
 
 /* Final cleanup: ensure any leftover debug outlines/box-shadows are removed.
    This sits at the end and uses !important to override earlier debug rules. */
