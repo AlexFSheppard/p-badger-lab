@@ -83,16 +83,30 @@ main {
 
 /* DEBUG: visual outlines to confirm which features are being matched
    by the nth-of-type selector. Remove once confirmed. */
-.feature[data-style=home]:nth-of-type(2n) {
-  outline: 4px solid rgba(255, 0, 128, 0.6) !important;
+.feature[data-style=home] .feature-image {
+  /* default ordering: image first, text second */
+  order: 0 !important;
 }
 
+.feature[data-style=home] .feature-text {
+  order: 1 !important;
+}
+
+/* For even (2n) home features swap the order so image appears on the right */
 .feature[data-style=home]:nth-of-type(2n) .feature-image {
-  box-shadow: 0 0 0 4px rgba(255, 0, 128, 0.15) !important;
+  order: 1 !important;
 }
 
-.feature[data-style=home]:nth-of-type(2n + 1) {
-  outline: 4px solid rgba(0, 128, 255, 0.25) !important;
+.feature[data-style=home]:nth-of-type(2n) .feature-text {
+  order: 0 !important;
+}
+
+/* Final cleanup: ensure any leftover debug outlines/box-shadows are removed.
+   This sits at the end and uses !important to override earlier debug rules. */
+.feature[data-style=home],
+.feature[data-style=home] * {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /*# sourceMappingURL=main.css.map */
