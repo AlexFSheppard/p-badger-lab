@@ -1,6 +1,6 @@
 ---
 name: Jeremy Lawrence
-image: images/photo.jpg
+image: images/Jeremy.jpeg
 description: Clinical Psychology Ph.D. Student
 role: phd
 year: 4
