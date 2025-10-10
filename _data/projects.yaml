@@ -31,6 +31,21 @@
     - Grant
     - Co-Investigator on Data Core
 
+- title: Large-scale Genomic Analysis of Aging-related Cognitive Change Prior to Dementia Onset
+  subtitle: "8/15/2021 to 7/31/2026"
+  group: current
+  image: images/photo.jpg
+  link: "https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400"
+  description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: R01AG073593"
+  key_collaborators:
+    - name: Elliot Tucker-Drob
+      affiliation: UT Austin
+      image: elliottucker-drob.jpg
+      url: "https://liberalarts.utexas.edu/psychology/faculty/et5793"
+  tags:
+    - Grant
+    - Co-Investigator
+    
 - title: Dissecting the Multivariate Genetic Architecture of Psychiatric Diseases
   subtitle: "07/17/2020 to 04/30/2025"
   image: images/photo.jpg
@@ -45,20 +60,6 @@
       affiliation: UoBristol
       image: mnivard.jpeg
       url: "https://research-information.bris.ac.uk/en/persons/michel-g-nivard"
-  tags:
-    - Grant
-    - Co-Investigator
-
-- title: Large-scale Genomic Analysis of Aging-related Cognitive Change Prior to Dementia Onset
-  subtitle: "8/15/2021 to 7/31/2024"
-  image: images/photo.jpg
-  link: "https://reporter.nih.gov/search/8Nc6FPcQGkqkYbPrH7pVYw/project-details/10280400"
-  description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: 1RF1AG073593-01"
-  key_collaborators:
-    - name: Elliot Tucker-Drob
-      affiliation: UT Austin
-      image: elliottucker-drob.jpg
-      url: "https://liberalarts.utexas.edu/psychology/faculty/et5793"
   tags:
     - Grant
     - Co-Investigator
