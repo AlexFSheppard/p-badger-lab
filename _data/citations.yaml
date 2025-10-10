@@ -74,7 +74,7 @@
   publisher: Brain Communications
   date: '2025-01-01'
   link: https://doi.org/g953vb
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2024.08.02.24311427
@@ -89,7 +89,7 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2024-08-04'
   link: https://doi.org/g953vc
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2024.07.18.24310651
@@ -120,7 +120,7 @@
   publisher: Psychological Medicine
   date: '2023-10-27'
   link: https://doi.org/g953vf
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2024.06.07.24308616
@@ -150,7 +150,7 @@
   publisher: Molecular Autism
   date: '2024-10-15'
   link: https://doi.org/g953vh
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1016/j.bpsgos.2024.100307
@@ -166,7 +166,7 @@
   publisher: Biological Psychiatry Global Open Science
   date: '2024-05-01'
   link: https://doi.org/g953vj
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2023.08.02.23293439
@@ -214,6 +214,528 @@
   date: '2023-05-15'
   link: https://doi.org/g9ttvg
   orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.09.17.25336027
+  title: Domains of Frailty as Early Risk Factors for Alzheimer Dementia - Genetic
+    and Causal Evidence
+  authors:
+  - Jonny P Flint
+  - Isabelle F Foote
+  - David D Ward
+  - Tom C Russ
+  - Alan Marshall
+  - Md Rezanur Rahman
+  - Simon R Cox
+  - Michelle Luciano
+  - Michelle K Lupton
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-09-19'
+  link: https://doi.org/g96bm6
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.09.04.25334903
+  title: The contribution of Apoliproprotein E genetic variation to dementia risk
+    in British South Asians
+  authors:
+  - Benjamin M Jacobs
+  - Avinash Chandra
+  - Arnab Mandal
+  - Isabelle Foote
+  - Faiza Durrani
+  - Sheena Waters
+  - Yue Liu
+  - Petroula Proitsi
+  - Cara L. Croft
+  - Dylan M Williams
+  - Moneeza Siddiqui
+  - Sarah Finer
+  - Stuart Rison
+  - David A van Heel
+  - Charles R Marshall
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-09-07'
+  link: https://doi.org/g96bm7
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.70546
+  title: 'Multimorbidity in dementia: Current perspectives and future challenges'
+  authors:
+  - Lucy E. Stirland
+  - Radmila Choate
+  - Preeti Pushpalata Zanwar
+  - Panpan Zhang
+  - Tamlyn J Watermeyer
+  - Martina Valletta
+  - Mario Torso
+  - Stefano Tamburin
+  - Usman Saeed
+  - Gerard R. Ridgway
+  - Shirine Moukaled
+  - Jay B. Lusk
+  - Samantha M. Loi
+  - Thomas J. Littlejohns
+  - "El\u017Cbieta Ku\u017Ama"
+  - "Sarah\u2010Naomi James"
+  - Giulia Grande
+  - Isabelle F. Foote
+  - Katheryn A. Q. Cousins
+  - Joe Butler
+  - Abrar AbuHamdia
+  - "Thiago J. Avelino\u2010Silva"
+  - Vidyani Suryadevara
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-08-01'
+  link: https://doi.org/g9xngr
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41588-025-02269-0
+  title: Uncovering the multivariate genetic architecture of frailty with genomic
+    structural equation modeling
+  authors:
+  - Isabelle F. Foote
+  - Jonny P. Flint
+  - "Anna E. F\xFCrtjes"
+  - Jeremy M. Lawrence
+  - Donncha S. Mullin
+  - John D. Fisk
+  - Tobias K. Karakach
+  - Andrew Rutenberg
+  - Nicholas G. Martin
+  - Michelle K. Lupton
+  - David J. Llewellyn
+  - Janice M. Ranson
+  - Simon R. Cox
+  - Michelle Luciano
+  - Kenneth Rockwood
+  - Andrew D. Grotzinger
+  publisher: Nature Genetics
+  date: '2025-08-01'
+  link: https://doi.org/g9xpg3
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-025-61978-6
+  title: Measurement characteristics and genome-wide correlates of lifetime brain
+    atrophy estimated from a single MRI
+  authors:
+  - "Anna E. F\xFCrtjes"
+  - Isabelle F. Foote
+  - Charley Xia
+  - Gail Davies
+  - Joanna Moodie
+  - Adele Taylor
+  - David C. Liewald
+  - Paul Redmond
+  - Janie Corley
+  - Andrew M. McIntosh
+  - Heather C. Whalley
+  - "Susana Mu\xF1oz Maniega"
+  - "Maria Vald\xE9s Hern\xE1ndez"
+  - Ellen Backhouse
+  - Karen Ferguson
+  - Mark E. Bastin
+  - Joanna Wardlaw
+  - Javier de la Fuente
+  - Andrew D. Grotzinger
+  - Michelle Luciano
+  - W. David Hill
+  - Ian J. Deary
+  - Elliot M. Tucker-Drob
+  - Simon R. Cox
+  publisher: Nature Communications
+  date: '2025-07-21'
+  link: https://doi.org/g9vmtd
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.70524
+  title: 'Social determinants of dementia: A scoping review'
+  authors:
+  - Sebastian Walsh
+  - Matthias Klee
+  - Esther K. Hui
+  - Usman Saeed
+  - Sheena Waters
+  - Isla Kuhn
+  - Joyce Siette
+  - Vasiliki Orgeta
+  - Jean Stafford
+  - Laura J. Smith
+  - Stefano Tamburin
+  - Daria E. A. Jensen
+  - Elisa Mantovani
+  - Avinash Chandra
+  - "Sarah\u2010Naomi James"
+  - Eugene Y. H. Tang
+  - David J. Llewellyn
+  - Isabelle F. Foote
+  - Scott T. Chiesa
+  - Anouk F. J. Geraets
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-07-01'
+  link: https://doi.org/g96bm8
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1136/jnnp-2024-334675
+  title: 'Depression and dementia: interrogating the causality of the relationship'
+  authors:
+  - Alvar Paris
+  - Guru Amirthalingam
+  - Tasvee Karania
+  - Isabelle F Foote
+  - Ruth Dobson
+  - Alastair J Noyce
+  - Charles R Marshall
+  - Sheena Waters
+  publisher: Journal of Neurology, Neurosurgery &amp; Psychiatry
+  date: '2025-01-11'
+  link: https://doi.org/g96bm9
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/brain/awae198
+  title: Childhood adiposity underlies numerous adult brain traits commonly attributed
+    to midlife obesity
+  authors:
+  - Scott T Chiesa
+  - Lydia Rader
+  - Victoria Garfield
+  - Isabelle Foote
+  - Sana Suri
+  - George Davey Smith
+  - Alun D Hughes
+  - Tom G Richardson
+  publisher: Brain
+  date: '2024-06-18'
+  link: https://doi.org/g93n3x
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1001/jamaneurol.2024.3774
+  title: Frailty Trajectories Preceding Dementia in the US and UK
+  authors:
+  - David D. Ward
+  - Jonny P. Flint
+  - Thomas J. Littlejohns
+  - Isabelle F. Foote
+  - Marco Canevelli
+  - Lindsay M. K. Wallace
+  - Emily H. Gordon
+  - David J. Llewellyn
+  - Janice M. Ranson
+  - Ruth E. Hubbard
+  - Kenneth Rockwood
+  - Erwin Stolz
+  publisher: JAMA Neurology
+  date: '2025-01-01'
+  link: https://doi.org/g8rjt3
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.lanhl.2024.100665
+  title: 'Next generation brain health: transforming global research and public health
+    to promote prevention of dementia and reduce its risk in young adult populations'
+  authors:
+  - Francesca R Farina
+  - Katie Bridgeman
+  - Sarah Gregory
+  - "Luc\xEDa Crivelli"
+  - Isabelle F Foote
+  - Otto-Emil I Jutila
+  - Ludmila Kucikova
+  - Luciano I Mariano
+  - Kim-Huong Nguyen
+  - Tony Thayanandan
+  - Funmi Akindejoye
+  - Joe Butler
+  - Ismael L Calandri
+  - "Giedr\u0117 \u010Cepukaityt\u0117"
+  - Scott T Chiesa
+  - Walter D Dawson
+  - Kay Deckers
+  - "Vanessa De la Cruz-G\xF3ngora"
+  - Maria-Eleni Dounavi
+  - Ishtar Govia
+  - "Edmarie Guzm\xE1n-V\xE9lez"
+  - Shimaa A Heikal
+  - Tanisha G Hill-Jarrett
+  - "Agust\xEDn Ib\xE1\xF1ez"
+  - Bryan D James
+  - Eimear McGlinchey
+  - Donncha S Mullin
+  - Graciela Muniz-Terrera
+  - Maritza Pintado Caipa
+  - Esraa M Qansuwa
+  - Louise Robinson
+  - Antonella Santuccione Chadha
+  - Oliver M Shannon
+  - Li Su
+  - Wendy Weidner
+  - Laura Booi
+  publisher: The Lancet Healthy Longevity
+  date: '2024-12-01'
+  link: https://doi.org/g92st8
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.13463
+  title: Artificial intelligence for dementia prevention
+  authors:
+  - Danielle Newby
+  - Vasiliki Orgeta
+  - Charles R. Marshall
+  - Ilianna Lourida
+  - Christopher P. Albertyn
+  - Stefano Tamburin
+  - Vanessa Raymont
+  - Michele Veldsman
+  - Ivan Koychev
+  - Sarah Bauermeister
+  - David Weisman
+  - Isabelle F. Foote
+  - Magda Bucholc
+  - Anja K. Leist
+  - Eugene Y. H. Tang
+  - Xin You Tai
+  - David J. Llewellyn
+  - Janice M. Ranson
+  publisher: Alzheimer's &amp; Dementia
+  date: '2023-10-14'
+  link: https://doi.org/gtm84s
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.13427
+  title: Artificial intelligence for dementia genetics and omics
+  authors:
+  - Conceicao Bettencourt
+  - Nathan Skene
+  - "Sara Bandres\u2010Ciga"
+  - Emma Anderson
+  - Laura M. Winchester
+  - Isabelle F. Foote
+  - Jeremy Schwartzentruber
+  - Juan A. Botia
+  - Mike Nalls
+  - Andrew Singleton
+  - Brian M. Schilder
+  - Jack Humphrey
+  - Sarah J. Marzi
+  - Christina E. Toomey
+  - Ahmad Al Kleifat
+  - Eric L. Harshfield
+  - Victoria Garfield
+  - Cynthia Sandor
+  - Samuel Keat
+  - Stefano Tamburin
+  - Carlo Sala Frigerio
+  - Ilianna Lourida
+  - Janice M. Ranson
+  - David J. Llewellyn
+  publisher: Alzheimer's &amp; Dementia
+  date: '2023-08-22'
+  link: https://doi.org/g96bnb
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.13378
+  title: "Trans\u2010ethnic genomic informed risk assessment for Alzheimer's disease:\
+    \ An International Hundred K+ Cohorts Consortium study"
+  authors:
+  - Patrick M. Sleiman
+  - "Hui\u2010Qi Qu"
+  - John J. Connolly
+  - Frank Mentch
+  - Alexandre Pereira
+  - Paulo A. Lotufo
+  - Stephen Tollman
+  - Ananyo Choudhury
+  - Michele Ramsay
+  - Norihiro Kato
+  - Kouichi Ozaki
+  - Risa Mitsumori
+  - "Jae\u2010Pil Jeon"
+  - Chang Hyung Hong
+  - Sang Joon Son
+  - Hyun Woong Roh
+  - "Dong\u2010gi Lee"
+  - Naaheed Mukadam
+  - Isabelle F. Foote
+  - Charles R. Marshall
+  - Adam Butterworth
+  - Bram P. Prins
+  - Joseph T. Glessner
+  - Hakon Hakonarson
+  publisher: Alzheimer's &amp; Dementia
+  date: '2023-07-14'
+  link: https://doi.org/gshndv
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41531-023-00472-6
+  title: "The IPDGC/GP2 Hackathon - an open science event for training in data science,\
+    \ genomics, and collaboration using Parkinson\u2019s disease data"
+  authors:
+  - Hampton L. Leonard
+  - Ruqaya Murtadha
+  - Alejandro Martinez-Carrasco
+  - Alina Jama
+  - "Amica Corda M\xFCller-Nedebock"
+  - Ana-Luisa Gil-Martinez
+  - Anastasia Illarionova
+  - Anni Moore
+  - Bernabe I. Bustos
+  - Bharati Jadhav
+  - Brook Huxford
+  - Catherine Storm
+  - Clodagh Towns
+  - Dan Vitale
+  - Devina Chetty
+  - Eric Yu
+  - Francis P. Grenn
+  - Gabriela Salazar
+  - Geoffrey Rateau
+  - Hirotaka Iwaki
+  - Inas Elsayed
+  - Isabelle Francesca Foote
+  - "Zun\xE9 Jansen van Rensburg"
+  - Jonggeol Jeff Kim
+  - Jie Yuan
+  - Julie Lake
+  - Kajsa Brolin
+  - Konstantin Senkevich
+  - Lesley Wu
+  - Manuela M. X. Tan
+  - "Mar\xEDa Teresa Peri\xF1\xE1n"
+  - Mary B. Makarious
+  - Michael Ta
+  - Nikita Simone Pillay
+  - Oswaldo Lorenzo Betancor
+  - "Paula R. Reyes-P\xE9rez"
+  - Pilar Alvarez Jerez
+  - Prabhjyot Saini
+  - Rami al-Ouran
+  - Ramiya Sivakumar
+  - Raquel Real
+  - Regina H. Reynolds
+  - Ruifneg Hu
+  - Shameemah Abrahams
+  - Shilpa C. Rao
+  - Tarek Antar
+  - Thiago Peixoto Leal
+  - Vassilena Iankova
+  - William J. Scotton
+  - Yeajin Song
+  - Andrew Singleton
+  - Mike A. Nalls
+  - Sumit Dey
+  - Sara Bandres-Ciga
+  - Cornelis Blauwendraat
+  - Alastair J. Noyce
+  publisher: npj Parkinson's Disease
+  date: '2023-03-04'
+  link: https://doi.org/gr7prm
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s40708-022-00183-3
+  title: Harnessing the potential of machine learning and artificial intelligence
+    for dementia research
+  authors:
+  - Janice M. Ranson
+  - Magda Bucholc
+  - Donald Lyall
+  - Danielle Newby
+  - Laura Winchester
+  - Neil P. Oxtoby
+  - Michele Veldsman
+  - Timothy Rittman
+  - Sarah Marzi
+  - Nathan Skene
+  - Ahmad Al Khleifat
+  - Isabelle F. Foote
+  - Vasiliki Orgeta
+  - Andrey Kormilitzin
+  - Ilianna Lourida
+  - David J. Llewellyn
+  publisher: Brain Informatics
+  date: '2023-02-24'
+  link: https://doi.org/g96bnc
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ana.26416
+  title: Polygenic Resilience Modulates the Penetrance of Parkinson Disease Genetic
+    Risk Factors
+  authors:
+  - Hui Liu
+  - Mohammad Dehestani
+  - Cornelis Blauwendraat
+  - Mary B. Makarious
+  - Hampton Leonard
+  - Jonggeol J. Kim
+  - Claudia Schulte
+  - Alastair Noyce
+  - Benjamin M. Jacobs
+  - Isabelle Foote
+  - Manu Sharma
+  - Mike Nalls
+  - Andrew Singleton
+  - Thomas Gasser
+  - "Sara Bandres\u2010Ciga"
+  publisher: Annals of Neurology
+  date: '2022-06-24'
+  link: https://doi.org/gqn73q
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neurobiolaging.2022.02.016
+  title: 'The shared genetic architecture of modifiable risk for Alzheimer''s disease:
+    a genomic structural equation modelling study'
+  authors:
+  - Isabelle F Foote
+  - Benjamin M Jacobs
+  - Georgina Mathlin
+  - Cameron J Watson
+  - Phazha LK Bothongo
+  - Sheena Waters
+  - Ruth Dobson
+  - Alastair J Noyce
+  - Kamaldeep S Bhui
+  - Ania Korszun
+  - Charles R Marshall
+  publisher: Neurobiology of Aging
+  date: '2022-09-01'
+  link: https://doi.org/g96bnd
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.lanepe.2022.100321
+  title: 'Dementia risk in a diverse population: A single-region nested case-control
+    study in the East End of London'
+  authors:
+  - Phazha L.K. Bothongo
+  - Mark Jitlal
+  - Eve Parry
+  - Sheena Waters
+  - Isabelle F. Foote
+  - Cameron J. Watson
+  - Jack Cuzick
+  - Gavin Giovannoni
+  - Ruth Dobson
+  - Alastair J. Noyce
+  - Naaheed Mukadam
+  - Jonathan P. Bestwick
+  - Charles R. Marshall
+  publisher: The Lancet Regional Health - Europe
+  date: '2022-04-01'
+  link: https://doi.org/g96bnf
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2021.02.23.21252211
