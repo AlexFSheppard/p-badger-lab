@@ -3,6 +3,19 @@ name: Isy Foote
 image: images/isy.jpeg
 description: Post-doctoral Scholar
 role: postdoc
+aliases:
+  - Isy Foote
+  - Isabelle Foote
+  - Isy F. Foote
+  - Isabelle F. Foote
+  - Isy F Foote
+  - Isabelle F Foote
+  - I Foote
+  - I. Foote
+  - I. F. Foote
+  - I F Foote
+  - I. F Foote
+  - I F. Foote
 links:
   email: isabelle.foote@colorado.edu
   twitter: IsabelleFFoote
