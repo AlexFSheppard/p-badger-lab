@@ -4,6 +4,17 @@ image: images/Jeremy.jpeg
 description: Clinical Psychology Ph.D. Student
 role: phd
 year: 4
+aliases:
+  - Jeremy Lawrence
+  - Jeremy M. Lawrence
+  - Jeremy M Lawrence
+  - J Lawrence
+  - J. Lawrence
+  - J. M. Lawrence
+  - J.M. Lawrence
+  - J M Lawrence
+  - J. M Lawrence
+  - J M. Lawrence
 links:
   email: "mailto:jeremy.lawrence@colorado.edu"
   google-scholar: X5Jmb3sAAAAJ&hl
