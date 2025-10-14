@@ -4,7 +4,14 @@ image: images/Andrew.png
 role: principal-investigator
 affiliation: University of Colorado Boulder
 aliases: 
-  #Insertaliashere - Andrew D. Grotzinger
+  - Andrew Grotzinger
+  - Andrew D. Grotzinger
+  - A. Grotzinger
+  - A. D. Grotzinger
+  - A Grotzinger
+  - A D Grotzinger
+  - A D. Grotzinger
+  - A. D Grotzinger
 links:
   email: "mailto:andrew.grotzinger@colorado.edu"
   orcid: 0000-0001-7852-9244
