@@ -4,6 +4,17 @@ image: images/Alex.jpeg
 description: Clinical Psychology Ph.D. Student
 role: phd
 year: 1
+aliases:
+  - Alexander Sheppard
+  - Alex Sheppard
+  - Alexander F. Sheppard
+  - Alex F. Sheppard
+  - A. Sheppard
+  - A. F. Sheppard
+  - A Sheppard
+  - A F Sheppard
+  - A. F Sheppard
+  - A F. Sheppard
 links:
   email: "mailto:alex.sheppard@colorado.edu"
   orcid: 0000-0001-7852-9244
