@@ -1,6 +1,6 @@
 ---
 name: Isy Foote
-image: images/isy.jpeg
+image: images/isy.png
 description: Post-doctoral Scholar
 role: postdoc
 aliases:
