@@ -43,6 +43,23 @@
   orcid: 0009-0002-6259-6738
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2025.10.17.25338241
+  title: Immune Markers Mediate Genetic Relationships between Immune Diseases and
+    Psychiatric Disorders
+  authors:
+  - Sophie Breunig
+  - Kristen M Kelly
+  - Lukas S Schaffer
+  - Jeremy M Lawrence
+  - Younga Heather Lee
+  - Elizabeth W Karlson
+  - Andrew David Grotzinger
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-10-19'
+  link: https://doi.org/g97jrk
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41398-025-03470-9
   title: Examining the genetic links between clusters of immune-mediated diseases
     and psychiatric disorders
