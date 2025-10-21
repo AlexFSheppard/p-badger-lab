@@ -12,6 +12,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include section.html %}
 
+## Collaboration Network
+
+{% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
+
+{% include section.html %}
+
 ## Highlighted
 
 {% include citation.html lookup="Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits" style="rich" %}
