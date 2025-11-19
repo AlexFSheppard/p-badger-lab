@@ -14,9 +14,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Collaboration Network
 
-{% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
+# {% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
 
-{% include section.html %}
+# {% include section.html %}
 
 ## Highlighted
 
