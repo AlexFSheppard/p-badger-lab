@@ -13,6 +13,7 @@ links:
   orcid: 0000-0001-6594-0587
   google-scholar: zH5grRkAAAAJ&inst
   github: SophBr
+  bluesky: breunigsophie.bsky.social
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
