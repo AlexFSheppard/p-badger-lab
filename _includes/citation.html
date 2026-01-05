@@ -1,26 +1,75 @@
+{%- comment -%}
+  Allow three ways to supply a citation to this include:
+  - Pass an existing citation object inline (default)
+  - Pass `lookup` which searches `site.data.citations` for matching id/title
+  - Pass `doi` which will look up by DOI in `site.data.citations`; if not
+    found, render a minimal DOI-based placeholder (useful for ad-hoc DOI links).
+{%- endcomment -%}
+
 {% if include.lookup %}
   {% assign citation = site.data.citations
     | where_exp: "citation",
       "citation.id == include.lookup or citation.title contains include.lookup"
     | first
   %}
+{% elsif include.doi %}
+  {% assign citation = site.data.citations | where: "id", include.doi | first %}
+  {% if citation == nil %}
+    {%- comment -%} build a minimal placeholder citation object when DOI not present in data {%- endcomment -%}
+    {% assign citation = include | merge: {
+      "id": include.doi,
+      "title": include.title | default: include.doi,
+      "link": "https://doi.org/" | append: include.doi | replace: "doi:", "" ,
+      "authors": include.authors | default: [],
+      "publisher": include.publisher | default: "",
+      "date": include.date | default: "",
+      "image": include.image | default: ""
+    } %}
+    {% assign _citation_placeholder = true %}
+  {% endif %}
 {% else %}
   {% assign citation = include %}
 {% endif %}
+
+{%- comment -%} compute fallbacks so a DOI-only include can render a minimal citation {%- endcomment -%}
+{% assign cid = citation.id | default: include.doi | default: "" %}
+{% assign ctitle = citation.title | default: include.title | default: cid %}
+{% assign clink = citation.link | default: "" %}
+{% if clink == "" and include.doi %}
+  {% assign _doi_clean = include.doi | replace: "doi:", "" %}
+  {% assign clink = "https://doi.org/" | append: _doi_clean %}
+{% endif %}
+{% assign cauthors_raw = citation.authors | default: include.authors | default: "" %}
+{%- comment -%} ensure authors is an array for the template pipeline; if string, wrap it {%- endcomment -%}
+{% if cauthors_raw == "" %}
+  {% assign cauthors = "" %}
+{% elsif cauthors_raw contains ',' or cauthors_raw contains ' and ' %}
+  {% assign cauthors = cauthors_raw %}
+{% else %}
+  {% assign cauthors = cauthors_raw %}
+{% endif %}
+{% assign cpublisher = citation.publisher | default: include.publisher | default: "" %}
+{% assign cdate = citation.date | default: include.date | default: "" %}
+{% assign cimage = citation.image | default: include.image | default: "" %}
+{% assign cdescription = citation.description | default: include.description | default: "" %}
+{% assign cbuttons = citation.buttons | default: include.buttons | default: [] %}
+{% assign ctags = citation.tags | default: include.tags | default: [] %}
+{% assign crepo = citation.repo | default: include.repo | default: nil %}
+{% assign ctype = citation.type | default: include.type | default: "paper" %}
 
 <div class="citation-container">
   <div class="citation">
     {% if include.style == "rich" %}
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
+        {% if clink %}
+          href="{{ clink | relative_url | uri_escape }}"
         {% endif %}
         class="citation-image"
-        aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
+        aria-label="{{ ctitle | default: "citation link" | regex_strip }}"
       >
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: "citation image" | regex_strip }}"
+          src="{{ cimage | relative_url | uri_escape }}"
+          alt="{{ ctitle | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
         >
@@ -28,27 +77,27 @@
     {% endif %}
 
     <div class="citation-text">
-      {% assign type = site.data.types[citation.type] %}
-      {% include icon.html icon=type.icon %}
+  {% assign type = site.data.types[ctype] %}
+  {% include icon.html icon=type.icon %}
 
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
+        {% if clink %}
+          href="{{ clink | relative_url | xml_escape }}"
         {% endif %}
         class="citation-title"
       >
-        {{ citation.title | default: "[no title info]" }}
+        {{ ctitle | default: "[no title info]" }}
       </a>
 
       <div
         class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
+        {% if cauthors and cauthors.size > 10 %}
+          data-tooltip="{{ cauthors | join: ", " | xml_escape }}"
         {% endif %}
         tabindex="0"
       >
         {{
-          citation.authors
+          cauthors
           | join: ","
           | split: ","
           | array_carve: 5
@@ -61,23 +110,23 @@
 
       <div class="citation-details">
         <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
+          {{- cpublisher | default: "[no publisher info]" -}}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
+          {{- cdate | default: "[no date info]" | date: "%d %b %Y" -}}
         </span>
         &nbsp;·&nbsp;
         <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
+          {{- cid | default: "[no id info]" -}}
         </span>
       </div>
 
       {% if include.style == "rich" %}
-        {% if citation.description %}
+        {% if cdescription %}
           <div class="citation-description">
             {{
-              citation.description
+              cdescription
               | markdownify
               | remove: "<p>"
               | remove: "</p>"
@@ -85,9 +134,9 @@
           </div>
         {% endif %}
 
-        {% if citation.buttons.size > 0 %}
+        {% if cbuttons and cbuttons.size > 0 %}
           <div class="citation-buttons">
-            {% for button in citation.buttons %}
+            {% for button in cbuttons %}
               {%
                 include button.html
                 type=button.type
@@ -100,10 +149,11 @@
           </div>
         {% endif %}
 
-        {% if citation.tags.size > 0 or citation.repo %}
-          {% include tags.html tags=citation.tags repo=citation.repo %}
+        {% if ctags and ctags.size > 0 or crepo %}
+          {% include tags.html tags=ctags repo=crepo %}
         {% endif %}
       {% endif %}
     </div>
   </div>
 </div>
+
