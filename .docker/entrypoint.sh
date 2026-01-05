@@ -23,3 +23,11 @@ watchmedo shell-command \
     --wait \
     --command="python3 _cite/cite.py" \
     --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
+
+# rerun web.py whenever member files, citations, or config changes
+watchmedo shell-command \
+    --debug-force-polling \
+    --recursive \
+    --wait \
+    --command="python3 web.py" \
+    --patterns="_members/*.md;web.py;_data/citations.yaml;_data/webweb-config.yaml;research/index.md;_styles/webweb.scss;_scripts/webweb.bundle.js;_includes/webweb.html" 

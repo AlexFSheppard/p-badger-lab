@@ -10,6 +10,9 @@ nav:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
+
+{% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
+
 {% include section.html %}
 
 ## Highlighted

@@ -19,6 +19,10 @@ jobs:
     if: github.run_number != 1
     uses: ./.github/workflows/update-citations.yaml
 
-  build-site:
+  update-network:
     needs: update-citations
+    uses: ./.github/workflows/update-network.yaml
+
+  build-site:
+    needs: [update-citations, update-network]
     uses: ./.github/workflows/build-site.yaml
