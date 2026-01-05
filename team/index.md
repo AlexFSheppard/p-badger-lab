@@ -18,10 +18,16 @@ nav:
 
 {% include section.html %}
 
+## Alumni
+
+{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+{% include section.html %}
+
 ## Gallery
 
 <div class="grid team-gallery">
   {% include feature.html image="images/Gamblingisfun.jpg" %}
   {% include feature.html image="images/Gamblingisfun2.jpg" %}
+  {% include feature.html image="images/Holiday2025.jpg" %}
 </div>
 
