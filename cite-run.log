@@ -1,0 +1,177 @@
+
+
+--------------------
+
+Compiling sources
+Running google-scholar plugin
+    Found 0 google-scholar* data file(s)
+Running pubmed plugin
+    Found 0 pubmed* data file(s)
+Running orcid plugin
+    Found 1 orcid* data file(s)
+    Processing data file orcid.yaml
+Processing entry 1 of 5, orcid: 0000-0001-7852-9244 (from cache)
+            0 source(s)
+Processing entry 2 of 5, orcid: 0000-0002-0584-6246 (from cache)
+            0 source(s)
+Processing entry 3 of 5, orcid: 0009-0002-6259-6738 (from cache)
+id: doi:10.5055/jom.0948
+id: doi:10.1176/appi.neuropsych.20230175
+id: doi:10.1016/j.jns.2023.120779
+            3 source(s)
+Processing entry 4 of 5, orcid: 0000-0001-6594-0587 (from cache)
+id: doi:10.1101/2025.10.17.25338241
+id: doi:10.1038/s41398-025-03470-9
+id: doi:10.1093/braincomms/fcaf112
+id: doi:10.1101/2024.08.02.24311427
+id: doi:10.1101/2024.07.18.24310651
+id: doi:10.1017/s0033291723002957
+id: doi:10.1101/2024.06.07.24308616
+id: doi:10.1186/s13229-024-00624-2
+id: doi:10.1016/j.bpsgos.2024.100307
+id: doi:10.1101/2023.08.02.23293439
+id: doi:10.1101/2023.04.29.23289281
+id: doi:10.1038/s41562-023-01609-6
+            12 source(s)
+Processing entry 5 of 5, orcid: 0000-0002-0253-4116 (from cache)
+id: doi:10.1101/2025.09.17.25336027
+id: doi:10.1101/2025.09.04.25334903
+id: doi:10.1002/alz.70546
+id: doi:10.1038/s41588-025-02269-0
+id: doi:10.1038/s41467-025-61978-6
+id: doi:10.1002/alz.70524
+id: doi:10.1136/jnnp-2024-334675
+id: doi:10.1093/braincomms/fcaf112
+id: doi:10.1093/brain/awae198
+id: doi:10.1001/jamaneurol.2024.3774
+id: doi:10.1016/j.lanhl.2024.100665
+id: doi:10.1186/s13229-024-00624-2
+id: doi:10.1101/2024.08.02.24311427
+id: doi:10.1016/j.bpsgos.2024.100307
+id: doi:10.1002/alz.13463
+id: doi:10.1017/s0033291723002957
+id: doi:10.1002/alz.13427
+id: doi:10.1002/alz.13378
+id: doi:10.1038/s41531-023-00472-6
+id: doi:10.1186/s40708-022-00183-3
+id: doi:10.1002/ana.26416
+id: doi:10.1016/j.neurobiolaging.2022.02.016
+id: doi:10.1016/j.lanepe.2022.100321
+id: doi:10.1101/2021.02.23.21252211
+            24 source(s)
+Running sources plugin
+    Found 1 sources* data file(s)
+    Processing data file sources.yaml
+Processing entry 1 of 1, id: doi:10.1038/s41562-019-0566-x
+Merging sources by id
+        Found duplicate doi:10.1093/braincomms/fcaf112
+        Found duplicate doi:10.1101/2024.08.02.24311427
+        Found duplicate doi:10.1017/s0033291723002957
+        Found duplicate doi:10.1186/s13229-024-00624-2
+        Found duplicate doi:10.1016/j.bpsgos.2024.100307
+35 total source(s) to cite
+
+--------------------
+
+Generating citations
+Processing source 1 of 35, id: doi:10.5055/jom.0948
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.5055/jom.0948: does not include Andrew Grotzinger as an author
+Processing source 2 of 35, id: doi:10.1176/appi.neuropsych.20230175
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1176/appi.neuropsych.20230175: does not include Andrew Grotzinger as an author
+Processing source 3 of 35, id: doi:10.1016/j.jns.2023.120779
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1016/j.jns.2023.120779: does not include Andrew Grotzinger as an author
+Processing source 4 of 35, id: doi:10.1101/2025.10.17.25338241
+    Using Manubot to generate citation (from cache)
+Processing source 5 of 35, id: doi:10.1038/s41398-025-03470-9
+    Using Manubot to generate citation (from cache)
+Processing source 6 of 35, id: doi:10.1093/braincomms/fcaf112
+    Using Manubot to generate citation (from cache)
+Processing source 7 of 35, id: doi:10.1101/2024.08.02.24311427
+    Using Manubot to generate citation (from cache)
+Processing source 8 of 35, id: doi:10.1101/2024.07.18.24310651
+    Using Manubot to generate citation (from cache)
+Processing source 9 of 35, id: doi:10.1017/s0033291723002957
+    Using Manubot to generate citation (from cache)
+Processing source 10 of 35, id: doi:10.1101/2024.06.07.24308616
+    Using Manubot to generate citation (from cache)
+Processing source 11 of 35, id: doi:10.1186/s13229-024-00624-2
+    Using Manubot to generate citation (from cache)
+Processing source 12 of 35, id: doi:10.1016/j.bpsgos.2024.100307
+    Using Manubot to generate citation (from cache)
+Processing source 13 of 35, id: doi:10.1101/2023.08.02.23293439
+    Using Manubot to generate citation (from cache)
+Processing source 14 of 35, id: doi:10.1101/2023.04.29.23289281
+    Using Manubot to generate citation (from cache)
+Processing source 15 of 35, id: doi:10.1038/s41562-023-01609-6
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1038/s41562-023-01609-6: does not include Andrew Grotzinger as an author
+Processing source 16 of 35, id: doi:10.1101/2025.09.17.25336027
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1101/2025.09.17.25336027: does not include Andrew Grotzinger as an author
+Processing source 17 of 35, id: doi:10.1101/2025.09.04.25334903
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1101/2025.09.04.25334903: does not include Andrew Grotzinger as an author
+Processing source 18 of 35, id: doi:10.1002/alz.70546
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/alz.70546: does not include Andrew Grotzinger as an author
+Processing source 19 of 35, id: doi:10.1038/s41588-025-02269-0
+    Using Manubot to generate citation (from cache)
+Processing source 20 of 35, id: doi:10.1038/s41467-025-61978-6
+    Using Manubot to generate citation (from cache)
+Processing source 21 of 35, id: doi:10.1002/alz.70524
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/alz.70524: does not include Andrew Grotzinger as an author
+Processing source 22 of 35, id: doi:10.1136/jnnp-2024-334675
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1136/jnnp-2024-334675: does not include Andrew Grotzinger as an author
+Processing source 23 of 35, id: doi:10.1093/brain/awae198
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1093/brain/awae198: does not include Andrew Grotzinger as an author
+Processing source 24 of 35, id: doi:10.1001/jamaneurol.2024.3774
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1001/jamaneurol.2024.3774: does not include Andrew Grotzinger as an author
+Processing source 25 of 35, id: doi:10.1016/j.lanhl.2024.100665
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1016/j.lanhl.2024.100665: does not include Andrew Grotzinger as an author
+Processing source 26 of 35, id: doi:10.1002/alz.13463
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/alz.13463: does not include Andrew Grotzinger as an author
+Processing source 27 of 35, id: doi:10.1002/alz.13427
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/alz.13427: does not include Andrew Grotzinger as an author
+Processing source 28 of 35, id: doi:10.1002/alz.13378
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/alz.13378: does not include Andrew Grotzinger as an author
+Processing source 29 of 35, id: doi:10.1038/s41531-023-00472-6
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1038/s41531-023-00472-6: does not include Andrew Grotzinger as an author
+Processing source 30 of 35, id: doi:10.1186/s40708-022-00183-3
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1186/s40708-022-00183-3: does not include Andrew Grotzinger as an author
+Processing source 31 of 35, id: doi:10.1002/ana.26416
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1002/ana.26416: does not include Andrew Grotzinger as an author
+Processing source 32 of 35, id: doi:10.1016/j.neurobiolaging.2022.02.016
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1016/j.neurobiolaging.2022.02.016: does not include Andrew Grotzinger as an author
+Processing source 33 of 35, id: doi:10.1016/j.lanepe.2022.100321
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1016/j.lanepe.2022.100321: does not include Andrew Grotzinger as an author
+Processing source 34 of 35, id: doi:10.1101/2021.02.23.21252211
+    Using Manubot to generate citation (from cache)
+    Skipping citation doi:10.1101/2021.02.23.21252211: does not include Andrew Grotzinger as an author
+Processing source 35 of 35, id: doi:10.1038/s41562-019-0566-x
+    Using Manubot to generate citation (from cache)
+
+--------------------
+
+Saving updated citations
+
+--------------------
+
+All done!
+
+--------------------
