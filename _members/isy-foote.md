@@ -3,6 +3,7 @@ name: Isy Foote
 image: images/Isy.png
 description: Post-doctoral Scholar
 role: postdoc
+group: alum
 aliases:
   - Isy Foote
   - Isabelle Foote
