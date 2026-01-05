@@ -4,7 +4,10 @@ cite process to convert sources and metasources into full citations
 
 import traceback
 from importlib import import_module
+import re
 from pathlib import Path
+import yaml
+from yaml.loader import SafeLoader
 from dotenv import load_dotenv
 from util import *
 
@@ -27,6 +30,50 @@ log("Compiling sources")
 
 # compiled list of sources
 sources = []
+
+# load member aliases from `_members/*.md` so we can match aliases like "A. Grotzinger"
+def load_member_aliases():
+    """Return dict of canonical member name -> set of normalized aliases."""
+    members_dir = Path("_members")
+    aliases_map = {}
+    if not members_dir.is_dir():
+        return aliases_map
+    for file in members_dir.glob("*.md"):
+        try:
+            text = file.read_text(encoding="utf8")
+        except Exception:
+            continue
+        # extract YAML frontmatter between leading '---' markers
+        if text.lstrip().startswith("---"):
+            parts = text.split("---")
+            if len(parts) >= 3:
+                fm = parts[1]
+            else:
+                continue
+        else:
+            continue
+        try:
+            data = yaml.load(fm, Loader=SafeLoader) or {}
+        except Exception:
+            continue
+        name = data.get("name") or data.get("title")
+        raw_aliases = data.get("aliases", []) or []
+        if isinstance(raw_aliases, str):
+            raw_aliases = [raw_aliases]
+        alias_set = set()
+        if name:
+            alias_set.add(" ".join(str(name).lower().split()))
+        for a in raw_aliases:
+            if not a:
+                continue
+            alias_set.add(" ".join(str(a).lower().split()))
+        if name:
+            aliases_map[name] = alias_set
+    return aliases_map
+
+
+# load aliases once
+MEMBER_ALIASES = load_member_aliases()
 
 # in-order list of plugins to run
 plugins = ["google-scholar", "pubmed", "orcid", "sources"]
@@ -163,6 +210,56 @@ for index, source in enumerate(sources):
     # preserve fields from input source, overriding existing fields
     citation.update(source)
 
+    # --- author filter: only include citations authored by Andrew Grotzinger
+    def _get_member_aliases_for(fullname="Andrew Grotzinger"):
+        """Return a set of normalized aliases for the given member full name."""
+        target = " ".join(fullname.lower().split())
+        for name, aliases in MEMBER_ALIASES.items():
+            if name and " ".join(name.lower().split()) == target:
+                return aliases
+            # aliases may already contain target
+            if target in aliases:
+                return aliases
+        return set()
+
+    def _is_authored_by_andrew(citation):
+        """Return True if citation lists Andrew Grotzinger as an author.
+
+        We consult the `_members` aliases (if present) and fall back to
+        heuristics (full name, surname+given, or initials) otherwise.
+        """
+        authors = citation.get("authors", [])
+        if isinstance(authors, str):
+            authors = [authors]
+
+        aliases = _get_member_aliases_for("Andrew Grotzinger")
+        # ensure common fallback variants are present
+        aliases = set(aliases) if aliases else set()
+        aliases.update({"andrew grotzinger", "a grotzinger", "a. grotzinger", "a d grotzinger", "a. d. grotzinger"})
+
+        for a in authors:
+            if not a:
+                continue
+            an = " ".join(str(a).lower().split())
+            # check against aliases loaded from members file
+            for alias in aliases:
+                if alias and alias in an:
+                    return True
+            # surname+given heuristics
+            if "grotzinger" in an and "andrew" in an:
+                return True
+            # initials style: "grotzinger, a" or "grotzinger a."
+            if re.search(r"grotzinger[,\s]+a\b", an):
+                return True
+        return False
+
+    if not _is_authored_by_andrew(citation):
+        cid = get_safe(citation, "id", _id or "")
+        ctitle = get_safe(citation, "title", "")
+        what = f"{cid}" if cid else (ctitle or "(no id)")
+        log(f"Skipping citation {what}: does not include Andrew Grotzinger as an author", indent=1)
+        continue
+
     # ensure date in proper format for correct date sorting
     if get_safe(citation, "date", ""):
         citation["date"] = format_date(get_safe(citation, "date", ""))
@@ -174,7 +271,6 @@ for index, source in enumerate(sources):
 log()
 
 log("Saving updated citations")
-
 
 # save new citations
 try:

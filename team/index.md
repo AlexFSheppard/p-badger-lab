@@ -20,7 +20,7 @@ nav:
 
 ## Alumni
 
-{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+{% include list.html data="members" component="portrait" filter="group == 'alum'" style="medium" %}
 {% include section.html %}
 
 ## Gallery
