@@ -257,3 +257,470 @@
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-019-0566-x/MediaObjects/41562_2019_566_Fig1_HTML.png?
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1038/s41586-025-09820-3
+  title: Mapping the genetic landscape across 14 psychiatric disorders
+  authors:
+  - Andrew D. Grotzinger
+  - Josefin Werme
+  - Wouter J. Peyrot
+  - Oleksandr Frei
+  - Christiaan de Leeuw
+  - Lucy K. Bicks
+  - Qiuyu Guo
+  - Michael P. Margolis
+  - Brandon J. Coombes
+  - Anthony Batzler
+  - Vanessa Pazdernik
+  - Joanna M. Biernacka
+  - Ole A. Andreassen
+  - Verneri Anttila
+  - "Anders D. B\xF8rglum"
+  - Gerome Breen
+  - Na Cai
+  - Ditte Demontis
+  - Howard J. Edenberg
+  - Stephen V. Faraone
+  - Barbara Franke
+  - Michael J. Gandal
+  - Joel Gelernter
+  - Alexander S. Hatoum
+  - John M. Hettema
+  - Emma C. Johnson
+  - Katherine G. Jonas
+  - James A. Knowles
+  - Karestan C. Koenen
+  - Adam X. Maihofer
+  - Travis T. Mallard
+  - Manuel Mattheisen
+  - Karen S. Mitchell
+  - Benjamin M. Neale
+  - Caroline M. Nievergelt
+  - John I. Nurnberger
+  - "Kevin S. O\u2019Connell"
+  - Roseann E. Peterson
+  - Elise B. Robinson
+  - Sandra S. Sanchez-Roige
+  - Susan L. Santangelo
+  - Jeremiah M. Scharf
+  - Hreinn Stefansson
+  - Kari Stefansson
+  - Murray B. Stein
+  - Nora I. Strom
+  - Laura M. Thornton
+  - Elliot M. Tucker-Drob
+  - Brad Verhulst
+  - Irwin D. Waldman
+  - G. Bragi Walters
+  - Naomi R. Wray
+  - Dongmei Yu
+  - Daniel E. Adkins
+  - Georg W. Alpers
+  - Helga Ask
+  - Sintia I. Belangero
+  - Ottar Bjerkeset
+  - "Sigrid B\xF8rte"
+  - Sandra A. Brown
+  - Enrique Castelao
+  - Hilary Coon
+  - William E. Copeland
+  - Elizabeth C. Corfield
+  - Darina Czamara
+  - "J\xFCrgen Deckert"
+  - Anna R. Docherty
+  - Katharina Domschke
+  - Ole Kristian Drange
+  - Thalia C. Eley
+  - Angelika Erhardt-Lehmann
+  - Andreas J. Forstner
+  - Miguel Garcia-Argibay
+  - Scott D. Gordon
+  - Ian B. Hickie
+  - Iiris Hovatta
+  - Matthew H. Iveson
+  - James L. Kennedy
+  - Henrik Larsson
+  - Daniel F. Levey
+  - Christine Lochner
+  - Michelle K. Lupton
+  - Hermine HM Maes
+  - Eduard Maron
+  - Nicholas G. Martin
+  - Sandra M. Meier
+  - Christiane A. Melzig
+  - Brittany L. Mitchell
+  - Teemu Palviainen
+  - Giorgio Pistis
+  - Martin Preisig
+  - "B\xF6rge Schmidt"
+  - Johannes Schumacher
+  - Andrey A. Shabalin
+  - Anne Heidi Skogholt
+  - Dan J. Stein
+  - Eystein Stordal
+  - "Andreas Str\xF6hle"
+  - Elisa Tasanko
+  - Laurent Thomas
+  - Henning Tiemeier
+  - Heike Weber
+  - Bendik S. Winsvold
+  - Clement C. Zai
+  - Gwyneth Zai
+  - John-Anker Zwart
+  - Silvia Alemany
+  - Claiton HD Bau
+  - Dorret I. Boomsma
+  - Rosa Bosch
+  - Isabell Brikell
+  - Christie L. Burton
+  - Miquel Casas
+  - Bru Cormand
+  - Jennifer Crosbie
+  - Alysa E. Doyle
+  - Josephine Elia
+  - Joseph T. Glessner
+  - Eugenio H. Grevet
+  - Jan Haavik
+  - Alexandra Havdahl
+  - Ziarih Hawi
+  - Anke Hinney
+  - Daniel P. Howrigan
+  - Marieke Klein
+  - Henry R. Kranzler
+  - Jonna Kuntsi
+  - Kate Langley
+  - Klaus-Peter Lesch
+  - Calwing Liao
+  - Sandra K. Loo
+  - James J. McGough
+  - Sarah E. Medland
+  - Nina R. Mota
+  - "Michael C. O\u2019Donovan"
+  - Danielle Posthuma
+  - Josep Antoni Ramos-Quiroga
+  - Andreas Reif
+  - "Marta Ribas\xE9s"
+  - Diego L. Rovaris
+  - Russell J. Schachar
+  - Stephen W. Scherer
+  - Yingjie Shi
+  - "Mar\xEDa Soler Artigas"
+  - Edmund JS Sonuga-Barke
+  - Hans-Christoph Steinhausen
+  - Ludger Tebartz van Elst
+  - Martin Tesli
+  - Raymond K. Walters
+  - Stephanie H. Witt
+  - Yanli Zhang-James
+  - Edwin H. Cook
+  - Jakob Grove
+  - Susan S. Kuo
+  - Joseph Piven
+  - Stephan J. Sanders
+  - Mohammed Uddin
+  - Jacob AS Vorstman
+  - Varun Warrier
+  - Lauren A. Weiss
+  - Martin Alda
+  - Lars Alfredsson
+  - Till F. M. Andlauer
+  - Nicholas Bass
+  - Anthony J. Batzler
+  - Bernhard T. Baune
+  - Eva C. Beins
+  - Tim B. Bigdeli
+  - Sven Cichon
+  - Jonathan RI Coleman
+  - Alfredo B. Cuellar-Barboza
+  - Udo Dannlowski
+  - Friederike S. David
+  - Josef Frank
+  - Janice M. Fullerton
+  - Fernando S. Goes
+  - Maria Grigoroiu-Serbanescu
+  - Per Hoffmann
+  - Janos L. Kalman
+  - Kristi Krebs
+  - "Mikael Land\xE9n"
+  - Cathryn M. Lewis
+  - Qingqin S. Li
+  - Penelope A. Lind
+  - Jurjen J. Luykx
+  - Mirko Manchia
+  - Morten Mattingsdal
+  - Andrew M. McIntosh
+  - Andrew McQuillin
+  - Anna Meloni
+  - Lili Milani
+  - Philip B. Mitchell
+  - Derek W. Morris
+  - Niamh Mullins
+  - Woojae Myung
+  - John I. Nurnberger
+  - Roel A. Ophoff
+  - Michael J. Owen
+  - George P. Patrinos
+  - Claudia Pisanu
+  - James J. Prisciandaro
+  - Eva Z. Reininghaus
+  - John P. Rice
+  - Marcella Rietschel
+  - Eva C. Schulte
+  - Alessandro Serretti
+  - Lea Sirignano
+  - Alessio Squassina
+  - Fabian Streit
+  - Jana Strohmaier
+  - Tracey van der Veen
+  - Marquis P. Vawter
+  - John B. Vincent
+  - Peter P. Zandi
+  - Lea Zillich
+  - Roger A. Adan
+  - "Andreas Birgeg\xE5rd"
+  - Cynthia M. Bulik
+  - Christian Dina
+  - Monika Dmitrzak-Weglarz
+  - Elisa Docampo
+  - Karin M. Egberts
+  - Fernando Fernandez-Aranda
+  - Katrin E. Giel
+  - Philip Gorwood
+  - "Christopher H\xFCbel"
+  - James I. Hudson
+  - Susana Jimenez-Murcia
+  - Jennifer Jordan
+  - Gursharan K. Kalsi
+  - Jaakko Kaprio
+  - Leila Karhunen
+  - Martien J. H. Kas
+  - Martin A. Kennedy
+  - Janne T. Larsen
+  - Lisa R. Lilenfeld
+  - Alessio Maria Monteleone
+  - Melissa A. Munn-Chernoff
+  - Benedetta Nacmias
+  - Liselotte V. Petersen
+  - Dalila Pinto
+  - Anu Raevuori
+  - Nicolas Ramoz
+  - Valdo Ricca
+  - Marion E. Roberts
+  - Filip Rybakowski
+  - Ulrike H. Schmidt
+  - Alexandra Schosser
+  - Sandro Sorbi
+  - Michael A. Strober
+  - Hunna J. Watson
+  - Stephan Zipfel
+  - Mark J. Adams
+  - Michael E. Benros
+  - Rodrigo A. Bressan
+  - Enda M. Byrne
+  - Carolina M. Carvalho
+  - Boris Chaumette
+  - Lucia Colodro-Conde
+  - Eske M. Derks
+  - Erin C. Dunn
+  - Chiara Fabbri
+  - Giuseppe Fanelli
+  - Jerome C. Foo
+  - Ary Gadelha
+  - Zachary F. Gerring
+  - Hans J. Grabe
+  - Andrew C. Heath
+  - Kelli Lehto
+  - Douglas F. Levinson
+  - Glyn Lewis
+  - Vanessa K. Ota
+  - Pedro M. Pan
+  - Peristera Paschou
+  - James B. Potash
+  - Brien P. Riley
+  - Giovanni A. Salum
+  - Marcos L. Santoro
+  - Jackson G. Thorp
+  - Sandra Van der Auwera
+  - Bradley T. Webb
+  - Timothy B. Baker
+  - Danielle M. Dick
+  - Dmitriy Drichel
+  - Lindsay A. Farrer
+  - Nathan C. Gaddis
+  - Dana B. Hancock
+  - John E. Hokanson
+  - Jouke-Jan Hottenga
+  - Eric O. Johnson
+  - Pamela A. Madden
+  - Mary L. Marazita
+  - Jesse A. Marks
+  - Daniel W. McNeil
+  - Michael Nothnagel
+  - Bryan C. Quach
+  - Nancy L. Saccone
+  - Nancy YA Sey
+  - Richard Sherva
+  - Scott Vrieze
+  - Alex Waldrop
+  - Georg Winterer
+  - Kendra Young
+  - Stephanie Zellers
+  - Cathy L. Barr
+  - Csaba Barta
+  - Katharina Bey
+  - Oscar J. Bienvenu
+  - Julia Boberg
+  - Jonas Bybjerg-Grauholm
+  - Adrian Camarena
+  - Beatriz Camarena
+  - Danielle C. Cath
+  - James J. Crowley
+  - Andrea Dietrich
+  - Peter Falkai
+  - Thomas V. Fernandez
+  - Daniel A. Geller
+  - Marco A. Grados
+  - Erica L. Greenberg
+  - "Edna Gr\xFCnblatt"
+  - Kristen Hagen
+  - Gregory L. Hanna
+  - Bjarne Hansen
+  - Gary A. Heiman
+  - Pieter J. Hoekstra
+  - David M. Hougaard
+  - Norbert Kathmann
+  - Julia Klawohn
+  - Gerd Kvale
+  - Nuria Lanzagorta
+  - Stephanie Le Hellard
+  - Fabio Macciardi
+  - Brion S. Maher
+  - Irene A. Malaty
+  - David Mataix-Cols
+  - Carol A. Mathews
+  - Nicole CR McLaughlin
+  - Euripedes C. Miguel
+  - "Kirsten R. M\xFCller-Vahl"
+  - Humberto Nicolini
+  - Erika L. Nurmi
+  - Michael S. Okun
+  - Raquel Rabionet
+  - Alfredo Ramirez
+  - Renata Rizzo
+  - Cristina Rodriguez-Fontenla
+  - Paul Sandor
+  - Elles de Schipper
+  - Harvey S. Singer
+  - Eric A. Storch
+  - Jeremy Veenstra-VanderWeele
+  - Michael Wagner
+  - Christopher P. Walker
+  - "S\xF8ren B. Andersen"
+  - Laura J. Bierut
+  - Chia-Yen Chen
+  - Nikolaos P. Daskalakis
+  - Seth G. Disner
+  - Anna R. Docherty
+  - Norah C. Feeny
+  - Lana R. Grasser
+  - Magali Haas
+  - Kelly M. Harrington
+  - Victor M. Hesselbrock
+  - Mohammed H. Ibrahim
+  - Seyma Katrinli
+  - Nathan A. Kimbrel
+  - Jessica L. Maples-Keller
+  - Jacquelyn L. Meyers
+  - Janitza L. Montalvo-Ortiz
+  - Charles P. Morris
+  - Robert H. Pietrzak
+  - Renato Polimanti
+  - Richard J. Rosenblum
+  - Barbara O. Rothbaum
+  - Bart PF Rutten
+  - Soraya Seedat
+  - Alicia K. Smith
+  - Ralph E. Tarter
+  - Muhammad Ayub
+  - Dominique Campion
+  - David Cohen
+  - Angel Consoli
+  - Marta Di Forti
+  - Johan G. Eriksson
+  - Olga YU Fedorenko
+  - Robert Freedman
+  - Raul R. Gainetdinov
+  - Marianna Giannitelli
+  - Ina Giegling
+  - Stephen J. Glatt
+  - Stephanie Godard
+  - Olivier Guillin
+  - Annette M. Hartmann
+  - Svetlana A. Ivanova
+  - Alexander O. Kibitov
+  - Bettina Konte
+  - Claudine Laurent-Levinson
+  - Anastasia Levchenko
+  - Robin Murray
+  - Merete Nordentoft
+  - Cristiano Noto
+  - Diego Quattrone
+  - Dan Rujescu
+  - Safaa Saker-Delye
+  - SIbylle G. Schwab
+  - Florence Thibaut
+  - James TR Walters
+  - Thomas Werge
+  - Dieter B. Wildenauer
+  - Arpana Agrawal
+  - David AA Baranger
+  - Jason D. Boardman
+  - Joseph M. Boden
+  - Ryan Bogdan
+  - Karhleen K. Bucholz
+  - Doo-Sup Choi
+  - Sarah MC Colbert
+  - Joseph D. Deak
+  - Nancy Diazgranados
+  - Alexis C. Edwards
+  - Alison M. Goate
+  - David Goldman
+  - Laura M. Hack
+  - Kathleen Mullan Harris
+  - Sarah M. Hartz
+  - Caroline Hayward
+  - John K. Hewitt
+  - Christian J. Hopfer
+  - Victor M. Karpyak
+  - Kenneth S. Krauter
+  - Evgeny M. Krupitsky
+  - Samuel Kuperman
+  - Jari Lahti
+  - Marius Lahti-Pulkkinen
+  - Dongbing Lai
+  - Alex P. Miller
+  - Abraham A. Palmer
+  - Rohn H. Palmer
+  - John F. Pearson
+  - Bernice Porjesz
+  - Ulrich W. Preuss
+  - Daniel M. Rosenblum
+  - Norbert Scherbaum
+  - Michael Vanyukov
+  - Tamara L. Wall
+  - Robbee Wedow
+  - Stanley H. Weiss
+  - Leah Wetherill
+  - Norbert Wodarz
+  - Haitao Zhang
+  - Hongyu Zhao
+  - Hang Zhou
+  - Peter Zill
+  - Phil H. Lee
+  - Kenneth S. Kendler
+  - Jordan W. Smoller
+  publisher: Nature
+  date: '2025-12-10'
+  link: https://doi.org/qh4q
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-025-09820-3/MediaObjects/41586_2025_9820_Fig1_HTML.png?as=webp
+  plugin: sources.py
+  file: sources.yaml
