@@ -1,0 +1,199 @@
+// Webweb network visualization styles
+
+// Import colors from data file (Jekyll will process this)
+$color-lab-member: {
+        {
+        site.data.webweb-config.colors.lab_member
+    }
+}
+
+;
+
+$color-alumni: {
+        {
+        site.data.webweb-config.colors.alumni
+    }
+}
+
+;
+
+$color-paper: {
+        {
+        site.data.webweb-config.colors.paper
+    }
+}
+
+;
+
+$color-collaborator: {
+        {
+        site.data.webweb-config.colors.collaborator
+    }
+}
+
+;
+
+#webweb-container,
+#webweb-center,
+#webweb-menu,
+#webweb-visualization-container,
+#webweb-visualization-container>svg,
+#webweb-visualization-container>canvas,
+.webweb-controls {
+    background-color: transparent !important;
+}
+
+#webweb-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden; // Prevent content from extending beyond container
+}
+
+.webweb-container {
+    width: 100%;
+    height: 100%;
+}
+
+#webweb-center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    text-align: justify;
+    font-family: var(--font-body, palatino, georgia, verdana, arial, sans-serif);
+    width: 100%;
+    height: 100%;
+    max-width: 100%; // Ensure it doesn't exceed container
+}
+
+#webweb-menu {
+    font-size: 10px;
+    padding: 15px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+#webweb-menu-right {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    #webweb-center {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        text-align: justify;
+        width: 100%;
+        height: 100%;
+    }
+
+    #webweb-menu {
+        flex-direction: column;
+    }
+
+    #webweb-menu-right {
+        text-align: left;
+    }
+}
+
+#webweb-visualization-container {
+    overflow: hidden;
+    background-color: transparent;
+    max-width: 100%; // Prevent overflow
+    width: 100%;
+}
+
+#webweb-visualization-container>svg {
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; // Make SVG responsive
+    height: auto;
+}
+
+#webweb-visualization-container>canvas {
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; // Make canvas responsive
+    height: auto;
+}
+
+// Style the text labels with outline for better readability
+#webweb-visualization-container text {
+    paint-order: stroke fill;
+
+    stroke: {
+            {
+            site.data.webweb-config.labels.fontOutlineColor
+        }
+    }
+
+    ;
+
+    stroke-width: {
+            {
+            site.data.webweb-config.labels.fontOutlineWidth
+        }
+    }
+
+    px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    fill: {
+            {
+            site.data.webweb-config.labels.fontColor
+        }
+    }
+
+    ;
+
+    font-size: {
+            {
+            site.data.webweb-config.labels.fontSize
+        }
+    }
+
+    px;
+    font-weight: 500;
+}
+
+.webweb-controls {
+    background-color: transparent;
+    display: none !important;
+}
+
+// Legend styles using the color variables
+.webweb-legend {
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+    font-size: 0.9em;
+
+    .legend-item {
+        display: inline-block;
+        margin: 0 8px;
+
+        .legend-dot {
+            font-weight: bold;
+        }
+    }
+}
+
+// Mobile-specific legend adjustments
+@media (max-width: 600px) {
+    .webweb-legend {
+        font-size: 0.8em;
+
+        .legend-item {
+            margin: 0 4px;
+            display: inline-block;
+        }
+    }
+}
