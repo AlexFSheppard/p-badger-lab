@@ -1,17 +1,2854 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/S41593-025-02090-2
+  title: A genome-wide analysis of the shared genetic risk architecture of complex
+    neurological and psychiatric disorders
+  authors:
+  - Olav B. Smeland
+  - Gleda Kutrolli
+  - Shahram Bahrami
+  - Vera Fominykh
+  - Nadine Parker
+  - Julian Fuhrer
+  - Guy F. L. Hindley
+  - "Linn R\xF8devand"
+  - Piotr Jaholkowski
+  - Markos Tesfaye
+  - Pravesh Parekh
+  - "Torbj\xF8rn Elvs\xE5shagen"
+  - Andrew D. Grotzinger
+  - Nils Eiel Steen
+  - Dennis van der Meer
+  - "Kevin S. O\u2019Connell"
+  - Srdjan Djurovic
+  - Anders M. Dale
+  - Alexey A. Shadrin
+  - Oleksandr Frei
+  - Ole A. Andreassen
+  publisher: Nature Neuroscience
+  date: '2025-11-11'
+  link: https://doi.org/g993mw
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41380-024-02878-X
+  title: 'Assessment and ascertainment in psychiatric molecular genetics: challenges
+    and opportunities for cross-disorder research'
+  authors:
+  - Na Cai
+  - Brad Verhulst
+  - Ole A. Andreassen
+  - Jan Buitelaar
+  - Howard J. Edenberg
+  - John M. Hettema
+  - Michael Gandal
+  - Andrew Grotzinger
+  - Katherine Jonas
+  - Phil Lee
+  - Travis T. Mallard
+  - Manuel Mattheisen
+  - Michael C. Neale
+  - John I. Nurnberger
+  - Wouter J. Peyrot
+  - Elliot M. Tucker-Drob
+  - Jordan W. Smoller
+  - Kenneth S. Kendler
+  publisher: Molecular Psychiatry
+  date: '2024-12-27'
+  link: https://doi.org/g8xjdr
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41380-025-02914-4
+  title: 'Correction: Assessment and ascertainment in psychiatric molecular genetics:
+    challenges and opportunities for cross-disorder research'
+  authors:
+  - Na Cai
+  - Brad Verhulst
+  - Ole A. Andreassen
+  - Jan Buitelaar
+  - Howard J. Edenberg
+  - John M. Hettema
+  - Michael Gandal
+  - Andrew Grotzinger
+  - Katherine Jonas
+  - Phil Lee
+  - Travis T. Mallard
+  - Manuel Mattheisen
+  - Michael C. Neale
+  - John I. Nurnberger
+  - Wouter J. Peyrot
+  - Elliot M. Tucker-Drob
+  - Jordan W. Smoller
+  - Kenneth S. Kendler
+  publisher: Molecular Psychiatry
+  date: '2025-01-28'
+  link: https://doi.org/hbk7z3
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41588-025-02093-6
+  title: Comparison of the multivariate genetic architecture of eight major psychiatric
+    disorders across sex
+  authors:
+  - Ted Schwaba
+  - Travis T. Mallard
+  - Adam X. Maihofer
+  - Mijke Rhemtulla
+  - Phil H. Lee
+  - Jordan W. Smoller
+  - Lea K. Davis
+  - Michel G. Nivard
+  - Andrew D. Grotzinger
+  - Elliot M. Tucker-Drob
+  publisher: Nature Genetics
+  date: '2025-03-01'
+  link: https://doi.org/hbk7z4
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41398-025-03470-9
+  title: Examining the genetic links between clusters of immune-mediated diseases
+    and psychiatric disorders
+  authors:
+  - Sophie Breunig
+  - Younga Heather Lee
+  - Elizabeth W. Karlson
+  - Arjun Krishnan
+  - Jeremy M. Lawrence
+  - Lukas S. Schaffer
+  - Andrew D. Grotzinger
+  publisher: Translational Psychiatry
+  date: '2025-07-21'
+  link: https://doi.org/g953t9
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/BRAINCOMMS/FCAF112
+  title: "Examining the genetic relationship between Alzheimer\u2019s disease, schizophrenia\
+    \ and their shared risk factors using genomic structural equation modelling"
+  authors:
+  - "In\xEAs Almeida e Sousa"
+  - Andrew D Grotzinger
+  - Jeremy M Lawrence
+  - Sophie Breunig
+  - Charles R Marshall
+  - Ania Korszun
+  - Isabelle F Foote
+  publisher: Brain Communications
+  date: '2025-01-01'
+  link: https://doi.org/g953vb
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291725000145
+  title: 'Impulsivity facets and substance use involvement: insights from genomic
+    structural equation modeling'
+  authors:
+  - "Laura Vilar-Rib\xF3"
+  - Alexander S. Hatoum
+  - Andrew D. Grotzinger
+  - Travis T. Mallard
+  - Sarah Elson
+  - Pierre Fontanillas
+  - Abraham A. Palmer
+  - Daniel E. Gustavson
+  - Sandra Sanchez-Roige
+  publisher: Psychological Medicine
+  date: '2025-01-01'
+  link: https://doi.org/hbk7z6
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-025-61978-6
+  title: Measurement characteristics and genome-wide correlates of lifetime brain
+    atrophy estimated from a single MRI
+  authors:
+  - "Anna E. F\xFCrtjes"
+  - Isabelle F. Foote
+  - Charley Xia
+  - Gail Davies
+  - Joanna Moodie
+  - Adele Taylor
+  - David C. Liewald
+  - Paul Redmond
+  - Janie Corley
+  - Andrew M. McIntosh
+  - Heather C. Whalley
+  - "Susana Mu\xF1oz Maniega"
+  - "Maria Vald\xE9s Hern\xE1ndez"
+  - Ellen Backhouse
+  - Karen Ferguson
+  - Mark E. Bastin
+  - Joanna Wardlaw
+  - Javier de la Fuente
+  - Andrew D. Grotzinger
+  - Michelle Luciano
+  - W. David Hill
+  - Ian J. Deary
+  - Elliot M. Tucker-Drob
+  - Simon R. Cox
+  publisher: Nature Communications
+  date: '2025-07-21'
+  link: https://doi.org/g9vmtd
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-025-62730-W
+  title: Modeling the genomic architecture of adiposity and anthropometrics across
+    the lifespan
+  authors:
+  - Christopher H. Arehart
+  - Meng Lin
+  - Raine A. Gibson
+  - Heather D. Anderson
+  - Christina L. Aquilante
+  - Kelsey Arbogast
+  - Christopher H. Arehart
+  - Ian M. Brooks
+  - Tonya M. Brunetti
+  - Judith Brutus-Lestin
+  - Elizabeth E. Burke
+  - Emily M. Casteel
+  - Joanne B. Cole
+  - Curtis R. Coughlin
+  - Kristy Crooks
+  - Jacob Crawford
+  - Erin Culver
+  - Michelle N. Edelmann
+  - Matthew J. Fisher
+  - Alan W. Franklin
+  - Teresa C. Frye
+  - Hunter George
+  - Christopher R. Gignoux
+  - Elizabeth K. Gilliland
+  - Casey S. Greene
+  - Brooke Hawkes
+  - Emily Hearst
+  - Audrey E. Hendricks
+  - Randi K. Johnson
+  - Colleen G. Julian
+  - Dave Kao
+  - Iain Konigsberg
+  - Lisa Ku
+  - Elizabeth L. Kudron
+  - Rashawnda Lacy
+  - Ethan M. Lange
+  - Yee Ming Lee
+  - Joe A. Lesny
+  - Meng Lin
+  - Jan T. Lowery
+  - Luciana B. Vargas
+  - Betzaida L. Maldonado
+  - Darcy Marceau
+  - James L. Martin
+  - Brianna L. Gates
+  - David Mayer
+  - Nicole L. McDaniel
+  - Andrew Monte
+  - Ethan Moore
+  - Ann Nadrash
+  - Jack Pattee
+  - Nikita Pozdeyev
+  - Alaa Radwan
+  - Nick Rafaels
+  - Sridharan Raghavan
+  - Neda Rasouli
+  - Elise L. Shalowitz
+  - Hoda Sherif
+  - Johnathan A. Shortt
+  - Adrian M. Stewart
+  - Kristen J. Sutton
+  - Carolyn T. Swartz
+  - Anna Tanaka
+  - Matthew R. G. Taylor
+  - Candace Teague
+  - Emily B. Todd
+  - Katy E. Trinkley
+  - Laura K. Wiley
+  - Sridharan Raghavan
+  - Christopher R. Gignoux
+  - Maggie A. Stanislawski
+  - Andrew D. Grotzinger
+  - Luke M. Evans
+  publisher: Nature Communications
+  date: '2025-08-13'
+  link: https://doi.org/g9x39m
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41593-024-01853-7
+  title: 'Author Correction: Multivariate analysis of 1.5 million people identifies
+    genetic associations with traits related to self-regulation and addiction'
+  authors:
+  - "Richard Karlsson Linn\xE9r"
+  - Travis T. Mallard
+  - Peter B. Barr
+  - Sandra Sanchez-Roige
+  - James W. Madole
+  - Morgan N. Driver
+  - Holly E. Poore
+  - Ronald de Vlaming
+  - Andrew D. Grotzinger
+  - Jorim J. Tielbeek
+  - Emma C. Johnson
+  - Mengzhen Liu
+  - Sara Brin Rosenthal
+  - Trey Ideker
+  - Hang Zhou
+  - Rachel L. Kember
+  - "Jo\xEBlle A. Pasman"
+  - Karin J. H. Verweij
+  - Dajiang J. Liu
+  - Scott Vrieze
+  - Bernice Porjesz
+  - Victor Hesselbrock
+  - Tatiana M. Foroud
+  - Arpana Agrawal
+  - Howard J. Edenberg
+  - John I. Nurnberger Jr
+  - Yunlong Liu
+  - Samuel Kuperman
+  - John Kramer
+  - Jacquelyn L. Meyer
+  - Chella Kamarajan
+  - Ashwini K. Pandey
+  - Laura Bierut
+  - John Rice
+  - Kathleen K. Bucholz
+  - Marc A. Schuckit
+  - Jay Tischfield
+  - Andrew Brooks
+  - Ronald P. Hart
+  - Laura Almasy
+  - Danielle M. Dick
+  - Jessica E. Salvatore
+  - Allison Goate
+  - Manav Kapoor
+  - Paul Slesinger
+  - Denise M. Scott
+  - Lance Bauer
+  - Leah Wetherill
+  - Xiaoling Xuei
+  - Dongbing Lai
+  - "Sean J. O\u2019Connor"
+  - Martin H. Plawecki
+  - Spencer Lourens
+  - Laura Acion
+  - Grace Chan
+  - David B. Chorlian
+  - Jian Zhang
+  - Sivan Kinreich
+  - Gayathri Pandey
+  - Michael J. Chao
+  - Andrey P. Anokhin
+  - Vivia V. McCutcheon
+  - Scott Saccone
+  - Fazil Aliev
+  - Peter B. Barr
+  - Hemin Chin
+  - Abbas Parsian
+  - Henry R. Kranzler
+  - Joel Gelernter
+  - Kathleen Mullan Harris
+  - Elliot M. Tucker-Drob
+  - Irwin D. Waldman
+  - Abraham A. Palmer
+  - K. Paige Harden
+  - Philipp D. Koellinger
+  - Danielle M. Dick
+  publisher: Nature Neuroscience
+  date: '2024-12-06'
+  link: https://doi.org/hbk7z7
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.03.26.25324720
+  title: "Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity:\
+    \ Cross-Ancestry Analysis in the\n                  <i>All of Us</i>\n       \
+    \           Research Program"
+  authors:
+  - Phil H. Lee
+  - Jae-Yoon Jung
+  - Brandon T. Sanzo
+  - Rui Duan
+  - Tian Ge
+  - Irwin Waldman
+  - Jordan W. Smoller
+  - Ted Schwaba
+  - Elliot M. Tucker-Drob
+  - Andrew D. Grotzinger
+  publisher: openRxiv
+  date: '2025-03-27'
+  link: https://doi.org/hbk7z8
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41588-025-02269-0
+  title: Uncovering the multivariate genetic architecture of frailty with genomic
+    structural equation modeling
+  authors:
+  - Isabelle F. Foote
+  - Jonny P. Flint
+  - "Anna E. F\xFCrtjes"
+  - Jeremy M. Lawrence
+  - Donncha S. Mullin
+  - John D. Fisk
+  - Tobias K. Karakach
+  - Andrew Rutenberg
+  - Nicholas G. Martin
+  - Michelle K. Lupton
+  - David J. Llewellyn
+  - Janice M. Ranson
+  - Simon R. Cox
+  - Michelle Luciano
+  - Kenneth Rockwood
+  - Andrew D. Grotzinger
+  publisher: Nature Genetics
+  date: '2025-08-01'
+  link: https://doi.org/g9xpg3
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41562-023-01789-1
+  title: Beyond the factor indeterminacy problem using genome-wide association data
+  authors:
+  - Margaret L. Clapp Sullivan
+  - Ted Schwaba
+  - K. Paige Harden
+  - Andrew D. Grotzinger
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: Nature Human Behaviour
+  date: '2024-01-15'
+  link: https://doi.org/hbk7z9
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/S13229-024-00624-2
+  title: Characterizing genetic pathways unique to autism spectrum disorder at multiple
+    levels of biological analysis
+  authors:
+  - Lukas S. Schaffer
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Andrew D. Grotzinger
+  publisher: Molecular Autism
+  date: '2024-10-15'
+  link: https://doi.org/g953vh
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/AJMG.B.32975
+  title: Disentangling differing relationships between internalizing disorders and
+    alcohol use
+  authors:
+  - Maizy S. Brasher
+  - Andrew D. Grotzinger
+  - Naomi P. Friedman
+  - Harry R. Smolker
+  - Luke M. Evans
+  publisher: 'American Journal of Medical Genetics Part B: Neuropsychiatric Genetics'
+  date: '2024-02-20'
+  link: https://doi.org/hbk72b
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/ABN0000905
+  title: Evidence for strong genetic correlations among internalizing psychopathology
+    and related self-reported measures using both genomic and twin/adoptive approaches.
+  authors:
+  - Daniel E. Gustavson
+  - Elisa F. Stern
+  - Chandra A. Reynolds
+  - Andrew D. Grotzinger
+  - Robin P. Corley
+  - Sally J. Wadsworth
+  - Soo H. Rhee
+  - Naomi P. Friedman
+  publisher: Journal of Psychopathology and Clinical Science
+  date: '2024-07-01'
+  link: https://doi.org/hbk72c
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BPSGOS.2024.100307
+  title: Examining Differences in the Genetic and Functional Architecture of Attention-Deficit/Hyperactivity
+    Disorder Diagnosed in Childhood and Adulthood
+  authors:
+  - Sophie Breunig
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Hannah J. Gebhardt
+  - Erik G. Willcutt
+  - Andrew D. Grotzinger
+  publisher: Biological Psychiatry Global Open Science
+  date: '2024-05-01'
+  link: https://doi.org/g953vj
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.07.18.24310651
+  title: Examining the Genetic Links between Clusters of Immune-mediated Diseases
+    and Psychiatric Disorders
+  authors:
+  - Sophie Breunig
+  - Younga Heather Lee
+  - Elizabeth W. Karlson
+  - Arjun Krishnan
+  - Jeremy M. Lawrence
+  - Lukas S. Schaffer
+  - Andrew D. Grotzinger
+  publisher: openRxiv
+  date: '2024-07-19'
+  link: https://doi.org/g953vd
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41562-024-01967-9
+  title: Genetic associations between non-cognitive skills and academic achievement
+    over development
+  authors:
+  - Margherita Malanchini
+  - Andrea G. Allegrini
+  - Michel G. Nivard
+  - Pietro Biroli
+  - Kaili Rimfeld
+  - Rosa Cheesman
+  - Sophie von Stumm
+  - Perline A. Demange
+  - Elsje van Bergen
+  - Andrew D. Grotzinger
+  - Laurel Raffington
+  - Javier De la Fuente
+  - Jean-Baptiste Pingault
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  - Robert Plomin
+  publisher: Nature Human Behaviour
+  date: '2024-08-26'
+  link: https://doi.org/g9753s
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291724001880
+  title: Genome-wide meta-analysis of ascertainment and symptom structures of major
+    depression in case-enriched and community cohorts
+  authors:
+  - Mark J. Adams
+  - Jackson G. Thorp
+  - Bradley S. Jermy
+  - Alex S. F. Kwong
+  - "Kadri K\xF5iv"
+  - Andrew D. Grotzinger
+  - Michel G. Nivard
+  - Sally Marshall
+  - Yuri Milaneschi
+  - Bernhard T. Baune
+  - "Bertram M\xFCller-Myhsok"
+  - Brenda W. J. H. Penninx
+  - Dorret I. Boomsma
+  - Douglas F. Levinson
+  - Gerome Breen
+  - Giorgio Pistis
+  - Hans J. Grabe
+  - Henning Tiemeier
+  - Klaus Berger
+  - Marcella Rietschel
+  - Patrik K. Magnusson
+  - Rudolf Uher
+  - Steven P. Hamilton
+  - Susanne Lucae
+  - Kelli Lehto
+  - Qingqin S. Li
+  - Enda M. Byrne
+  - Ian B. Hickie
+  - Nicholas G. Martin
+  - Sarah E Medland
+  - Naomi R. Wray
+  - Elliot M. Tucker-Drob
+  - Cathryn M. Lewis
+  - Andrew M McIntosh
+  - Eske M. Derks
+  publisher: Psychological Medicine
+  date: '2024-09-01'
+  link: https://doi.org/g749bc
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291723002957
+  title: Genomic SEM applied to explore etiological divergences in bipolar subtypes
+  authors:
+  - Jeremy M. Lawrence
+  - Sophie Breunig
+  - Isabelle F. Foote
+  - Connor B. Tallis
+  - Andrew D. Grotzinger
+  publisher: Psychological Medicine
+  date: '2023-10-27'
+  link: https://doi.org/g953vf
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.10.24.24315331
+  title: 'Impulsivity Facets and Substance Use Involvement: Insights from Genomic
+    Structural Equation Modeling'
+  authors:
+  - "Laura Vilar-Rib\xF3"
+  - Alexander S Hatoum
+  - Andrew D Grotzinger
+  - Travis T Mallard
+  - Sarah Elson
+  - Pierre Fontanillas
+  - Abraham A Palmer
+  - Daniel E Gustavson
+  - Sandra Sanchez-Roige
+  publisher: openRxiv
+  date: '2024-10-25'
+  link: https://doi.org/hbk72d
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.08.02.24311427
+  title: Shared Genetic Liability across Systems of Psychiatric and Physical Illness
+  authors:
+  - Jeremy M. Lawrence
+  - Isabelle F. Foote
+  - Sophie Breunig
+  - Lukas S. Schaffer
+  - Travis T. Mallard
+  - Andrew D. Grotzinger
+  publisher: openRxiv
+  date: '2024-08-04'
+  link: https://doi.org/g953vc
+  orcid: 0000-0002-0253-4116
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/JORA.12807
+  title: "A Mixed\u2010Methods Approach to Refining and Measuring the Construct of\
+    \ Positive Risk\u2010Taking in Adolescence"
+  authors:
+  - Megan W. Patterson
+  - Lilla Pivnick
+  - Frank D. Mann
+  - Andrew D. Grotzinger
+  - Kathryn C. Monahan
+  - Laurence D. Steinberg
+  - Benjamin Oosterhoff
+  - Jennifer L. Tackett
+  - "Elliot M. Tucker\u2010Drob"
+  - K. Paige Harden
+  publisher: Journal of Research on Adolescence
+  date: '2022-11-10'
+  link: https://doi.org/hbk72f
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1152/PHYSREV.00016.2022
+  title: Examining the shared etiology of psychopathology with genome-wide association
+    studies
+  authors:
+  - Travis T. Mallard
+  - Andrew D. Grotzinger
+  - Jordan W. Smoller
+  publisher: Physiological Reviews
+  date: '2023-04-01'
+  link: https://doi.org/hbk72g
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41598-023-40199-1
+  title: 'Genetic associations between alcohol phenotypes and life satisfaction: a
+    genomic structural equation modelling approach'
+  authors:
+  - Kaitlin E. Bountress
+  - Shannon E. Cusack
+  - Sage E. Hawn
+  - Andrew Grotzinger
+  - Daniel Bustamante
+  - Robert M. Kirkpatrick
+  - Howard J. Edenberg
+  - Ananda B. Amstadter
+  publisher: Scientific Reports
+  date: '2023-08-18'
+  link: https://doi.org/hbk72h
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41588-023-01475-Y
+  title: Genetic insights into human cortical organization and development through
+    genome-wide analyses of 2,347 neuroimaging phenotypes
+  authors:
+  - Varun Warrier
+  - Eva-Maria Stauffer
+  - Qin Qin Huang
+  - Emilie M. Wigdor
+  - Eric A. W. Slob
+  - Jakob Seidlitz
+  - Lisa Ronan
+  - Sofie L. Valk
+  - Travis T. Mallard
+  - Andrew D. Grotzinger
+  - Rafael Romero-Garcia
+  - Simon Baron-Cohen
+  - Daniel H. Geschwind
+  - Madeline A. Lancaster
+  - Graham K. Murray
+  - Michael J. Gandal
+  - Aaron Alexander-Bloch
+  - Hyejung Won
+  - Hilary C. Martin
+  - Edward T. Bullmore
+  - Richard A. I. Bethlehem
+  publisher: Nature Genetics
+  date: '2023-08-17'
+  link: https://doi.org/hbk72j
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1097/J.PAIN.0000000000002922
+  title: 'Genetic risk shared across 24 chronic pain conditions: identification and
+    characterization with genomic structural equation modeling'
+  authors:
+  - Katerina Zorina-Lichtenwalter
+  - Carmen I. Bango
+  - Lukas Van Oudenhove
+  - "Marta \u010Ceko"
+  - Martin A. Lindquist
+  - Andrew D. Grotzinger
+  - Matthew C. Keller
+  - Naomi P. Friedman
+  - Tor D. Wager
+  publisher: Pain
+  date: '2023-05-23'
+  link: https://doi.org/gth4mc
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S44220-023-00034-Y
+  title: Multivariate genome-wide association meta-analysis of over 1 million subjects
+    identifies loci underlying multiple substance use disorders
+  authors:
+  - Alexander S. Hatoum
+  - Sarah M. C. Colbert
+  - Emma C. Johnson
+  - Spencer B. Huggett
+  - Joseph D. Deak
+  - Gita A. Pathak
+  - Mariela V. Jennings
+  - Sarah E. Paul
+  - Nicole R. Karcher
+  - Isabella Hansen
+  - David A. A. Baranger
+  - Alexis Edwards
+  - Andrew D. Grotzinger
+  - Daniel E. Adkins
+  - Amy E. Adkins
+  - Mervi Alanne-Kinnunen
+  - Jeffry C. Alexander
+  - Fazil Aliev
+  - Silviu-Alin Bacanu
+  - Anthony Batzler
+  - Joanna M. Biernacka
+  - Laura J. Bierut
+  - Tim B. Bigdeli
+  - Anna Blagonravova
+  - Jason D. Boardman
+  - Joseph M. Boden
+  - Dorret I. Boomsma
+  - Sandra A. Brown
+  - Kathleen K. Bucholz
+  - Danfeng Chen
+  - Li-Shiun Chen
+  - Doo-Sup Choi
+  - S. Patricia Chou
+  - Sven Cichon
+  - William E. Copeland
+  - Robin P. Corley
+  - Franziska Degenhardt
+  - Marta Di Forti
+  - Nancy Diazgranados
+  - Danielle M. Dick
+  - Benjamin W. Domingue
+  - Johan G. Eriksson
+  - Lindsay A. Farrer
+  - Jerome C. Foo
+  - Tatiana M. Foroud
+  - Louis Fox
+  - Josef Frank
+  - Mark A. Frye
+  - Wolfgang Gaebel
+  - Raul R. Gainetdinov
+  - Ina Giegling
+  - Nathan A. Gillespie
+  - Alison M. Goate
+  - David Goldman
+  - Scott Gordon
+  - Laura M. Hack
+  - Dana B. Hancock
+  - Kathleen Mullan Harris
+  - Annette M. Hartmann
+  - Andrew C. Heath
+  - Stefanie Heilmann-Heimbach
+  - Stefan Herms
+  - Victor Hesselbrock
+  - John K. Hewitt
+  - Ian Hickie
+  - Colin Hodgkinson
+  - Per Hoffmann
+  - Christian Hopfer
+  - John Horwood
+  - Jouke Jan Hottenga
+  - Daniel Patrick Howrigan
+  - William G. Iacono
+  - Marcus Ising
+  - Eric O. Johnson
+  - Jaakko Kaprio
+  - Victor M. Karpyak
+  - Kenneth S. Kendler
+  - Martin A. Kennedy
+  - Margaret Keyes
+  - Alexander Kibitov
+  - Falk Kiefer
+  - Bettina Konte
+  - John Kramer
+  - Kenneth Krauter
+  - Evgeny M. Krupitsky
+  - Samuel Kuperman
+  - Jari Lahti
+  - Marius Lahti-Pulkkinen
+  - Dongbing Lai
+  - Anastasia Levchenko
+  - Lannie Ligthart
+  - Penelope A. Lind
+  - Susanne Lucae
+  - Michael T. Lynskey
+  - Pamela A. F. Madden
+  - Hermine H. Maes
+  - Patrik K. E. Magnusson
+  - Brion S. Maher
+  - Karl Mann
+  - "Satu M\xE4nnist\xF6"
+  - Nicholas G. Martin
+  - Hamdi Mbarek
+  - Matt McGue
+  - Matthew B. McQueen
+  - Sarah E. Medland
+  - Jacquelyn L. Meyers
+  - Grant W. Montgomery
+  - "Bertram M\xFCller-Myhsok"
+  - Benjamin M. Neale
+  - Elliot C. Nelson
+  - "Markus M. N\xF6then"
+  - John I. Nurnberger
+  - Aarno Palotie
+  - Teemu Palviainen
+  - John F. Pearson
+  - Nancy L. Pedersen
+  - Brenda W. J. H. Penninx
+  - Roseann E. Peterson
+  - Bernice Porjesz
+  - Ulrich W. Preuss
+  - Diego Quattrone
+  - "Katri R\xE4ikk\xF6nen"
+  - Maureen D. Reynolds
+  - John P. Rice
+  - Monika Ridinger
+  - Marcella Rietschel
+  - Brien P. Riley
+  - Samuli Ripatti
+  - Richard J. Rose
+  - Dan Rujescu
+  - Ksenia V. Rybakova
+  - Euijung Ryu
+  - Nancy L. Saccone
+  - Jessica E. Salvatore
+  - Norbert Scherbaum
+  - Marc A. Schuckit
+  - Melanie Schwandt
+  - Pei-Hong Shen
+  - Richard Sherva
+  - Judy Silberg
+  - Michael C. Stallings
+  - Dan J. Stein
+  - Fabian Streit
+  - Jana Strohmaier
+  - Ralph E. Tarter
+  - Nathaniel Thomas
+  - Michael M. Vanyukov
+  - Scott Vrieze
+  - Tamara L. Wall
+  - Raymond K. Walters
+  - Bradley T. Webb
+  - Robbee Wedow
+  - Frank Wendt
+  - Leah Wetherill
+  - John B. Whitfield
+  - Stephanie Witt
+  - Norbert Wodarz
+  - Margaret J. Wright
+  - Sarah M. Hartz
+  - Stephanie Zellers
+  - Haitao Zhang
+  - Hongyu Zhao
+  - Hang Zhou
+  - Peter Zill
+  - Lea Zillich
+  - Elliot M. Tucker-Drob
+  - Henry R. Kranzler
+  - Lea K. Davis
+  - Sandra Sanchez-Roige
+  - Renato Polimanti
+  - Joel Gelernter
+  - Howard J. Edenberg
+  - Ryan Bogdan
+  - Arpana Agrawal
+  publisher: Nature Mental Health
+  date: '2023-03-22'
+  link: https://doi.org/grzd8s
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-023-36605-X
+  title: Multivariate genomic architecture of cortical thickness and surface area
+    at multiple levels of analysis
+  authors:
+  - Andrew D. Grotzinger
+  - Travis T. Mallard
+  - Zhaowen Liu
+  - Jakob Seidlitz
+  - Tian Ge
+  - Jordan W. Smoller
+  publisher: Nature Communications
+  date: '2023-02-20'
+  link: https://doi.org/hbk72k
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BIOPSYCH.2022.05.029
+  title: 'Pervasive Downward Bias in Estimates of Liability-Scale Heritability in
+    Genome-wide Association Study Meta-analysis: A Simple Solution'
+  authors:
+  - Andrew D. Grotzinger
+  - Javier de la Fuente
+  - "Florian Priv\xE9"
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: Biological Psychiatry
+  date: '2023-01-01'
+  link: https://doi.org/hbk72m
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1001/JAMAPSYCHIATRY.2023.1808
+  title: Transcriptome-Wide Structural Equation Modeling of 13 Major Psychiatric Disorders
+    for Cross-Disorder Risk and Drug Repurposing
+  authors:
+  - Andrew D. Grotzinger
+  - Kritika Singh
+  - Tyne W. Miller-Fleming
+  - Max Lam
+  - Travis T. Mallard
+  - Yu Chen
+  - Zhaowen Liu
+  - Tian Ge
+  - Jordan W. Smoller
+  publisher: JAMA Psychiatry
+  date: '2023-08-01'
+  link: https://doi.org/hbk72n
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/JOURNAL.PGEN.1010693
+  title: Transcriptome-wide gene-gene interaction associations elucidate pathways
+    and functional enrichment of complex traits
+  authors:
+  - Luke M. Evans
+  - Christopher H. Arehart
+  - Andrew D. Grotzinger
+  - Travis J. Mize
+  - Maizy S. Brasher
+  - Jerry A. Stitzel
+  - Marissa A. Ehringer
+  - Charles A. Hoeffer
+  publisher: PLOS Genetics
+  date: '2023-05-22'
+  link: https://doi.org/hbk72p
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.DRUGALCDEP.2022.109430
+  title: 'Alcohol use and alcohol use disorder differ in their genetic relationships
+    with PTSD: A genomic structural equation modelling approach'
+  authors:
+  - Kaitlin E. Bountress
+  - Leslie A. Brick
+  - Christina Sheerin
+  - Andrew Grotzinger
+  - Daniel Bustamante
+  - Sage E. Hawn
+  - Nathan Gillespie
+  - Robert M. Kirkpatrick
+  - Henry Kranzler
+  - Rajendra Morey
+  - Howard J. Edenberg
+  - Adam X. Maihofer
+  - Seth Disner
+  - Allison Ashley-Koch
+  - Roseann Peterson
+  - Adriana Lori
+  - Dan J. Stein
+  - Nathan Kimbrel
+  - Caroline Nievergelt
+  - Ole A. Andreassen
+  - Jurjen Luykx
+  - Arash Javanbakht
+  - Nagy A. Youssef
+  - Ananda B. Amstadter
+  publisher: Drug and Alcohol Dependence
+  date: '2022-05-01'
+  link: https://doi.org/hbk72q
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/DEV0001393
+  title: An in-laboratory stressor reveals unique genetic variation in child cortisol
+    output.
+  authors:
+  - Laurel Raffington
+  - Margherita Malanchini
+  - Andrew D. Grotzinger
+  - James W. Madole
+  - Laura E. Engelhardt
+  - Aditi Sabhlok
+  - Cherry Youn
+  - Megan W. Patterson
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: Developmental Psychology
+  date: '2022-10-01'
+  link: https://doi.org/gqzr7k
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41588-022-01057-4
+  title: Genetic architecture of 11 major psychiatric disorders at biobehavioral,
+    functional genomic and molecular genetic levels of analysis
+  authors:
+  - Andrew D. Grotzinger
+  - Travis T. Mallard
+  - Wonuola A. Akingbuwa
+  - Hill F. Ip
+  - Mark J. Adams
+  - Cathryn M. Lewis
+  - Andrew M. McIntosh
+  - Jakob Grove
+  - "S\xF8ren Dalsgaard"
+  - Klaus-Peter Lesch
+  - Nora Strom
+  - Sandra M. Meier
+  - Manuel Mattheisen
+  - "Anders D. B\xF8rglum"
+  - Ole Mors
+  - Gerome Breen
+  - Manuel Mattheisen
+  - Ole Mors
+  - Sandra M. Meier
+  - Phil H. Lee
+  - Kenneth S. Kendler
+  - Jordan W. Smoller
+  - Elliot M. Tucker-Drob
+  - Michel G. Nivard
+  publisher: Nature Genetics
+  date: '2022-05-01'
+  link: https://doi.org/gp4xcr
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41539-022-00121-2
+  title: Genetic associations with learning over 100 days of practice
+  authors:
+  - Cherry Youn
+  - Andrew D. Grotzinger
+  - Christina M. Lill
+  - Lars Bertram
+  - Florian Schmiedek
+  - "Martin L\xF6vd\xE9n"
+  - Ulman Lindenberger
+  - Michel Nivard
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: npj Science of Learning
+  date: '2022-05-04'
+  link: https://doi.org/gp7fv9
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/JOURNAL.PGEN.1010208
+  title: "Integrated analysis of direct and proxy genome wide association studies\
+    \ highlights polygenicity of Alzheimer\u2019s disease outside of the APOE region"
+  authors:
+  - Javier de la Fuente
+  - Andrew D. Grotzinger
+  - Riccardo E. Marioni
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: PLOS Genetics
+  date: '2022-06-03'
+  link: https://doi.org/hbk72r
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1176/APPI.AJP.2020.20091390
+  title: Item-Level Genome-Wide Association Study of the Alcohol Use Disorders Identification
+    Test in Three Population-Based Cohorts
+  authors:
+  - Travis T. Mallard
+  - Jeanne E. Savage
+  - Emma C. Johnson
+  - Yuye Huang
+  - Alexis C. Edwards
+  - Jouke J. Hottenga
+  - Andrew D. Grotzinger
+  - Daniel E. Gustavson
+  - Mariela V. Jennings
+  - Andrey Anokhin
+  - Danielle M. Dick
+  - Howard J. Edenberg
+  - John R. Kramer
+  - Dongbing Lai
+  - Jacquelyn L. Meyers
+  - Ashwini K. Pandey
+  - Kathryn Paige Harden
+  - Michel G. Nivard
+  - Eco J.C. de Geus
+  - Dorret I. Boomsma
+  - Arpana Agrawal
+  - Lea K. Davis
+  - Toni-Kim Clarke
+  - Abraham A. Palmer
+  - Sandra Sanchez-Roige
+  publisher: American Journal of Psychiatry
+  date: '2022-01-01'
+  link: https://doi.org/gj2sq5
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.XGEN.2022.100140
+  title: Multivariate GWAS of psychiatric disorders and their cardinal symptoms reveal
+    two dimensions of cross-cutting genetic liabilities
+  authors:
+  - Travis T. Mallard
+  - "Richard Karlsson Linn\xE9r"
+  - Andrew D. Grotzinger
+  - Sandra Sanchez-Roige
+  - Jakob Seidlitz
+  - Aysu Okbay
+  - Ronald de Vlaming
+  - S. Fleur W. Meddens
+  - Abraham A. Palmer
+  - Lea K. Davis
+  - Elliot M. Tucker-Drob
+  - Kenneth S. Kendler
+  - Matthew C. Keller
+  - Philipp D. Koellinger
+  - K. Paige Harden
+  publisher: Cell Genomics
+  date: '2022-06-01'
+  link: https://doi.org/gssbxw
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/SCIENCE.ADE8002
+  title: Potential bias in genetic correlations
+  authors:
+  - Andrew D. Grotzinger
+  - Matthew C. Keller
+  publisher: Science
+  date: '2022-11-18'
+  link: https://doi.org/gs99w6
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-022-33724-9
+  title: Transcriptome-wide and stratified genomic structural equation modeling identify
+    neurobiological pathways shared across diverse cognitive traits
+  authors:
+  - Andrew D. Grotzinger
+  - Javier de la Fuente
+  - Gail Davies
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: Nature Communications
+  date: '2022-10-21'
+  link: https://doi.org/hbk72s
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41562-020-00936-2
+  title: A general dimension of genetic sharing across diverse cognitive traits inferred
+    from molecular data
+  authors:
+  - Javier de la Fuente
+  - Gail Davies
+  - Andrew D. Grotzinger
+  - Elliot M. Tucker-Drob
+  - Ian J. Deary
+  publisher: Nature Human Behaviour
+  date: '2020-09-07'
+  link: https://doi.org/ghdrwc
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/DEV0001135
+  title: 'Adolescent Big Five personality and pubertal development: Pubertal hormone
+    concentrations and self-reported pubertal status.'
+  authors:
+  - Alithe L. Van den Akker
+  - Daniel A. Briley
+  - Andrew D. Grotzinger
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Developmental Psychology
+  date: '2021-01-01'
+  link: https://doi.org/hbk72t
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41588-020-00754-2
+  title: Investigating the genetic architecture of noncognitive skills using GWAS-by-subtraction
+  authors:
+  - Perline A. Demange
+  - Margherita Malanchini
+  - Travis T. Mallard
+  - Pietro Biroli
+  - Simon R. Cox
+  - Andrew D. Grotzinger
+  - Elliot M. Tucker-Drob
+  - Abdel Abdellaoui
+  - Louise Arseneault
+  - Elsje van Bergen
+  - Dorret I. Boomsma
+  - Avshalom Caspi
+  - David L. Corcoran
+  - Benjamin W. Domingue
+  - Kathleen Mullan Harris
+  - Hill F. Ip
+  - Colter Mitchell
+  - Terrie E. Moffitt
+  - Richie Poulton
+  - Joseph A. Prinz
+  - Karen Sugden
+  - Jasmin Wertz
+  - Benjamin S. Williams
+  - Eveline L. de Zeeuw
+  - Daniel W. Belsky
+  - K. Paige Harden
+  - Michel G. Nivard
+  publisher: Nature Genetics
+  date: '2021-01-01'
+  link: https://doi.org/ghr9ts
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41593-021-00908-3
+  title: Multivariate analysis of 1.5 million people identifies genetic associations
+    with traits related to self-regulation and addiction
+  authors:
+  - "Richard Karlsson Linn\xE9r"
+  - Travis T. Mallard
+  - Peter B. Barr
+  - Sandra Sanchez-Roige
+  - James W. Madole
+  - Morgan N. Driver
+  - Holly E. Poore
+  - Ronald de Vlaming
+  - Andrew D. Grotzinger
+  - Jorim J. Tielbeek
+  - Emma C. Johnson
+  - Mengzhen Liu
+  - Sara Brin Rosenthal
+  - Trey Ideker
+  - Hang Zhou
+  - Rachel L. Kember
+  - "Jo\xEBlle A. Pasman"
+  - Karin J. H. Verweij
+  - Dajiang J. Liu
+  - Scott Vrieze
+  - Bernice Porjesz
+  - Victor Hesselbrock
+  - Tatiana M. Foroud
+  - Arpana Agrawal
+  - Howard J. Edenberg
+  - John I. Nurnberger Jr
+  - Yunlong Liu
+  - Samuel Kuperman
+  - John Kramer
+  - Jacquelyn L. Meyer
+  - Chella Kamarajan
+  - Ashwini K. Pandey
+  - Laura Bierut
+  - John Rice
+  - Kathleen K. Bucholz
+  - Marc A. Schuckit
+  - Jay Tischfield
+  - Andrew Brooks
+  - Ronald P. Hart
+  - Laura Almasy
+  - Danielle M. Dick
+  - Jessica E. Salvatore
+  - Allison Goate
+  - Manav Kapoor
+  - Paul Slesinger
+  - Denise M. Scott
+  - Lance Bauer
+  - Leah Wetherill
+  - Xiaoling Xuei
+  - Dongbing Lai
+  - "Sean J. O\u2019Connor"
+  - Martin H. Plawecki
+  - Spencer Lourens
+  - Laura Acion
+  - Grace Chan
+  - David B. Chorlian
+  - Jian Zhang
+  - Sivan Kinreich
+  - Gayathri Pandey
+  - Michael J. Chao
+  - Andrey P. Anokhin
+  - Vivia V. McCutcheon
+  - Scott Saccone
+  - Fazil Aliev
+  - Peter B. Barr
+  - Hemin Chin
+  - Abbas Parsian
+  - Henry R. Kranzler
+  - Joel Gelernter
+  - Kathleen Mullan Harris
+  - Elliot M. Tucker-Drob
+  - Irwin D. Waldman
+  - Abraham A. Palmer
+  - K. Paige Harden
+  - Philipp D. Koellinger
+  - Danielle M. Dick
+  publisher: Nature Neuroscience
+  date: '2021-08-26'
+  link: https://doi.org/gmwnjv
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291721000829
+  title: Shared genetic architecture across psychiatric disorders
+  authors:
+  - Andrew D. Grotzinger
+  publisher: Psychological Medicine
+  date: '2021-03-17'
+  link: https://doi.org/gn84ff
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41562-021-01094-9
+  title: Symptom-level modelling unravels the shared genetic architecture of anxiety
+    and depression
+  authors:
+  - Jackson G. Thorp
+  - Adrian I. Campos
+  - Andrew D. Grotzinger
+  - Zachary F. Gerring
+  - Jiyuan An
+  - Jue-Sheng Ong
+  - Wei Wang
+  - Suyash Shringarpure
+  - Enda M. Byrne
+  - Stuart MacGregor
+  - Nicholas G. Martin
+  - Sarah E. Medland
+  - Christel M. Middeldorp
+  - Eske M. Derks
+  publisher: Nature Human Behaviour
+  date: '2021-04-15'
+  link: https://doi.org/gjqw8n
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.04.30.21256409
+  title: Transcriptome-wide and Stratified Genomic Structural Equation Modeling Identify
+    Neurobiological Pathways Underlying General and Specific Cognitive Functions
+  authors:
+  - Andrew D. Grotzinger
+  - Javier de la Fuente
+  - Gail Davies
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: openRxiv
+  date: '2021-05-04'
+  link: https://doi.org/hbk72v
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41380-020-0747-Z
+  title: Weak and uneven associations of home, neighborhood, and school environments
+    with stress hormone output across multiple timescales
+  authors:
+  - Margherita Malanchini
+  - Laura E. Engelhardt
+  - Laurel A. Raffington
+  - Aditi Sabhlok
+  - Andrew D. Grotzinger
+  - Daniel A. Briley
+  - James W. Madole
+  - Samantha M. Freis
+  - Megan W. Patterson
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: Molecular Psychiatry
+  date: '2020-05-04'
+  link: https://doi.org/g8phs6
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-020-17117-4
+  title: Avoiding dynastic, assortative mating, and population stratification biases
+    in Mendelian randomization through within-family analyses
+  authors:
+  - Ben Brumpton
+  - Eleanor Sanderson
+  - Karl Heilbron
+  - Fernando Pires Hartwig
+  - Sean Harrison
+  - "Gunnhild \xC5berge Vie"
+  - Yoonsu Cho
+  - Laura D. Howe
+  - Amanda Hughes
+  - Dorret I. Boomsma
+  - Alexandra Havdahl
+  - John Hopper
+  - Michael Neale
+  - Michel G. Nivard
+  - Nancy L. Pedersen
+  - Chandra A. Reynolds
+  - Elliot M. Tucker-Drob
+  - Andrew Grotzinger
+  - Laurence Howe
+  - Tim Morris
+  - Shuai Li
+  - Ben Brumpton
+  - Eleanor Sanderson
+  - Karl Heilbron
+  - Fernando Pires Hartwig
+  - Sean Harrison
+  - "Gunnhild \xC5berge Vie"
+  - Yoonsu Cho
+  - Laura D. Howe
+  - Amanda Hughes
+  - Dorret I. Boomsma
+  - Alexandra Havdahl
+  - John Hopper
+  - Michael Neale
+  - Michel G. Nivard
+  - Nancy L. Pedersen
+  - Chandra A. Reynolds
+  - Elliot M. Tucker-Drob
+  - Andrew Grotzinger
+  - Laurence Howe
+  - Tim Morris
+  - Shuai Li
+  - Adam Auton
+  - Frank Windmeijer
+  - Wei-Min Chen
+  - "Johan H\xE5kon Bj\xF8rngaard"
+  - Kristian Hveem
+  - Cristen Willer
+  - David M. Evans
+  - Jaakko Kaprio
+  - George Davey Smith
+  - "Bj\xF8rn Olav \xC5svold"
+  - Gibran Hemani
+  - Neil M. Davies
+  - Karl Heilbron
+  - Adam Auton
+  - Adam Auton
+  - Frank Windmeijer
+  - Wei-Min Chen
+  - "Johan H\xE5kon Bj\xF8rngaard"
+  - Kristian Hveem
+  - Cristen Willer
+  - David M. Evans
+  - Jaakko Kaprio
+  - George Davey Smith
+  - "Bj\xF8rn Olav \xC5svold"
+  - Gibran Hemani
+  - Neil M. Davies
+  publisher: Nature Communications
+  date: '2020-07-14'
+  link: https://doi.org/ghk98d
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.09.22.20196089
+  title: Genetic Architecture of 11 Major Psychiatric Disorders at Biobehavioral,
+    Functional Genomic, and Molecular Genetic Levels of Analysis
+  authors:
+  - Andrew D. Grotzinger
+  - Travis T. Mallard
+  - Wonuola A. Akingbuwa
+  - Hill F. Ip
+  - Mark J. Adams
+  - Cathryn M. Lewis
+  - Andrew M. McIntosh
+  - Jakob Grove
+  - "S\xF8ren Dalsgaard"
+  - Klaus-Peter Lesch
+  - Nora Strom
+  - Sandra M. Meier
+  - Manuel Mattheisen
+  - "Anders D. B\xF8rglum"
+  - Ole Mors
+  - Gerome Breen
+  - Phil H. Lee
+  - Kenneth S. Kendler
+  - Jordan W. Smoller
+  - Elliot M. Tucker-Drob
+  - Michel G. Nivard
+  publisher: openRxiv
+  date: '2020-09-23'
+  link: https://doi.org/gmwngw
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JAAC.2019.05.006
+  title: Genetic Associations Between Executive Functions and a General Factor of
+    Psychopathology
+  authors:
+  - K. Paige Harden
+  - Laura E. Engelhardt
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Andrew D. Grotzinger
+  - Stephanie L. Savicki
+  - Megan L. Thibodeaux
+  - Samantha M. Freis
+  - Jennifer L. Tackett
+  - Jessica A. Church
+  - Elliot M. Tucker-Drob
+  publisher: Journal of the American Academy of Child &amp; Adolescent Psychiatry
+  date: '2020-06-01'
+  link: https://doi.org/gj5rrm
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.01.14.905794
+  title: Investigating the Genetic Architecture of Non-Cognitive Skills Using GWAS-by-Subtraction
+  authors:
+  - Perline A. Demange
+  - Margherita Malanchini
+  - Travis T. Mallard
+  - Pietro Biroli
+  - Simon R. Cox
+  - Andrew D. Grotzinger
+  - Elliot M. Tucker-Drob
+  - Abdel Abdellaoui
+  - Louise Arseneault
+  - Avshalom Caspi
+  - David Corcoran
+  - Benjamin Domingue
+  - Colter Mitchell
+  - Elsje van Bergen
+  - Dorret I. Boomsma
+  - Kathleen M. Harris
+  - Hill F. Ip
+  - Terrie E. Moffitt
+  - Richie Poulton
+  - Joseph Prinz
+  - Karen Sugden
+  - Jasmin Wertz
+  - Benjamin Williams
+  - Eveline L. de Zeeuw
+  - Daniel W. Belsky
+  - K. Paige Harden
+  - Michel G. Nivard
+  publisher: openRxiv
+  date: '2020-01-15'
+  link: https://doi.org/ggk6hs
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.09.21.304196
+  title: Multivariate GWAS elucidates the genetic architecture of alcohol consumption
+    and misuse, corrects biases, and reveals novel associations with disease
+  authors:
+  - Travis T Mallard
+  - Jeanne E Savage
+  - Emma C Johnson
+  - Yuye Huang
+  - Alexis C Edwards
+  - Jouke J Hottenga
+  - Andrew D Grotzinger
+  - Daniel E Gustavson
+  - Mariela V Jennings
+  - Andrey Anokhin
+  - Danielle M Dick
+  - Howard J Edenberg
+  - John R Kramer
+  - Dongbing Lai
+  - Jacquelyn L Meyers
+  - Ashwini K Pandey
+  - Kathryn Paige Harden
+  - Michel G Nivard
+  - Eco JC de Geus
+  - Dorret I Boomsma
+  - Arpana Agrawal
+  - Lea K Davis
+  - Toni-Kim Clarke
+  - Abraham A Palmer
+  - Sandra Sanchez-Roige
+  publisher: openRxiv
+  date: '2020-09-22'
+  link: https://doi.org/hbk72w
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/603134
+  title: Multivariate GWAS of psychiatric disorders and their cardinal symptoms reveal
+    two dimensions of cross-cutting genetic liabilities
+  authors:
+  - Travis T. Mallard
+  - "Richard K. Linn\xE9r"
+  - Andrew D. Grotzinger
+  - Sandra Sanchez-Roige
+  - Jakob Seidlitz
+  - Aysu Okbay
+  - Ronald de Vlaming
+  - S. Fleur W. Meddens
+  - Abraham A. Palmer
+  - Lea K. Davis
+  - Elliot M. Tucker-Drob
+  - Kenneth S. Kendler
+  - Matthew C. Keller
+  - Philipp D. Koellinger
+  - K. Paige Harden
+  publisher: openRxiv
+  date: '2019-04-09'
+  link: https://doi.org/gg8zpv
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.04.08.20057653
+  title: Symptom-level genetic modelling identifies novel risk loci and unravels the
+    shared genetic architecture of anxiety and depression
+  authors:
+  - Jackson G. Thorp
+  - Adrian I. Campos
+  - Andrew D. Grotzinger
+  - Zachary Gerring
+  - Jiyuan An
+  - Jue-Sheng Ong
+  - Wei Wang
+  - Suyash Shringarpure
+  - Enda M. Byrne
+  - Stuart MacGregor
+  - Nicholas G. Martin
+  - Sarah E. Medland
+  - Christel M. Middeldorp
+  - Eske M. Derks
+  publisher: openRxiv
+  date: '2020-04-14'
+  link: https://doi.org/hbk72x
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/PSPP0000224
+  title: "\u201CSame but different\u201D: Associations between multiple aspects of\
+    \ self-regulation, cognition, and academic abilities."
+  authors:
+  - Margherita Malanchini
+  - Laura E. Engelhardt
+  - Andrew D. Grotzinger
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: Journal of Personality and Social Psychology
+  date: '2019-12-01'
+  link: https://doi.org/gfsh58
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/856658
+  title: "Changing environments reveal innovative genetic variation in children\u2019\
+    s cortisol responses"
+  authors:
+  - Laurel Raffington
+  - Margherita Malanchini
+  - Andrew D. Grotzinger
+  - James W. Madole
+  - Laura E. Engelhardt
+  - Aditi Sabhlok
+  - Cherry Youn
+  - Megan W. Patterson
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: openRxiv
+  date: '2019-11-30'
+  link: https://doi.org/gkz2tk
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.EURONEURO.2018.08.079
+  title: '72GENOMIC SEM: A POWERFUL FRAMEWORK TO INTERROGATE THE CAUSES AND CONSEQUENCES
+    OF PSYCHIATRIC DISEASE'
+  authors:
+  - Michel Nivard
+  - Andrew Grotzinger
+  - Mijke Rhemtulla
+  - Ronald de Vlaming
+  - Stuart Ritchie
+  - Travis Mallard
+  - W David Hill
+  - Hill Fung Ip
+  - Andrew McIntosh
+  - Ian J. Deary
+  - Dorret Boomsma
+  - Philipp Koellinger
+  - Paige Harden
+  - Elliot Tucker-Drob
+  publisher: European Neuropsychopharmacology
+  date: '2019-01-01'
+  link: https://doi.org/hbk72z
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.EURONEURO.2019.08.042
+  title: S41GENOMIC STRUCTURAL EQUATION MODELS OF MAJOR DEPRESSION SYMPTOMS
+  authors:
+  - Mark Adams
+  - Andrew Grotzinger
+  - Bradley Jermy
+  - Jackson Thorp
+  - Michel Nivard
+  - Enda Byrne
+  - Ian Hickie
+  - Nick Martin
+  - Sarah Medland
+  - Naomi Wray
+  - Elliot Tucker-Drob
+  - Cathryn Lewis
+  - Eske Derks
+  - Andrew McIntosh
+  publisher: European Neuropsychopharmacology
+  date: '2019-10-01'
+  link: https://doi.org/hbk722
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1948550618784890
+  title: Genetic and Environmental Associations Between Child Personality and Parenting
+  authors:
+  - Mona Ayoub
+  - Daniel A. Briley
+  - Andrew Grotzinger
+  - Megan W. Patterson
+  - Laura E. Engelhardt
+  - Jennifer L. Tackett
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: Social Psychological and Personality Science
+  date: '2018-07-17'
+  link: https://doi.org/gf8n4s
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/2167702618820018
+  title: Genetic and Environmental Links Between General Factors of Psychopathology
+    and Cognitive Ability in Early Childhood
+  authors:
+  - Andrew D. Grotzinger
+  - Amanda K. Cheung
+  - Megan W. Patterson
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: Clinical Psychological Science
+  date: '2019-01-18'
+  link: https://doi.org/gftk28
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/AJCN/NQZ109
+  title: Genetic overlap between executive functions and BMI in childhood
+  authors:
+  - Alexis C Wood
+  - Uku Vainik
+  - Laura E Engelhardt
+  - Daniel A Briley
+  - Andrew D Grotzinger
+  - Jessica A Church
+  - K Paige Harden
+  - Elliot M Tucker-Drob
+  publisher: The American Journal of Clinical Nutrition
+  date: '2019-10-01'
+  link: https://doi.org/hbk723
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.CELL.2019.11.020
+  title: Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight
+    Psychiatric Disorders
+  authors:
+  - Phil H. Lee
+  - Verneri Anttila
+  - Hyejung Won
+  - Yen-Chen A. Feng
+  - Jacob Rosenthal
+  - Zhaozhong Zhu
+  - Elliot M. Tucker-Drob
+  - Michel G. Nivard
+  - Andrew D. Grotzinger
+  - Danielle Posthuma
+  - Meg M.-J. Wang
+  - Dongmei Yu
+  - Eli A. Stahl
+  - Raymond K. Walters
+  - Richard J.L. Anney
+  - Laramie E. Duncan
+  - Tian Ge
+  - Rolf Adolfsson
+  - Tobias Banaschewski
+  - Sintia Belangero
+  - Edwin H. Cook
+  - Giovanni Coppola
+  - Eske M. Derks
+  - Pieter J. Hoekstra
+  - Jaakko Kaprio
+  - Anna Keski-Rahkonen
+  - George Kirov
+  - Henry R. Kranzler
+  - Jurjen J. Luykx
+  - Luis A. Rohde
+  - Clement C. Zai
+  - Esben Agerbo
+  - M.J. Arranz
+  - Philip Asherson
+  - "Marie B\xE6kvad-Hansen"
+  - "G\xEDsli Baldursson"
+  - Mark Bellgrove
+  - Richard A. Belliveau
+  - Jan Buitelaar
+  - Christie L. Burton
+  - Jonas Bybjerg-Grauholm
+  - Miquel Casas
+  - Felecia Cerrato
+  - Kimberly Chambert
+  - Claire Churchhouse
+  - Bru Cormand
+  - Jennifer Crosbie
+  - "S\xF8ren Dalsgaard"
+  - Ditte Demontis
+  - Alysa E. Doyle
+  - Ashley Dumont
+  - Josephine Elia
+  - Jakob Grove
+  - Olafur O. Gudmundsson
+  - Jan Haavik
+  - Hakon Hakonarson
+  - Christine S. Hansen
+  - Catharina A. Hartman
+  - Ziarih Hawi
+  - "Amaia Herv\xE1s"
+  - David M. Hougaard
+  - Daniel P. Howrigan
+  - Hailiang Huang
+  - Jonna Kuntsi
+  - Kate Langley
+  - Klaus-Peter Lesch
+  - Patrick W.L. Leung
+  - Sandra K. Loo
+  - Joanna Martin
+  - Alicia R. Martin
+  - James J. McGough
+  - Sarah E. Medland
+  - Jennifer L. Moran
+  - Ole Mors
+  - Preben B. Mortensen
+  - Robert D. Oades
+  - Duncan S. Palmer
+  - Carsten B. Pedersen
+  - Marianne G. Pedersen
+  - Triinu Peters
+  - Timothy Poterba
+  - Jesper B. Poulsen
+  - Josep Antoni Ramos-Quiroga
+  - Andreas Reif
+  - "Marta Ribas\xE9s"
+  - Aribert Rothenberger
+  - Paula Rovira
+  - "Cristina S\xE1nchez-Mora"
+  - F. Kyle Satterstrom
+  - Russell Schachar
+  - Maria Soler Artigas
+  - Stacy Steinberg
+  - Hreinn Stefansson
+  - Patrick Turley
+  - G. Bragi Walters
+  - Thomas Werge
+  - Tetyana Zayats
+  - Dan E. Arking
+  - Francesco Bettella
+  - Joseph D. Buxbaum
+  - Jane H. Christensen
+  - Ryan L. Collins
+  - Hilary Coon
+  - Silvia De Rubeis
+  - Richard Delorme
+  - Dorothy E. Grice
+  - Thomas F. Hansen
+  - Peter A. Holmans
+  - Sigrun Hope
+  - Christina M. Hultman
+  - Lambertus Klei
+  - Christine Ladd-Acosta
+  - Pall Magnusson
+  - "Terje N\xE6rland"
+  - Mette Nyegaard
+  - Dalila Pinto
+  - Per Qvist
+  - "Karola Rehnstr\xF6m"
+  - Abraham Reichenberg
+  - Jennifer Reichert
+  - Kathryn Roeder
+  - Guy A. Rouleau
+  - Evald Saemundsen
+  - Stephan J. Sanders
+  - Sven Sandin
+  - Beate St Pourcain
+  - Kari Stefansson
+  - James S. Sutcliffe
+  - Michael E. Talkowski
+  - Lauren A. Weiss
+  - A. Jeremy Willsey
+  - Ingrid Agartz
+  - Huda Akil
+  - Diego Albani
+  - Martin Alda
+  - Thomas D. Als
+  - Adebayo Anjorin
+  - Lena Backlund
+  - Nicholas Bass
+  - Michael Bauer
+  - Bernhard T. Baune
+  - Frank Bellivier
+  - Sarah E. Bergen
+  - Wade H. Berrettini
+  - Joanna M. Biernacka
+  - Douglas H.R. Blackwood
+  - "Erlend B\xF8en"
+  - Monika Budde
+  - William Bunney
+  - Margit Burmeister
+  - William Byerley
+  - Enda M. Byrne
+  - Sven Cichon
+  - Toni-Kim Clarke
+  - Jonathan R.I. Coleman
+  - Nicholas Craddock
+  - David Curtis
+  - Piotr M. Czerski
+  - Anders M. Dale
+  - Nina Dalkner
+  - Udo Dannlowski
+  - Franziska Degenhardt
+  - Arianna Di Florio
+  - "Torbj\xF8rn Elvs\xE5shagen"
+  - Bruno Etain
+  - Sascha B. Fischer
+  - Andreas J. Forstner
+  - Liz Forty
+  - Josef Frank
+  - Mark Frye
+  - Janice M. Fullerton
+  - Katrin Gade
+  - "H\xE9l\xE9na A. Gaspar"
+  - Elliot S. Gershon
+  - Michael Gill
+  - Fernando S. Goes
+  - Scott D. Gordon
+  - Katherine Gordon-Smith
+  - Melissa J. Green
+  - Tiffany A. Greenwood
+  - Maria Grigoroiu-Serbanescu
+  - "Jos\xE9 Guzman-Parra"
+  - Joanna Hauser
+  - Martin Hautzinger
+  - Urs Heilbronner
+  - Stefan Herms
+  - Per Hoffmann
+  - Dominic Holland
+  - "St\xE9phane Jamain"
+  - Ian Jones
+  - Lisa A. Jones
+  - Radhika Kandaswamy
+  - John R. Kelsoe
+  - James L. Kennedy
+  - Oedegaard Ketil Joachim
+  - Sarah Kittel-Schneider
+  - Manolis Kogevinas
+  - Anna C. Koller
+  - Catharina Lavebratt
+  - Cathryn M. Lewis
+  - Qingqin S. Li
+  - Jolanta Lissowska
+  - Loes M.O. Loohuis
+  - Susanne Lucae
+  - Anna Maaser
+  - Ulrik F. Malt
+  - Nicholas G. Martin
+  - Lina Martinsson
+  - Susan L. McElroy
+  - Francis J. McMahon
+  - Andrew McQuillin
+  - Ingrid Melle
+  - Andres Metspalu
+  - Vincent Millischer
+  - Philip B. Mitchell
+  - Grant W. Montgomery
+  - Gunnar Morken
+  - Derek W. Morris
+  - "Bertram M\xFCller-Myhsok"
+  - Niamh Mullins
+  - Richard M. Myers
+  - Caroline M. Nievergelt
+  - Merete Nordentoft
+  - Annelie Nordin Adolfsson
+  - "Markus M. N\xF6then"
+  - Roel A. Ophoff
+  - Michael J. Owen
+  - Sara A. Paciga
+  - Carlos N. Pato
+  - Michele T. Pato
+  - Roy H. Perlis
+  - Amy Perry
+  - James B. Potash
+  - "C\xE9line S. Reinbold"
+  - Marcella Rietschel
+  - Margarita Rivera
+  - Mary Roberson
+  - Martin Schalling
+  - Peter R. Schofield
+  - Thomas G. Schulze
+  - Laura J. Scott
+  - Alessandro Serretti
+  - Engilbert Sigurdsson
+  - Olav B. Smeland
+  - Eystein Stordal
+  - Fabian Streit
+  - Jana Strohmaier
+  - Thorgeir E. Thorgeirsson
+  - Jens Treutlein
+  - Gustavo Turecki
+  - Arne E. Vaaler
+  - Eduard Vieta
+  - John B. Vincent
+  - Yunpeng Wang
+  - Stephanie H. Witt
+  - Peter Zandi
+  - Roger A.H. Adan
+  - Lars Alfredsson
+  - Tetsuya Ando
+  - Harald Aschauer
+  - Jessica H. Baker
+  - Vladimir Bencko
+  - Andrew W. Bergen
+  - "Andreas Birgeg\xE5rd"
+  - Vesna Boraska Perica
+  - Harry Brandt
+  - Roland Burghardt
+  - Laura Carlberg
+  - Matteo Cassina
+  - Maurizio Clementi
+  - Philippe Courtet
+  - Steven Crawford
+  - Scott Crow
+  - James J. Crowley
+  - Unna N. Danner
+  - Oliver S.P. Davis
+  - Daniela Degortes
+  - Janiece E. DeSocio
+  - Danielle M. Dick
+  - Christian Dina
+  - Elisa Docampo
+  - Karin Egberts
+  - Stefan Ehrlich
+  - Thomas Espeseth
+  - "Fernando Fern\xE1ndez-Aranda"
+  - Manfred M. Fichter
+  - Lenka Foretova
+  - Monica Forzan
+  - Giovanni Gambaro
+  - Ina Giegling
+  - Fragiskos Gonidakis
+  - Philip Gorwood
+  - Monica Gratacos Mayora
+  - Yiran Guo
+  - Katherine A. Halmi
+  - Konstantinos Hatzikotoulas
+  - Johannes Hebebrand
+  - Sietske G. Helder
+  - Beate Herpertz-Dahlmann
+  - Wolfgang Herzog
+  - Anke Hinney
+  - Hartmut Imgart
+  - "Susana Jim\xE9nez-Murcia"
+  - Craig Johnson
+  - Jennifer Jordan
+  - "Antonio Juli\xE0"
+  - "Deborah Kaminsk\xE1"
+  - Leila Karhunen
+  - Andreas Karwautz
+  - Martien J.H. Kas
+  - Walter H. Kaye
+  - Martin A. Kennedy
+  - Youl-Ri Kim
+  - Lars Klareskog
+  - Kelly L. Klump
+  - Gun Peggy S. Knudsen
+  - "Mikael Land\xE9n"
+  - Stephanie Le Hellard
+  - Robert D. Levitan
+  - Dong Li
+  - Paul Lichtenstein
+  - Mario Maj
+  - Sara Marsal
+  - Sara McDevitt
+  - James Mitchell
+  - Palmiero Monteleone
+  - Alessio Maria Monteleone
+  - Melissa A. Munn-Chernoff
+  - Benedetta Nacmias
+  - Marie Navratilova
+  - "Julie K. O\u2019Toole"
+  - Leonid Padyukov
+  - Jacques Pantel
+  - Hana Papezova
+  - Raquel Rabionet
+  - Anu Raevuori
+  - Nicolas Ramoz
+  - Ted Reichborn-Kjennerud
+  - Valdo Ricca
+  - Marion Roberts
+  - Dan Rujescu
+  - Filip Rybakowski
+  - "Andr\xE9 Scherag"
+  - Ulrike Schmidt
+  - Jochen Seitz
+  - Lenka Slachtova
+  - "Margarita C.T. Slof-Op\u2018t Landt"
+  - Agnieszka Slopien
+  - Sandro Sorbi
+  - Lorraine Southam
+  - Michael Strober
+  - Alfonso Tortorella
+  - Federica Tozzi
+  - Janet Treasure
+  - Konstantinos Tziouvas
+  - Annemarie A. van Elburg
+  - Tracey D. Wade
+  - Gudrun Wagner
+  - Esther Walton
+  - Hunna J. Watson
+  - H-Erich Wichmann
+  - D. Blake Woodside
+  - Eleftheria Zeggini
+  - Stephanie Zerwas
+  - Stephan Zipfel
+  - Mark J. Adams
+  - Till F.M. Andlauer
+  - Klaus Berger
+  - Elisabeth B. Binder
+  - Dorret I. Boomsma
+  - Enrique Castelao
+  - "Luc\xEDa Colodro-Conde"
+  - Nese Direk
+  - Anna R. Docherty
+  - Enrico Domenici
+  - Katharina Domschke
+  - Erin C. Dunn
+  - Jerome C. Foo
+  - E.J.C. de. Geus
+  - Hans J. Grabe
+  - Steven P. Hamilton
+  - Carsten Horn
+  - Jouke-Jan Hottenga
+  - David Howard
+  - Marcus Ising
+  - Stefan Kloiber
+  - Douglas F. Levinson
+  - Glyn Lewis
+  - Patrik K.E. Magnusson
+  - Hamdi Mbarek
+  - Christel M. Middeldorp
+  - Sara Mostafavi
+  - Dale R. Nyholt
+  - Brenda WJH. Penninx
+  - Roseann E. Peterson
+  - Giorgio Pistis
+  - David J. Porteous
+  - Martin Preisig
+  - Jorge A. Quiroz
+  - Catherine Schaefer
+  - Eva C. Schulte
+  - Jianxin Shi
+  - Daniel J. Smith
+  - Pippa A. Thomson
+  - Henning Tiemeier
+  - Rudolf Uher
+  - Sandra van der Auwera
+  - Myrna M. Weissman
+  - Madeline Alexander
+  - Martin Begemann
+  - Elvira Bramon
+  - Nancy G. Buccola
+  - Murray J. Cairns
+  - Dominique Campion
+  - Vaughan J. Carr
+  - C. Robert Cloninger
+  - David Cohen
+  - David A. Collier
+  - Aiden Corvin
+  - Lynn E. DeLisi
+  - Gary Donohoe
+  - Frank Dudbridge
+  - Jubao Duan
+  - Robert Freedman
+  - Pablo V. Gejman
+  - Vera Golimbet
+  - Stephanie Godard
+  - Hannelore Ehrenreich
+  - Annette M. Hartmann
+  - Frans A. Henskens
+  - Masashi Ikeda
+  - Nakao Iwata
+  - Assen V. Jablensky
+  - Inge Joa
+  - "Erik G. J\xF6nsson"
+  - Brian J. Kelly
+  - Jo Knight
+  - Bettina Konte
+  - Claudine Laurent-Levinson
+  - Jimmy Lee
+  - Todd Lencz
+  - Bernard Lerer
+  - Carmel M. Loughland
+  - Anil K. Malhotra
+  - Jacques Mallet
+  - Colm McDonald
+  - Marina Mitjans
+  - Bryan J. Mowry
+  - Kieran C. Murphy
+  - Robin M. Murray
+  - "F. Anthony O\u2019Neill"
+  - Sang-Yun Oh
+  - Aarno Palotie
+  - Christos Pantelis
+  - Ann E. Pulver
+  - Tracey L. Petryshen
+  - Digby J. Quested
+  - Brien Riley
+  - Alan R. Sanders
+  - Ulrich Schall
+  - Sibylle G. Schwab
+  - Rodney J. Scott
+  - Pak C. Sham
+  - Jeremy M. Silverman
+  - Kang Sim
+  - Agnes A. Steixner
+  - Paul A. Tooney
+  - Jim van Os
+  - Marquis P. Vawter
+  - Dermot Walsh
+  - Mark Weiser
+  - Dieter B. Wildenauer
+  - Nigel M. Williams
+  - Brandon K. Wormley
+  - Fuquan Zhang
+  - Christos Androutsos
+  - Paul D. Arnold
+  - Cathy L. Barr
+  - Csaba Barta
+  - Katharina Bey
+  - O. Joseph Bienvenu
+  - Donald W. Black
+  - Lawrence W. Brown
+  - Cathy Budman
+  - Danielle Cath
+  - Keun-Ah Cheon
+  - Valentina Ciullo
+  - Barbara J. Coffey
+  - Daniele Cusi
+  - Lea K. Davis
+  - Damiaan Denys
+  - Christel Depienne
+  - Andrea Dietrich
+  - Valsamma Eapen
+  - Peter Falkai
+  - Thomas V. Fernandez
+  - Blanca Garcia-Delgar
+  - Daniel A. Geller
+  - Donald L. Gilbert
+  - Marco A. Grados
+  - Erica Greenberg
+  - "Edna Gr\xFCnblatt"
+  - "Julie Hagstr\xF8m"
+  - Gregory L. Hanna
+  - Andreas Hartmann
+  - Tammy Hedderly
+  - Gary A. Heiman
+  - Isobel Heyman
+  - Hyun Ju Hong
+  - Alden Huang
+  - Chaim Huyser
+  - Laura Ibanez-Gomez
+  - Ekaterina A. Khramtsova
+  - Young Key Kim
+  - Young-Shin Kim
+  - Robert A. King
+  - Yun-Joo Koh
+  - Anastasios Konstantinidis
+  - Sodahm Kook
+  - Samuel Kuperman
+  - Bennett L. Leventhal
+  - Christine Lochner
+  - Andrea G. Ludolph
+  - Marcos Madruga-Garrido
+  - Irene Malaty
+  - Athanasios Maras
+  - James T. McCracken
+  - Inge A. Meijer
+  - Pablo Mir
+  - Astrid Morer
+  - "Kirsten R. M\xFCller-Vahl"
+  - "Alexander M\xFCnchau"
+  - Tara L. Murphy
+  - Allan Naarden
+  - Peter Nagy
+  - Gerald Nestadt
+  - Paul S. Nestadt
+  - Humberto Nicolini
+  - Erika L. Nurmi
+  - Michael S. Okun
+  - Peristera Paschou
+  - Fabrizio Piras
+  - Federica Piras
+  - Christopher Pittenger
+  - Kerstin J. Plessen
+  - Margaret A. Richter
+  - Renata Rizzo
+  - Mary Robertson
+  - Veit Roessner
+  - Stephan Ruhrmann
+  - Jack F. Samuels
+  - Paul Sandor
+  - "Monika Schl\xF6gelhofer"
+  - Eun-Young Shin
+  - Harvey Singer
+  - Dong-Ho Song
+  - Jungeun Song
+  - Gianfranco Spalletta
+  - Dan J. Stein
+  - S Evelyn Stewart
+  - Eric A. Storch
+  - Barbara Stranger
+  - Manfred Stuhrmann
+  - Zsanett Tarnok
+  - Jay A. Tischfield
+  - "Jennifer T\xFCbing"
+  - Frank Visscher
+  - Nienke Vulink
+  - Michael Wagner
+  - Susanne Walitza
+  - Sina Wanderer
+  - Martin Woods
+  - Yulia Worbe
+  - Gwyneth Zai
+  - Samuel H. Zinner
+  - Patrick F. Sullivan
+  - Barbara Franke
+  - Mark J. Daly
+  - Cynthia M. Bulik
+  - Cathryn M. Lewis
+  - Andrew M. McIntosh
+  - "Michael C. O\u2019Donovan"
+  - Amanda Zheutlin
+  - Ole A. Andreassen
+  - "Anders D. B\xF8rglum"
+  - Gerome Breen
+  - Howard J. Edenberg
+  - Ayman H. Fanous
+  - Stephen V. Faraone
+  - Joel Gelernter
+  - Carol A. Mathews
+  - Manuel Mattheisen
+  - Karen S. Mitchell
+  - Michael C. Neale
+  - John I. Nurnberger
+  - Stephan Ripke
+  - Susan L. Santangelo
+  - Jeremiah M. Scharf
+  - Murray B. Stein
+  - Laura M. Thornton
+  - James T.R. Walters
+  - Naomi R. Wray
+  - Daniel H. Geschwind
+  - Benjamin M. Neale
+  - Kenneth S. Kendler
+  - Jordan W. Smoller
+  publisher: Cell
+  date: '2019-12-01'
+  link: https://doi.org/ggr84q
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41562-019-0566-X
+  title: Genomic structural equation modelling provides insights into the multivariate
+    genetic architecture of complex traits
+  authors:
+  - Andrew D. Grotzinger
+  - Mijke Rhemtulla
+  - Ronald de Vlaming
+  - Stuart J. Ritchie
+  - Travis T. Mallard
+  - W. David Hill
+  - Hill F. Ip
+  - Riccardo E. Marioni
+  - Andrew M. McIntosh
+  - Ian J. Deary
+  - Philipp D. Koellinger
+  - K. Paige Harden
+  - Michel G. Nivard
+  - Elliot M. Tucker-Drob
+  publisher: Nature Human Behaviour
+  date: '2019-04-08'
+  link: https://doi.org/gf4qsb
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.31234/OSF.IO/BQ63F
+  title: 'Positive risk-taking: Mixed-methods validation of a self-report scale and
+    evidence for genetic links to personality and negative risk-taking'
+  authors:
+  - Megan Wales Patterson
+  - Lilla Pivnick
+  - Frank D Mann
+  - Andrew D Grotzinger
+  - Kathryn C Monahan
+  - Laurence Steinberg
+  - Jennifer L Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Center for Open Science
+  date: '2019-10-31'
+  link: https://doi.org/hbk724
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.EURONEURO.2018.08.452
+  title: 'SU88THE EXTERNALIZING CONSORTIUM: A NEW EFFORT TO IDENTIFY GENES INVOLVED
+    IN A SPECTRUM OF PSYCHIATRIC AND SUBSTANCE USE DISORDERS CHARACTERIZED BY BEHAVIORAL
+    UNDERCONTROL'
+  authors:
+  - Danielle Dick
+  - Philipp Koellinger
+  - Paige Harden
+  - "Richard Karlsson Linn\xE9r"
+  - Travis Mallard
+  - Ronald de Vlaming
+  - Andrew Grotzinger
+  - Peter Barr
+  - Elliot Tucker-Drob
+  - Irwin Waldman
+  - Arpana Agrawal
+  - Abraham Palmer
+  publisher: European Neuropsychopharmacology
+  date: '2019-01-01'
+  link: https://doi.org/hbk725
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/2167702619842466
+  title: Testing Cold and Hot Cognitive Control as Moderators of a Network of Comorbid
+    Psychopathology Symptoms in Adolescence
+  authors:
+  - James W. Madole
+  - Mijke Rhemtulla
+  - Andrew D. Grotzinger
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Clinical Psychological Science
+  date: '2019-05-06'
+  link: https://doi.org/gghm8x
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.EURONEURO.2019.07.060
+  title: USING PARTITIONED GENOMIC STRUCTURAL EQUATION MODELLING TO IDENTIFY RELATIONSHIPS
+    BETWEEN PSYCHOPATHOLOGY AND RESILIENCY FACTORS WITHIN BIOLOGICAL CATEGORIES
+  authors:
+  - Andrew Grotzinger
+  - Travis Mallard
+  - Kirstin Purves
+  - Gerome Breen
+  - Phil Lee
+  - Jordan Smoller
+  - Michel Nivard
+  - Elliot Tucker-Drob
+  publisher: European Neuropsychopharmacology
+  date: '2019-10-01'
+  link: https://doi.org/hbk726
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/705996
+  title: Weak and uneven associations of home, neighborhood and school environments
+    with stress hormone output across multiple time scales
+  authors:
+  - Margherita Malanchini
+  - Laura E. Engelhardt
+  - Laurel Raffington
+  - Aditi Sabhlok
+  - Andrew D. Grotzinger
+  - Daniel A. Briley
+  - James W. Madole
+  - Samantha M. Freis
+  - Megan W. Patterson
+  - K. Paige Harden
+  - Elliot M. Tucker-Drob
+  publisher: openRxiv
+  date: '2019-07-18'
+  link: https://doi.org/gkxcjv
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/602516
+  title: 'Within-family studies for Mendelian randomization: avoiding dynastic, assortative
+    mating, and population stratification biases'
+  authors:
+  - Ben Brumpton
+  - Eleanor Sanderson
+  - Fernando Pires Hartwig
+  - Sean Harrison
+  - "Gunnhild \xC5berge Vie"
+  - Yoonsu Cho
+  - Laura D Howe
+  - Amanda Hughes
+  - Dorret I Boomsma
+  - Alexandra Havdahl
+  - John Hopper
+  - Michael Neale
+  - Michel G Nivard
+  - Nancy L Pedersen
+  - Chandra A Reynolds
+  - Elliot M Tucker-Drob
+  - Andrew Grotzinger
+  - Laurence Howe
+  - Tim Morris
+  - Shuai Li
+  - Wei-Min Chen
+  - "Johan H\xE5kon Bj\xF8rngaard"
+  - Kristian Hveem
+  - Cristen Willer
+  - David M Evans
+  - Jaakko Kaprio
+  - "Bj\xF8rn Olav \xC5svol"
+  - George Davey Smith
+  - "Bj\xF8rn Olav \xC5svold"
+  - Gibran Hemani
+  - Neil M Davies
+  publisher: openRxiv
+  date: '2019-04-09'
+  link: https://doi.org/ggnvsr
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/PSPP0000172
+  title: 'Developmental differences in reward sensitivity and sensation seeking in
+    adolescence: Testing sex-specific associations with gonadal hormones and pubertal
+    development.'
+  authors:
+  - K. Paige Harden
+  - Frank D. Mann
+  - Andrew D. Grotzinger
+  - Megan W. Patterson
+  - Laurence Steinberg
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  publisher: Journal of Personality and Social Psychology
+  date: '2018-07-01'
+  link: https://doi.org/gdrnxh
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/DEV0000578
+  title: Genetic and environmental influences on internalizing psychopathology across
+    age and pubertal development.
+  authors:
+  - Megan W. Patterson
+  - Frank D. Mann
+  - Andrew D. Grotzinger
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Developmental Psychology
+  date: '2018-10-01'
+  link: https://doi.org/gfbb44
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.PSYNEUEN.2018.02.005
+  title: Genetic and environmental influences on pubertal hormones in human hair across
+    development
+  authors:
+  - Andrew D. Grotzinger
+  - Daniel A. Briley
+  - Laura E. Engelhardt
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Psychoneuroendocrinology
+  date: '2018-04-01'
+  link: https://doi.org/gdf9qf
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.PSYNEUEN.2018.08.011
+  title: "Corrigendum to \u201CGenetic and environmental influences on pubertal hormones\
+    \ in human hair across development\u201D [Psychoneuroendocrinology 90 (2018) 76\u2013\
+    84]"
+  authors:
+  - Andrew D. Grotzinger
+  - Daniel A. Briley
+  - Laura E. Engelhardt
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Psychoneuroendocrinology
+  date: '2018-12-01'
+  link: https://doi.org/hbk727
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0956797617742981
+  title: Hair and Salivary Testosterone, Hair Cortisol, and Externalizing Behaviors
+    in Adolescents
+  authors:
+  - Andrew D. Grotzinger
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Psychological Science
+  date: '2018-02-14'
+  link: https://doi.org/gdkhfd
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/CEN.13522
+  title: Twin models of environmental and genetic influences on pubertal development,
+    salivary testosterone, and estradiol in adolescence
+  authors:
+  - Andrew D. Grotzinger
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Kathrin Herzhoff
+  - Jennifer L. Tackett
+  - "Elliot M. Tucker\u2010Drob"
+  - K. Paige Harden
+  publisher: Clinical Endocrinology
+  date: '2017-12-14'
+  link: https://doi.org/hbk729
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/152470
+  title: Genetic and Environmental Influences on Pubertal Hormones in Human Hair across
+    Development
+  authors:
+  - Andrew D. Grotzinger
+  - Daniel A. Briley
+  - Laura E. Engelhardt
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: openRxiv
+  date: '2017-06-20'
+  link: https://doi.org/gkxgsg
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291716003068
+  title: "Genetic influences on hormonal markers of chronic hypothalamic\u2013pituitary\u2013\
+    adrenal function in human hair"
+  authors:
+  - E. M. Tucker-Drob
+  - A. D. Grotzinger
+  - D. A. Briley
+  - L. E. Engelhardt
+  - F. D. Mann
+  - M. Patterson
+  - C. Kirschbaum
+  - E. K. Adam
+  - J. A. Church
+  - J. L. Tackett
+  - K. P. Harden
+  publisher: Psychological Medicine
+  date: '2017-01-19'
+  link: https://doi.org/f9m66f
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.PAID.2016.09.018
+  title: 'Sensation seeking and impulsive traits as personality endophenotypes for
+    antisocial behavior: Evidence from two independent samples'
+  authors:
+  - Frank D. Mann
+  - Laura Engelhardt
+  - Daniel A. Briley
+  - Andrew D. Grotzinger
+  - Megan W. Patterson
+  - Jennifer L. Tackett
+  - Dixie B. Strathan
+  - Andrew Heath
+  - Michael Lynskey
+  - Wendy Slutske
+  - Nicholas G. Martin
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Personality and Individual Differences
+  date: '2017-01-01'
+  link: https://doi.org/gbsctf
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/EAT.22456
+  title: "Anorexia nervosa, emotional go/no\u2010go, and the distinct effect of testosterone"
+  authors:
+  - Tom Hildebrandt
+  - Andrew Grotzinger
+  - Kurt Schulz
+  publisher: International Journal of Eating Disorders
+  date: '2015-08-31'
+  link: https://doi.org/f75xjh
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.PSYNEUEN.2016.07.216
+  title: Diurnal coupling between testosterone and cortisol from adolescence to older
+    adulthood
+  authors:
+  - K. Paige Harden
+  - Cornelia Wrzus
+  - Gloria Luong
+  - Andrew Grotzinger
+  - Malek Bajbouj
+  - Antje Rauers
+  - Gert G. Wagner
+  - Michaela Riediger
+  publisher: Psychoneuroendocrinology
+  date: '2016-11-01'
+  link: https://doi.org/f877zz
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/S12144-016-9410-X
+  title: "Grandiose Narcissism Predicts Willingness to Behave Badly, Without Proportional\
+    \ Tolerance for Others\u2019 Bad Behavior"
+  authors:
+  - Harry M. Wallace
+  - Benjamin R. M. Scheiner
+  - Andrew Grotzinger
+  publisher: Current Psychology
+  date: '2016-01-23'
+  link: https://doi.org/f86ngx
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/ABN0000160
+  title: 'Sensation seeking, peer deviance, and genetic influences on adolescent delinquency:
+    Evidence for person-environment correlation and interaction.'
+  authors:
+  - Frank D. Mann
+  - Megan W. Patterson
+  - Andrew D. Grotzinger
+  - Natalie Kretsch
+  - Jennifer L. Tackett
+  - Elliot M. Tucker-Drob
+  - K. Paige Harden
+  publisher: Journal of Abnormal Psychology
+  date: '2016-07-01'
+  link: https://doi.org/f8vzfv
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BRAT.2015.06.008
+  title: Testing the disgust conditioning theory of food-avoidance in adolescents
+    with recent onset anorexia nervosa
+  authors:
+  - Tom Hildebrandt
+  - Andrew Grotzinger
+  - Marianne Reddan
+  - Rebecca Greif
+  - Ifat Levy
+  - Wayne Goodman
+  - Daniela Schiller
+  publisher: Behaviour Research and Therapy
+  date: '2015-08-01'
+  link: https://doi.org/f7kt8w
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/EAT.22351
+  title: "The benefits of using semi\u2010continuous and continuous models to analyze\
+    \ binge eating data: A <scp>M</scp>onte <scp>C</scp>arlo investigation"
+  authors:
+  - Andrew Grotzinger
+  - Tom Hildebrandt
+  - Jessica Yu
+  publisher: International Journal of Eating Disorders
+  date: '2014-09-05'
+  link: https://doi.org/hbk73b
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/1948550615587985
+  title: "When People Evaluate Others, the Level of Others\u2019 Narcissism Matters\
+    \ Less to Evaluators Who Are Narcissistic"
+  authors:
+  - Harry M. Wallace
+  - Andrew Grotzinger
+  - Tyler J. Howard
+  - Nousha Parkhill
+  publisher: Social Psychological and Personality Science
+  date: '2015-05-26'
+  link: https://doi.org/hbk73c
+  orcid: 0000-0001-7852-9244
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.10.17.25338241
   title: Immune Markers Mediate Genetic Relationships between Immune Diseases and
     Psychiatric Disorders
   authors:
   - Sophie Breunig
-  - Kristen M Kelly
-  - Lukas S Schaffer
-  - Jeremy M Lawrence
+  - Kristen M. Kelly
+  - Lukas S. Schaffer
+  - Jeremy M. Lawrence
   - Younga Heather Lee
-  - Elizabeth W Karlson
-  - Andrew David Grotzinger
-  publisher: Cold Spring Harbor Laboratory
+  - Elizabeth W. Karlson
+  - Andrew D. Grotzinger
+  publisher: openRxiv
   date: '2025-10-19'
   link: https://doi.org/g97jrk
   orcid: 0000-0001-6594-0587
@@ -51,38 +2888,6 @@
   orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2024.08.02.24311427
-  title: Shared Genetic Liability across Systems of Psychiatric and Physical Illness
-  authors:
-  - Jeremy M. Lawrence
-  - Isabelle F. Foote
-  - Sophie Breunig
-  - Lukas S. Schaffer
-  - Travis T. Mallard
-  - Andrew D. Grotzinger
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-08-04'
-  link: https://doi.org/g953vc
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2024.07.18.24310651
-  title: Examining the Genetic Links between Clusters of Immune-mediated Diseases
-    and Psychiatric Disorders
-  authors:
-  - Sophie Breunig
-  - Younga Heather Lee
-  - Elizabeth W. Karlson
-  - Arjun Krishnan
-  - Jeremy M. Lawrence
-  - Lukas S. Schaffer
-  - Andrew D. Grotzinger
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-07-19'
-  link: https://doi.org/g953vd
-  orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1017/s0033291723002957
   title: Genomic SEM applied to explore etiological divergences in bipolar subtypes
   authors:
@@ -106,7 +2911,7 @@
   - Jeremy M. Lawrence
   - Isabelle F. Foote
   - Andrew D. Grotzinger
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-06-09'
   link: https://doi.org/g953vg
   orcid: 0000-0001-6594-0587
@@ -153,7 +2958,7 @@
   - Hannah J. Gebhardt
   - Erik G. Willcutt
   - Andrew D. Grotzinger
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-08-07'
   link: https://doi.org/g953vk
   orcid: 0000-0001-6594-0587
@@ -167,7 +2972,7 @@
   - Isabelle F. Foote
   - Connor B. Tallis
   - Andrew D. Grotzinger
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-05-09'
   link: https://doi.org/g953vm
   orcid: 0000-0001-6594-0587
