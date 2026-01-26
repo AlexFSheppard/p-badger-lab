@@ -10,9 +10,6 @@ nav:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-
-{% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
-
 {% include section.html %}
 
 ## Highlighted
@@ -21,7 +18,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include citation.html lookup="Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits" style="rich" %}
 
+{% include citation.html doi="doi:10.1038/s41588-025-02269-0" style="rich" %}
+
 {% include section.html %}
+
+{% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
 
 ## All
 

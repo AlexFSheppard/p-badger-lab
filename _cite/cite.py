@@ -148,9 +148,13 @@ for a in range(0, len(sources)):
     a_id = get_safe(sources, f"{a}.id", "")
     if not a_id:
         continue
+    a_norm = str(a_id).strip().lower()
     for b in range(a + 1, len(sources)):
         b_id = get_safe(sources, f"{b}.id", "")
-        if b_id == a_id:
+        if not b_id:
+            continue
+        b_norm = str(b_id).strip().lower()
+        if b_norm == a_norm:
             log(f"Found duplicate {b_id}", indent=2)
             sources[a].update(sources[b])
             sources[b] = {}

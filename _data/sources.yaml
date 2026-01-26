@@ -21,7 +21,10 @@
 #   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
 
 - id: doi:10.1038/s41562-019-0566-x
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-019-0566-x/MediaObjects/41562_2019_566_Fig1_HTML.png?
+  image: /images/GenomicSEM_p_and_N.png
 
 - id: doi:10.1038/s41586-025-09820-3
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-025-09820-3/MediaObjects/41586_2025_9820_Fig1_HTML.png?as=webp
+  image: /images/14psychiatric.png
+
+- id: doi:10.1038/s41588-025-02269-0
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a43d/12626885/ffd1a058f359/41588_2025_2269_Fig1_HTML.jpg

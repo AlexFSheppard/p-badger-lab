@@ -51,6 +51,24 @@
 {% assign cpublisher = citation.publisher | default: include.publisher | default: "" %}
 {% assign cdate = citation.date | default: include.date | default: "" %}
 {% assign cimage = citation.image | default: include.image | default: "" %}
+{% comment %} Prefer image from _data/sources.yaml when available (match by id or DOI without 'doi:'). {% endcomment %}
+{% if site.data.sources %}
+  {%- assign cid_lc = cid | downcase -%}
+  {%- assign cid_clean = cid | replace: "doi:", "" | downcase -%}
+  {%- assign _src_match = nil -%}
+  {%- for s in site.data.sources -%}
+    {%- assign sid = s.id | default: "" -%}
+    {%- assign sid_lc = sid | downcase -%}
+    {%- assign sid_clean = sid | replace: "doi:", "" | downcase -%}
+    {%- if sid_lc == cid_lc or sid_clean == cid_clean or sid_lc == cid_clean -%}
+      {%- assign _src_match = s -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if _src_match and _src_match.image -%}
+    {%- assign cimage = _src_match.image -%}
+  {%- endif -%}
+{% endif %}
 {% assign cdescription = citation.description | default: include.description | default: "" %}
 {% assign cbuttons = citation.buttons | default: include.buttons | default: [] %}
 {% assign ctags = citation.tags | default: include.tags | default: [] %}

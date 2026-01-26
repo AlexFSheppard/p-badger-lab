@@ -107,7 +107,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/S41398-025-03470-9
+- id: doi:10.1038/s41398-025-03470-9
   title: Examining the genetic links between clusters of immune-mediated diseases
     and psychiatric disorders
   authors:
@@ -121,10 +121,10 @@
   publisher: Translational Psychiatry
   date: '2025-07-21'
   link: https://doi.org/g953t9
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0001-6594-0587
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/BRAINCOMMS/FCAF112
+- id: doi:10.1093/braincomms/fcaf112
   title: "Examining the genetic relationship between Alzheimer\u2019s disease, schizophrenia\
     \ and their shared risk factors using genomic structural equation modelling"
   authors:
@@ -138,7 +138,7 @@
   publisher: Brain Communications
   date: '2025-01-01'
   link: https://doi.org/g953vb
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1017/S0033291725000145
@@ -160,7 +160,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/S41467-025-61978-6
+- id: doi:10.1038/s41467-025-61978-6
   title: Measurement characteristics and genome-wide correlates of lifetime brain
     atrophy estimated from a single MRI
   authors:
@@ -191,7 +191,7 @@
   publisher: Nature Communications
   date: '2025-07-21'
   link: https://doi.org/g9vmtd
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1038/S41467-025-62730-W
@@ -384,7 +384,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/S41588-025-02269-0
+- id: doi:10.1038/s41588-025-02269-0
   title: Uncovering the multivariate genetic architecture of frailty with genomic
     structural equation modeling
   authors:
@@ -407,9 +407,10 @@
   publisher: Nature Genetics
   date: '2025-08-01'
   link: https://doi.org/g9xpg3
-  orcid: 0000-0001-7852-9244
-  plugin: orcid.py
-  file: orcid.yaml
+  orcid: 0000-0002-0253-4116
+  plugin: sources.py
+  file: sources.yaml
+  image: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a43d/12626885/ffd1a058f359/41588_2025_2269_Fig1_HTML.jpg
 - id: doi:10.1038/S41562-023-01789-1
   title: Beyond the factor indeterminacy problem using genome-wide association data
   authors:
@@ -425,7 +426,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/S13229-024-00624-2
+- id: doi:10.1186/s13229-024-00624-2
   title: Characterizing genetic pathways unique to autism spectrum disorder at multiple
     levels of biological analysis
   authors:
@@ -437,7 +438,7 @@
   publisher: Molecular Autism
   date: '2024-10-15'
   link: https://doi.org/g953vh
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1002/AJMG.B.32975
@@ -473,7 +474,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/J.BPSGOS.2024.100307
+- id: doi:10.1016/j.bpsgos.2024.100307
   title: Examining Differences in the Genetic and Functional Architecture of Attention-Deficit/Hyperactivity
     Disorder Diagnosed in Childhood and Adulthood
   authors:
@@ -486,7 +487,7 @@
   publisher: Biological Psychiatry Global Open Science
   date: '2024-05-01'
   link: https://doi.org/g953vj
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2024.07.18.24310651
@@ -577,7 +578,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1017/S0033291723002957
+- id: doi:10.1017/s0033291723002957
   title: Genomic SEM applied to explore etiological divergences in bipolar subtypes
   authors:
   - Jeremy M. Lawrence
@@ -588,7 +589,7 @@
   publisher: Psychological Medicine
   date: '2023-10-27'
   link: https://doi.org/g953vf
-  orcid: 0000-0001-7852-9244
+  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2024.10.24.24315331
@@ -2406,7 +2407,7 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/S41562-019-0566-X
+- id: doi:10.1038/s41562-019-0566-x
   title: Genomic structural equation modelling provides insights into the multivariate
     genetic architecture of complex traits
   authors:
@@ -2428,8 +2429,9 @@
   date: '2019-04-08'
   link: https://doi.org/gf4qsb
   orcid: 0000-0001-7852-9244
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: /images/GenomicSEM_p_and_N.png
 - id: doi:10.31234/OSF.IO/BQ63F
   title: 'Positive risk-taking: Mixed-methods validation of a self-report scale and
     evidence for genetic links to personality and negative risk-taking'
@@ -2854,54 +2856,6 @@
   orcid: 0000-0001-6594-0587
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/s41398-025-03470-9
-  title: Examining the genetic links between clusters of immune-mediated diseases
-    and psychiatric disorders
-  authors:
-  - Sophie Breunig
-  - Younga Heather Lee
-  - Elizabeth W. Karlson
-  - Arjun Krishnan
-  - Jeremy M. Lawrence
-  - Lukas S. Schaffer
-  - Andrew D. Grotzinger
-  publisher: Translational Psychiatry
-  date: '2025-07-21'
-  link: https://doi.org/g953t9
-  orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/braincomms/fcaf112
-  title: "Examining the genetic relationship between Alzheimer\u2019s disease, schizophrenia\
-    \ and their shared risk factors using genomic structural equation modelling"
-  authors:
-  - "In\xEAs Almeida e Sousa"
-  - Andrew D Grotzinger
-  - Jeremy M Lawrence
-  - Sophie Breunig
-  - Charles R Marshall
-  - Ania Korszun
-  - Isabelle F Foote
-  publisher: Brain Communications
-  date: '2025-01-01'
-  link: https://doi.org/g953vb
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1017/s0033291723002957
-  title: Genomic SEM applied to explore etiological divergences in bipolar subtypes
-  authors:
-  - Jeremy M. Lawrence
-  - Sophie Breunig
-  - Isabelle F. Foote
-  - Connor B. Tallis
-  - Andrew D. Grotzinger
-  publisher: Psychological Medicine
-  date: '2023-10-27'
-  link: https://doi.org/g953vf
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1101/2024.06.07.24308616
   title: Characterizing Genetic Pathways Unique to Autism Spectrum Disorder at Multiple
     Levels of Biological Analysis
@@ -2915,37 +2869,6 @@
   date: '2024-06-09'
   link: https://doi.org/g953vg
   orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13229-024-00624-2
-  title: Characterizing genetic pathways unique to autism spectrum disorder at multiple
-    levels of biological analysis
-  authors:
-  - Lukas S. Schaffer
-  - Sophie Breunig
-  - Jeremy M. Lawrence
-  - Isabelle F. Foote
-  - Andrew D. Grotzinger
-  publisher: Molecular Autism
-  date: '2024-10-15'
-  link: https://doi.org/g953vh
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.bpsgos.2024.100307
-  title: Examining Differences in the Genetic and Functional Architecture of Attention-Deficit/Hyperactivity
-    Disorder Diagnosed in Childhood and Adulthood
-  authors:
-  - Sophie Breunig
-  - Jeremy M. Lawrence
-  - Isabelle F. Foote
-  - Hannah J. Gebhardt
-  - Erik G. Willcutt
-  - Andrew D. Grotzinger
-  publisher: Biological Psychiatry Global Open Science
-  date: '2024-05-01'
-  link: https://doi.org/g953vj
-  orcid: 0000-0002-0253-4116
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1101/2023.08.02.23293439
@@ -2978,90 +2901,6 @@
   orcid: 0000-0001-6594-0587
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1038/s41588-025-02269-0
-  title: Uncovering the multivariate genetic architecture of frailty with genomic
-    structural equation modeling
-  authors:
-  - Isabelle F. Foote
-  - Jonny P. Flint
-  - "Anna E. F\xFCrtjes"
-  - Jeremy M. Lawrence
-  - Donncha S. Mullin
-  - John D. Fisk
-  - Tobias K. Karakach
-  - Andrew Rutenberg
-  - Nicholas G. Martin
-  - Michelle K. Lupton
-  - David J. Llewellyn
-  - Janice M. Ranson
-  - Simon R. Cox
-  - Michelle Luciano
-  - Kenneth Rockwood
-  - Andrew D. Grotzinger
-  publisher: Nature Genetics
-  date: '2025-08-01'
-  link: https://doi.org/g9xpg3
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/s41467-025-61978-6
-  title: Measurement characteristics and genome-wide correlates of lifetime brain
-    atrophy estimated from a single MRI
-  authors:
-  - "Anna E. F\xFCrtjes"
-  - Isabelle F. Foote
-  - Charley Xia
-  - Gail Davies
-  - Joanna Moodie
-  - Adele Taylor
-  - David C. Liewald
-  - Paul Redmond
-  - Janie Corley
-  - Andrew M. McIntosh
-  - Heather C. Whalley
-  - "Susana Mu\xF1oz Maniega"
-  - "Maria Vald\xE9s Hern\xE1ndez"
-  - Ellen Backhouse
-  - Karen Ferguson
-  - Mark E. Bastin
-  - Joanna Wardlaw
-  - Javier de la Fuente
-  - Andrew D. Grotzinger
-  - Michelle Luciano
-  - W. David Hill
-  - Ian J. Deary
-  - Elliot M. Tucker-Drob
-  - Simon R. Cox
-  publisher: Nature Communications
-  date: '2025-07-21'
-  link: https://doi.org/g9vmtd
-  orcid: 0000-0002-0253-4116
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1038/s41562-019-0566-x
-  title: Genomic structural equation modelling provides insights into the multivariate
-    genetic architecture of complex traits
-  authors:
-  - Andrew D. Grotzinger
-  - Mijke Rhemtulla
-  - Ronald de Vlaming
-  - Stuart J. Ritchie
-  - Travis T. Mallard
-  - W. David Hill
-  - Hill F. Ip
-  - Riccardo E. Marioni
-  - Andrew M. McIntosh
-  - Ian J. Deary
-  - Philipp D. Koellinger
-  - K. Paige Harden
-  - Michel G. Nivard
-  - Elliot M. Tucker-Drob
-  publisher: Nature Human Behaviour
-  date: '2019-04-08'
-  link: https://doi.org/gf4qsb
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-019-0566-x/MediaObjects/41562_2019_566_Fig1_HTML.png?
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1038/s41586-025-09820-3
   title: Mapping the genetic landscape across 14 psychiatric disorders
   authors:
@@ -3526,6 +3365,6 @@
   publisher: Nature
   date: '2025-12-10'
   link: https://doi.org/qh4q
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-025-09820-3/MediaObjects/41586_2025_9820_Fig1_HTML.png?as=webp
+  image: /images/14psychiatric.png
   plugin: sources.py
   file: sources.yaml
