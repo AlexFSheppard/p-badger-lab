@@ -1,5 +1,5 @@
 ---
-title: Why do some people age faster than others?
+title: Why Do Some People Age Faster Than Others?
 date: 2025-08-18
 author: Lisa Marshall
 tags: frailty, aging
