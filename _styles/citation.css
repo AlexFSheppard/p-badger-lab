@@ -9,20 +9,30 @@
   background: var(--background);
   overflow: hidden;
   box-shadow: var(--shadow);
+  /* add left spacing so image and text have symmetric gutters */
+  padding-left: 30px;
 }
 
 .citation-image {
   position: relative;
   width: 180px;
   flex-shrink: 0;
+  /* center the contained image horizontally/vertically and restore right gutter */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
 }
 
 .citation-image img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  /* use static positioning so image centers within its flex container */
+  position: static;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 180px;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .citation-text {
@@ -33,7 +43,7 @@
   max-width: 100%;
   height: min-content;
   padding: 20px;
-  padding-left: 30px;
+  padding-left: 0;
   text-align: left;
   overflow-wrap: break-word;
   z-index: 0;
@@ -87,10 +97,20 @@
 @container (max-width: 800px) {
   .citation {
     flex-direction: column;
+    /* remove side padding when stacked vertically */
+    padding-left: 0;
   }
   .citation-image {
     width: unset;
     height: 180px;
+    /* in narrow layouts, center the image instead of offsetting it */
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .citation-image img {
+    max-height: 100%;
   }
 }
 
