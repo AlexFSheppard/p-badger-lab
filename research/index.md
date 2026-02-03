@@ -28,7 +28,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {% include webweb.html webweb_json=site.data.webweb width=600 height=600 %}
 
-## Papers Authored by Mentees
+## Articles Authored by Mentees
 
 {%- assign highlighted_ids = "doi:10.1038/s41586-025-09820-3,doi:10.1038/s41562-019-0566-x,doi:10.1038/s41588-025-02269-0" -%}
 
