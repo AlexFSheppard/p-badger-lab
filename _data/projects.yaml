@@ -3,7 +3,7 @@
   group: current
   image: images/UoE.png
   link: "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U01AG083829&arg_ProgOfficeCode=102"
-  description: "Our lab develops structural equation modeling of hypotheses posed in the project. Project Number: U01AG083829"
+  description: "Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Project Number: U01AG083829"
   key_collaborators:
     - name: Sarah Harris
       affiliation: UoEdinburgh
