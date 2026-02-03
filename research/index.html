@@ -470,6 +470,15 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<div class="search-info"></div>
+
 <h2 id="highlighted">Highlighted</h2>
 
 <div class="citation-container">
@@ -636,7 +645,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 </script>
 
-<script type="text/javascript" src="/_scripts/webweb.bundle.js?1769455309782917172"></script>
+<script type="text/javascript" src="/_scripts/webweb.bundle.js?1770093826355031527"></script>
 
 <div class="webweb-legend">
     <span class="legend-item">
@@ -654,107 +663,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     </span>
 </div>
 
-<h2 id="all">All</h2>
+<h2 id="papers-authored-by-mentees">Papers Authored by Mentees</h2>
 
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
-</div>
-
-<div class="search-info"></div>
-
-<h3 id="2025">2025</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/qh4q" class="citation-image" aria-label="Mapping the genetic landscape across 14 psychiatric disorders">
-        <img src="/images/14psychiatric.png" alt="Mapping the genetic landscape across 14 psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/qh4q" class="citation-title">
-        Mapping the genetic landscape across 14 psychiatric disorders
-      </a>
-
-      <div class="citation-authors" data-tooltip="Andrew D. Grotzinger, Josefin Werme, Wouter J. Peyrot, Oleksandr Frei, Christiaan de Leeuw, Lucy K. Bicks, Qiuyu Guo, Michael P. Margolis, Brandon J. Coombes, Anthony Batzler, Vanessa Pazdernik, Joanna M. Biernacka, Ole A. Andreassen, Verneri Anttila, Anders D. Børglum, Gerome Breen, Na Cai, Ditte Demontis, Howard J. Edenberg, Stephen V. Faraone, Barbara Franke, Michael J. Gandal, Joel Gelernter, Alexander S. Hatoum, John M. Hettema, Emma C. Johnson, Katherine G. Jonas, James A. Knowles, Karestan C. Koenen, Adam X. Maihofer, Travis T. Mallard, Manuel Mattheisen, Karen S. Mitchell, Benjamin M. Neale, Caroline M. Nievergelt, John I. Nurnberger, Kevin S. O’Connell, Roseann E. Peterson, Elise B. Robinson, Sandra S. Sanchez-Roige, Susan L. Santangelo, Jeremiah M. Scharf, Hreinn Stefansson, Kari Stefansson, Murray B. Stein, Nora I. Strom, Laura M. Thornton, Elliot M. Tucker-Drob, Brad Verhulst, Irwin D. Waldman, G. Bragi Walters, Naomi R. Wray, Dongmei Yu, Daniel E. Adkins, Georg W. Alpers, Helga Ask, Sintia I. Belangero, Ottar Bjerkeset, Sigrid Børte, Sandra A. Brown, Enrique Castelao, Hilary Coon, William E. Copeland, Elizabeth C. Corfield, Darina Czamara, Jürgen Deckert, Anna R. Docherty, Katharina Domschke, Ole Kristian Drange, Thalia C. Eley, Angelika Erhardt-Lehmann, Andreas J. Forstner, Miguel Garcia-Argibay, Scott D. Gordon, Ian B. Hickie, Iiris Hovatta, Matthew H. Iveson, James L. Kennedy, Henrik Larsson, Daniel F. Levey, Christine Lochner, Michelle K. Lupton, Hermine HM Maes, Eduard Maron, Nicholas G. Martin, Sandra M. Meier, Christiane A. Melzig, Brittany L. Mitchell, Teemu Palviainen, Giorgio Pistis, Martin Preisig, Börge Schmidt, Johannes Schumacher, Andrey A. Shabalin, Anne Heidi Skogholt, Dan J. Stein, Eystein Stordal, Andreas Ströhle, Elisa Tasanko, Laurent Thomas, Henning Tiemeier, Heike Weber, Bendik S. Winsvold, Clement C. Zai, Gwyneth Zai, John-Anker Zwart, Silvia Alemany, Claiton HD Bau, Dorret I. Boomsma, Rosa Bosch, Isabell Brikell, Christie L. Burton, Miquel Casas, Bru Cormand, Jennifer Crosbie, Alysa E. Doyle, Josephine Elia, Joseph T. Glessner, Eugenio H. Grevet, Jan Haavik, Alexandra Havdahl, Ziarih Hawi, Anke Hinney, Daniel P. Howrigan, Marieke Klein, Henry R. Kranzler, Jonna Kuntsi, Kate Langley, Klaus-Peter Lesch, Calwing Liao, Sandra K. Loo, James J. McGough, Sarah E. Medland, Nina R. Mota, Michael C. O’Donovan, Danielle Posthuma, Josep Antoni Ramos-Quiroga, Andreas Reif, Marta Ribasés, Diego L. Rovaris, Russell J. Schachar, Stephen W. Scherer, Yingjie Shi, María Soler Artigas, Edmund JS Sonuga-Barke, Hans-Christoph Steinhausen, Ludger Tebartz van Elst, Martin Tesli, Raymond K. Walters, Stephanie H. Witt, Yanli Zhang-James, Edwin H. Cook, Jakob Grove, Susan S. Kuo, Joseph Piven, Stephan J. Sanders, Mohammed Uddin, Jacob AS Vorstman, Varun Warrier, Lauren A. Weiss, Martin Alda, Lars Alfredsson, Till F. M. Andlauer, Nicholas Bass, Anthony J. Batzler, Bernhard T. Baune, Eva C. Beins, Tim B. Bigdeli, Sven Cichon, Jonathan RI Coleman, Alfredo B. Cuellar-Barboza, Udo Dannlowski, Friederike S. David, Josef Frank, Janice M. Fullerton, Fernando S. Goes, Maria Grigoroiu-Serbanescu, Per Hoffmann, Janos L. Kalman, Kristi Krebs, Mikael Landén, Cathryn M. Lewis, Qingqin S. Li, Penelope A. Lind, Jurjen J. Luykx, Mirko Manchia, Morten Mattingsdal, Andrew M. McIntosh, Andrew McQuillin, Anna Meloni, Lili Milani, Philip B. Mitchell, Derek W. Morris, Niamh Mullins, Woojae Myung, John I. Nurnberger, Roel A. Ophoff, Michael J. Owen, George P. Patrinos, Claudia Pisanu, James J. Prisciandaro, Eva Z. Reininghaus, John P. Rice, Marcella Rietschel, Eva C. Schulte, Alessandro Serretti, Lea Sirignano, Alessio Squassina, Fabian Streit, Jana Strohmaier, Tracey van der Veen, Marquis P. Vawter, John B. Vincent, Peter P. Zandi, Lea Zillich, Roger A. Adan, Andreas Birgegård, Cynthia M. Bulik, Christian Dina, Monika Dmitrzak-Weglarz, Elisa Docampo, Karin M. Egberts, Fernando Fernandez-Aranda, Katrin E. Giel, Philip Gorwood, Christopher Hübel, James I. Hudson, Susana Jimenez-Murcia, Jennifer Jordan, Gursharan K. Kalsi, Jaakko Kaprio, Leila Karhunen, Martien J. H. Kas, Martin A. Kennedy, Janne T. Larsen, Lisa R. Lilenfeld, Alessio Maria Monteleone, Melissa A. Munn-Chernoff, Benedetta Nacmias, Liselotte V. Petersen, Dalila Pinto, Anu Raevuori, Nicolas Ramoz, Valdo Ricca, Marion E. Roberts, Filip Rybakowski, Ulrike H. Schmidt, Alexandra Schosser, Sandro Sorbi, Michael A. Strober, Hunna J. Watson, Stephan Zipfel, Mark J. Adams, Michael E. Benros, Rodrigo A. Bressan, Enda M. Byrne, Carolina M. Carvalho, Boris Chaumette, Lucia Colodro-Conde, Eske M. Derks, Erin C. Dunn, Chiara Fabbri, Giuseppe Fanelli, Jerome C. Foo, Ary Gadelha, Zachary F. Gerring, Hans J. Grabe, Andrew C. Heath, Kelli Lehto, Douglas F. Levinson, Glyn Lewis, Vanessa K. Ota, Pedro M. Pan, Peristera Paschou, James B. Potash, Brien P. Riley, Giovanni A. Salum, Marcos L. Santoro, Jackson G. Thorp, Sandra Van der Auwera, Bradley T. Webb, Timothy B. Baker, Danielle M. Dick, Dmitriy Drichel, Lindsay A. Farrer, Nathan C. Gaddis, Dana B. Hancock, John E. Hokanson, Jouke-Jan Hottenga, Eric O. Johnson, Pamela A. Madden, Mary L. Marazita, Jesse A. Marks, Daniel W. McNeil, Michael Nothnagel, Bryan C. Quach, Nancy L. Saccone, Nancy YA Sey, Richard Sherva, Scott Vrieze, Alex Waldrop, Georg Winterer, Kendra Young, Stephanie Zellers, Cathy L. Barr, Csaba Barta, Katharina Bey, Oscar J. Bienvenu, Julia Boberg, Jonas Bybjerg-Grauholm, Adrian Camarena, Beatriz Camarena, Danielle C. Cath, James J. Crowley, Andrea Dietrich, Peter Falkai, Thomas V. Fernandez, Daniel A. Geller, Marco A. Grados, Erica L. Greenberg, Edna Grünblatt, Kristen Hagen, Gregory L. Hanna, Bjarne Hansen, Gary A. Heiman, Pieter J. Hoekstra, David M. Hougaard, Norbert Kathmann, Julia Klawohn, Gerd Kvale, Nuria Lanzagorta, Stephanie Le Hellard, Fabio Macciardi, Brion S. Maher, Irene A. Malaty, David Mataix-Cols, Carol A. Mathews, Nicole CR McLaughlin, Euripedes C. Miguel, Kirsten R. Müller-Vahl, Humberto Nicolini, Erika L. Nurmi, Michael S. Okun, Raquel Rabionet, Alfredo Ramirez, Renata Rizzo, Cristina Rodriguez-Fontenla, Paul Sandor, Elles de Schipper, Harvey S. Singer, Eric A. Storch, Jeremy Veenstra-VanderWeele, Michael Wagner, Christopher P. Walker, Søren B. Andersen, Laura J. Bierut, Chia-Yen Chen, Nikolaos P. Daskalakis, Seth G. Disner, Anna R. Docherty, Norah C. Feeny, Lana R. Grasser, Magali Haas, Kelly M. Harrington, Victor M. Hesselbrock, Mohammed H. Ibrahim, Seyma Katrinli, Nathan A. Kimbrel, Jessica L. Maples-Keller, Jacquelyn L. Meyers, Janitza L. Montalvo-Ortiz, Charles P. Morris, Robert H. Pietrzak, Renato Polimanti, Richard J. Rosenblum, Barbara O. Rothbaum, Bart PF Rutten, Soraya Seedat, Alicia K. Smith, Ralph E. Tarter, Muhammad Ayub, Dominique Campion, David Cohen, Angel Consoli, Marta Di Forti, Johan G. Eriksson, Olga YU Fedorenko, Robert Freedman, Raul R. Gainetdinov, Marianna Giannitelli, Ina Giegling, Stephen J. Glatt, Stephanie Godard, Olivier Guillin, Annette M. Hartmann, Svetlana A. Ivanova, Alexander O. Kibitov, Bettina Konte, Claudine Laurent-Levinson, Anastasia Levchenko, Robin Murray, Merete Nordentoft, Cristiano Noto, Diego Quattrone, Dan Rujescu, Safaa Saker-Delye, SIbylle G. Schwab, Florence Thibaut, James TR Walters, Thomas Werge, Dieter B. Wildenauer, Arpana Agrawal, David AA Baranger, Jason D. Boardman, Joseph M. Boden, Ryan Bogdan, Karhleen K. Bucholz, Doo-Sup Choi, Sarah MC Colbert, Joseph D. Deak, Nancy Diazgranados, Alexis C. Edwards, Alison M. Goate, David Goldman, Laura M. Hack, Kathleen Mullan Harris, Sarah M. Hartz, Caroline Hayward, John K. Hewitt, Christian J. Hopfer, Victor M. Karpyak, Kenneth S. Krauter, Evgeny M. Krupitsky, Samuel Kuperman, Jari Lahti, Marius Lahti-Pulkkinen, Dongbing Lai, Alex P. Miller, Abraham A. Palmer, Rohn H. Palmer, John F. Pearson, Bernice Porjesz, Ulrich W. Preuss, Daniel M. Rosenblum, Norbert Scherbaum, Michael Vanyukov, Tamara L. Wall, Robbee Wedow, Stanley H. Weiss, Leah Wetherill, Norbert Wodarz, Haitao Zhang, Hongyu Zhao, Hang Zhou, Peter Zill, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller" tabindex="0">
-        Andrew D. Grotzinger, Josefin Werme, Wouter J. Peyrot, Oleksandr Frei, Christiaan de Leeuw, …, Hang Zhou, Peter Zill, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature</span>
-         · 
-        <span class="citation-date">10 Dec 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/s41586-025-09820-3</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g993mw" class="citation-image" aria-label="A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders">
-        <img src="" alt="A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g993mw" class="citation-title">
-        A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders
-      </a>
-
-      <div class="citation-authors" data-tooltip="Olav B. Smeland, Gleda Kutrolli, Shahram Bahrami, Vera Fominykh, Nadine Parker, Julian Fuhrer, Guy F. L. Hindley, Linn Rødevand, Piotr Jaholkowski, Markos Tesfaye, Pravesh Parekh, Torbjørn Elvsåshagen, Andrew D. Grotzinger, Nils Eiel Steen, Dennis van der Meer, Kevin S. O’Connell, Srdjan Djurovic, Anders M. Dale, Alexey A. Shadrin, Oleksandr Frei, Ole A. Andreassen" tabindex="0">
-        Olav B. Smeland, Gleda Kutrolli, Shahram Bahrami, Vera Fominykh, Nadine Parker, …, Srdjan Djurovic, Anders M. Dale, Alexey A. Shadrin, Oleksandr Frei, Ole A. Andreassen
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Neuroscience</span>
-         · 
-        <span class="citation-date">11 Nov 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41593-025-02090-2</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2025</span>
 </div>
 
 <div class="citation-container">
@@ -784,51 +696,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         <span class="citation-date">19 Oct 2025</span>
          · 
         <span class="citation-id">doi:10.1101/2025.10.17.25338241</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g9x39m" class="citation-image" aria-label="Modeling the genomic architecture of adiposity and anthropometrics across the lifespan">
-        <img src="" alt="Modeling the genomic architecture of adiposity and anthropometrics across the lifespan" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g9x39m" class="citation-title">
-        Modeling the genomic architecture of adiposity and anthropometrics across the lifespan
-      </a>
-
-      <div class="citation-authors" data-tooltip="Christopher H. Arehart, Meng Lin, Raine A. Gibson, Heather D. Anderson, Christina L. Aquilante, Kelsey Arbogast, Christopher H. Arehart, Ian M. Brooks, Tonya M. Brunetti, Judith Brutus-Lestin, Elizabeth E. Burke, Emily M. Casteel, Joanne B. Cole, Curtis R. Coughlin, Kristy Crooks, Jacob Crawford, Erin Culver, Michelle N. Edelmann, Matthew J. Fisher, Alan W. Franklin, Teresa C. Frye, Hunter George, Christopher R. Gignoux, Elizabeth K. Gilliland, Casey S. Greene, Brooke Hawkes, Emily Hearst, Audrey E. Hendricks, Randi K. Johnson, Colleen G. Julian, Dave Kao, Iain Konigsberg, Lisa Ku, Elizabeth L. Kudron, Rashawnda Lacy, Ethan M. Lange, Yee Ming Lee, Joe A. Lesny, Meng Lin, Jan T. Lowery, Luciana B. Vargas, Betzaida L. Maldonado, Darcy Marceau, James L. Martin, Brianna L. Gates, David Mayer, Nicole L. McDaniel, Andrew Monte, Ethan Moore, Ann Nadrash, Jack Pattee, Nikita Pozdeyev, Alaa Radwan, Nick Rafaels, Sridharan Raghavan, Neda Rasouli, Elise L. Shalowitz, Hoda Sherif, Johnathan A. Shortt, Adrian M. Stewart, Kristen J. Sutton, Carolyn T. Swartz, Anna Tanaka, Matthew R. G. Taylor, Candace Teague, Emily B. Todd, Katy E. Trinkley, Laura K. Wiley, Sridharan Raghavan, Christopher R. Gignoux, Maggie A. Stanislawski, Andrew D. Grotzinger, Luke M. Evans" tabindex="0">
-        Christopher H. Arehart, Meng Lin, Raine A. Gibson, Heather D. Anderson, Christina L. Aquilante, …, Sridharan Raghavan, Christopher R. Gignoux, Maggie A. Stanislawski, Andrew D. Grotzinger, Luke M. Evans
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Communications</span>
-         · 
-        <span class="citation-date">13 Aug 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41467-025-62730-W</span>
       </div>
 
       
@@ -895,51 +762,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/g9vmtd" class="citation-image" aria-label="Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI">
-        <img src="" alt="Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g9vmtd" class="citation-title">
-        Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI
-      </a>
-
-      <div class="citation-authors" data-tooltip="Anna E. Fürtjes, Isabelle F. Foote, Charley Xia, Gail Davies, Joanna Moodie, Adele Taylor, David C. Liewald, Paul Redmond, Janie Corley, Andrew M. McIntosh, Heather C. Whalley, Susana Muñoz Maniega, Maria Valdés Hernández, Ellen Backhouse, Karen Ferguson, Mark E. Bastin, Joanna Wardlaw, Javier de la Fuente, Andrew D. Grotzinger, Michelle Luciano, W. David Hill, Ian J. Deary, Elliot M. Tucker-Drob, Simon R. Cox" tabindex="0">
-        Anna E. Fürtjes, Isabelle F. Foote, Charley Xia, Gail Davies, Joanna Moodie, …, Michelle Luciano, W. David Hill, Ian J. Deary, Elliot M. Tucker-Drob, Simon R. Cox
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Communications</span>
-         · 
-        <span class="citation-date">21 Jul 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/s41467-025-61978-6</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
       <a href="https://doi.org/g953t9" class="citation-image" aria-label="Examining the genetic links between clusters of immune-mediated diseases and psychiatric disorders">
         <img src="" alt="Examining the genetic links between clusters of immune-mediated diseases and psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
@@ -985,8 +807,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbk7z8" class="citation-image" aria-label="Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the i All of Us i Research Program">
-        <img src="" alt="Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the i All of Us i Research Program" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11714510/" class="citation-image" aria-label="Multivariate genomic analyses of frailty reveal the unique importance of cognitive and multimorbidity pathways for aging related health outcomes">
+        <img src="" alt="Multivariate genomic analyses of frailty reveal the unique importance of cognitive and multimorbidity pathways for aging related health outcomes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -994,23 +816,21 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
   <i class="icon fa-solid fa-scroll"></i>
 
-      <a href="https://doi.org/hbk7z8" class="citation-title">
-        Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the
-                  <i>All of Us</i>
-                  Research Program
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11714510/" class="citation-title">
+        Multivariate genomic analyses of frailty reveal the unique importance of cognitive and multimorbidity pathways for aging‐related health outcomes
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        Phil H. Lee, Jae-Yoon Jung, Brandon T. Sanzo, Rui Duan, Tian Ge, Irwin Waldman, Jordan W. Smoller, Ted Schwaba, Elliot M. Tucker-Drob, Andrew D. Grotzinger
+      <div class="citation-authors" data-tooltip="Isabelle F Foote, Jonny P Flint, John D Fisk, Tobias K Karakach, Andrew Rutenberg, Nicholas G Martin, Michelle K Lupton, Simon R Cox, Michelle Luciano, Kenneth Rockwood, Andrew D Grotzinger" tabindex="0">
+        Isabelle F Foote, Jonny P Flint, John D Fisk, Tobias K Karakach, Andrew Rutenberg, …, Michelle K Lupton, Simon R Cox, Michelle Luciano, Kenneth Rockwood, Andrew D Grotzinger
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
+        <span class="citation-publisher">Alzheimer's &amp; Dementia</span>
          · 
-        <span class="citation-date">27 Mar 2025</span>
+        <span class="citation-date">09 Jan 2025</span>
          · 
-        <span class="citation-id">doi:10.1101/2025.03.26.25324720</span>
+        <span class="citation-id">pmc:PMC11714510</span>
       </div>
 
       
@@ -1029,321 +849,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk7z4" class="citation-image" aria-label="Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex">
-        <img src="" alt="Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk7z4" class="citation-title">
-        Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Ted Schwaba, Travis T. Mallard, Adam X. Maihofer, Mijke Rhemtulla, Phil H. Lee, Jordan W. Smoller, Lea K. Davis, Michel G. Nivard, Andrew D. Grotzinger, Elliot M. Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Genetics</span>
-         · 
-        <span class="citation-date">01 Mar 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41588-025-02093-6</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk7z3" class="citation-image" aria-label="Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research">
-        <img src="" alt="Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk7z3" class="citation-title">
-        Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research
-      </a>
-
-      <div class="citation-authors" data-tooltip="Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, John M. Hettema, Michael Gandal, Andrew Grotzinger, Katherine Jonas, Phil Lee, Travis T. Mallard, Manuel Mattheisen, Michael C. Neale, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler" tabindex="0">
-        Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, …, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Molecular Psychiatry</span>
-         · 
-        <span class="citation-date">28 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41380-025-02914-4</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk7z6" class="citation-image" aria-label="Impulsivity facets and substance use involvement: insights from genomic structural equation modeling">
-        <img src="" alt="Impulsivity facets and substance use involvement: insights from genomic structural equation modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk7z6" class="citation-title">
-        Impulsivity facets and substance use involvement: insights from genomic structural equation modeling
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Laura Vilar-Ribó, Alexander S. Hatoum, Andrew D. Grotzinger, Travis T. Mallard, Sarah Elson, Pierre Fontanillas, Abraham A. Palmer, Daniel E. Gustavson, Sandra Sanchez-Roige
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Psychological Medicine</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.1017/S0033291725000145</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g953vb" class="citation-image" aria-label="Examining the genetic relationship between Alzheimer s disease, schizophrenia and their shared risk factors using genomic structural equation modelling">
-        <img src="" alt="Examining the genetic relationship between Alzheimer s disease, schizophrenia and their shared risk factors using genomic structural equation modelling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g953vb" class="citation-title">
-        Examining the genetic relationship between Alzheimer’s disease, schizophrenia and their shared risk factors using genomic structural equation modelling
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Inês Almeida e Sousa, Andrew D Grotzinger, Jeremy M Lawrence, Sophie Breunig, Charles R Marshall, Ania Korszun, Isabelle F Foote
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Brain Communications</span>
-         · 
-        <span class="citation-date">01 Jan 2025</span>
-         · 
-        <span class="citation-id">doi:10.1093/braincomms/fcaf112</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2024">2024</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g8xjdr" class="citation-image" aria-label="Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research">
-        <img src="" alt="Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g8xjdr" class="citation-title">
-        Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research
-      </a>
-
-      <div class="citation-authors" data-tooltip="Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, John M. Hettema, Michael Gandal, Andrew Grotzinger, Katherine Jonas, Phil Lee, Travis T. Mallard, Manuel Mattheisen, Michael C. Neale, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler" tabindex="0">
-        Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, …, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Molecular Psychiatry</span>
-         · 
-        <span class="citation-date">27 Dec 2024</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41380-024-02878-X</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk7z7" class="citation-image" aria-label="Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction">
-        <img src="" alt="Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk7z7" class="citation-title">
-        Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction
-      </a>
-
-      <div class="citation-authors" data-tooltip="Richard Karlsson Linnér, Travis T. Mallard, Peter B. Barr, Sandra Sanchez-Roige, James W. Madole, Morgan N. Driver, Holly E. Poore, Ronald de Vlaming, Andrew D. Grotzinger, Jorim J. Tielbeek, Emma C. Johnson, Mengzhen Liu, Sara Brin Rosenthal, Trey Ideker, Hang Zhou, Rachel L. Kember, Joëlle A. Pasman, Karin J. H. Verweij, Dajiang J. Liu, Scott Vrieze, Bernice Porjesz, Victor Hesselbrock, Tatiana M. Foroud, Arpana Agrawal, Howard J. Edenberg, John I. Nurnberger Jr, Yunlong Liu, Samuel Kuperman, John Kramer, Jacquelyn L. Meyer, Chella Kamarajan, Ashwini K. Pandey, Laura Bierut, John Rice, Kathleen K. Bucholz, Marc A. Schuckit, Jay Tischfield, Andrew Brooks, Ronald P. Hart, Laura Almasy, Danielle M. Dick, Jessica E. Salvatore, Allison Goate, Manav Kapoor, Paul Slesinger, Denise M. Scott, Lance Bauer, Leah Wetherill, Xiaoling Xuei, Dongbing Lai, Sean J. O’Connor, Martin H. Plawecki, Spencer Lourens, Laura Acion, Grace Chan, David B. Chorlian, Jian Zhang, Sivan Kinreich, Gayathri Pandey, Michael J. Chao, Andrey P. Anokhin, Vivia V. McCutcheon, Scott Saccone, Fazil Aliev, Peter B. Barr, Hemin Chin, Abbas Parsian, Henry R. Kranzler, Joel Gelernter, Kathleen Mullan Harris, Elliot M. Tucker-Drob, Irwin D. Waldman, Abraham A. Palmer, K. Paige Harden, Philipp D. Koellinger, Danielle M. Dick" tabindex="0">
-        Richard Karlsson Linnér, Travis T. Mallard, Peter B. Barr, Sandra Sanchez-Roige, James W. Madole, …, Irwin D. Waldman, Abraham A. Palmer, K. Paige Harden, Philipp D. Koellinger, Danielle M. Dick
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Neuroscience</span>
-         · 
-        <span class="citation-date">06 Dec 2024</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41593-024-01853-7</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72d" class="citation-image" aria-label="Impulsivity Facets and Substance Use Involvement: Insights from Genomic Structural Equation Modeling">
-        <img src="" alt="Impulsivity Facets and Substance Use Involvement: Insights from Genomic Structural Equation Modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72d" class="citation-title">
-        Impulsivity Facets and Substance Use Involvement: Insights from Genomic Structural Equation Modeling
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Laura Vilar-Ribó, Alexander S Hatoum, Andrew D Grotzinger, Travis T Mallard, Sarah Elson, Pierre Fontanillas, Abraham A Palmer, Daniel E Gustavson, Sandra Sanchez-Roige
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">25 Oct 2024</span>
-         · 
-        <span class="citation-id">doi:10.1101/2024.10.24.24315331</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2024</span>
 </div>
 
 <div class="citation-container">
@@ -1373,96 +880,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         <span class="citation-date">15 Oct 2024</span>
          · 
         <span class="citation-id">doi:10.1186/s13229-024-00624-2</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g749bc" class="citation-image" aria-label="Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts">
-        <img src="" alt="Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g749bc" class="citation-title">
-        Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts
-      </a>
-
-      <div class="citation-authors" data-tooltip="Mark J. Adams, Jackson G. Thorp, Bradley S. Jermy, Alex S. F. Kwong, Kadri Kõiv, Andrew D. Grotzinger, Michel G. Nivard, Sally Marshall, Yuri Milaneschi, Bernhard T. Baune, Bertram Müller-Myhsok, Brenda W. J. H. Penninx, Dorret I. Boomsma, Douglas F. Levinson, Gerome Breen, Giorgio Pistis, Hans J. Grabe, Henning Tiemeier, Klaus Berger, Marcella Rietschel, Patrik K. Magnusson, Rudolf Uher, Steven P. Hamilton, Susanne Lucae, Kelli Lehto, Qingqin S. Li, Enda M. Byrne, Ian B. Hickie, Nicholas G. Martin, Sarah E Medland, Naomi R. Wray, Elliot M. Tucker-Drob, Cathryn M. Lewis, Andrew M McIntosh, Eske M. Derks" tabindex="0">
-        Mark J. Adams, Jackson G. Thorp, Bradley S. Jermy, Alex S. F. Kwong, Kadri Kõiv, …, Naomi R. Wray, Elliot M. Tucker-Drob, Cathryn M. Lewis, Andrew M McIntosh, Eske M. Derks
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Psychological Medicine</span>
-         · 
-        <span class="citation-date">01 Sep 2024</span>
-         · 
-        <span class="citation-id">doi:10.1017/S0033291724001880</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/g9753s" class="citation-image" aria-label="Genetic associations between non-cognitive skills and academic achievement over development">
-        <img src="" alt="Genetic associations between non-cognitive skills and academic achievement over development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/g9753s" class="citation-title">
-        Genetic associations between non-cognitive skills and academic achievement over development
-      </a>
-
-      <div class="citation-authors" data-tooltip="Margherita Malanchini, Andrea G. Allegrini, Michel G. Nivard, Pietro Biroli, Kaili Rimfeld, Rosa Cheesman, Sophie von Stumm, Perline A. Demange, Elsje van Bergen, Andrew D. Grotzinger, Laurel Raffington, Javier De la Fuente, Jean-Baptiste Pingault, Elliot M. Tucker-Drob, K. Paige Harden, Robert Plomin" tabindex="0">
-        Margherita Malanchini, Andrea G. Allegrini, Michel G. Nivard, Pietro Biroli, Kaili Rimfeld, …, Javier De la Fuente, Jean-Baptiste Pingault, Elliot M. Tucker-Drob, K. Paige Harden, Robert Plomin
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Human Behaviour</span>
-         · 
-        <span class="citation-date">26 Aug 2024</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41562-024-01967-9</span>
       </div>
 
       
@@ -1574,51 +991,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbk72c" class="citation-image" aria-label="Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin adoptive approaches.">
-        <img src="" alt="Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin adoptive approaches." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72c" class="citation-title">
-        Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin/adoptive approaches.
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Daniel E. Gustavson, Elisa F. Stern, Chandra A. Reynolds, Andrew D. Grotzinger, Robin P. Corley, Sally J. Wadsworth, Soo H. Rhee, Naomi P. Friedman
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Journal of Psychopathology and Clinical Science</span>
-         · 
-        <span class="citation-date">01 Jul 2024</span>
-         · 
-        <span class="citation-id">doi:10.1037/ABN0000905</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
       <a href="https://doi.org/g953vg" class="citation-image" aria-label="Characterizing Genetic Pathways Unique to Autism Spectrum Disorder at Multiple Levels of Biological Analysis">
         <img src="" alt="Characterizing Genetic Pathways Unique to Autism Spectrum Disorder at Multiple Levels of Biological Analysis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
@@ -1706,97 +1078,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72b" class="citation-image" aria-label="Disentangling differing relationships between internalizing disorders and alcohol use">
-        <img src="" alt="Disentangling differing relationships between internalizing disorders and alcohol use" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72b" class="citation-title">
-        Disentangling differing relationships between internalizing disorders and alcohol use
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Maizy S. Brasher, Andrew D. Grotzinger, Naomi P. Friedman, Harry R. Smolker, Luke M. Evans
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">American Journal of Medical Genetics Part B: Neuropsychiatric Genetics</span>
-         · 
-        <span class="citation-date">20 Feb 2024</span>
-         · 
-        <span class="citation-id">doi:10.1002/AJMG.B.32975</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2023</span>
 </div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk7z9" class="citation-image" aria-label="Beyond the factor indeterminacy problem using genome-wide association data">
-        <img src="" alt="Beyond the factor indeterminacy problem using genome-wide association data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk7z9" class="citation-title">
-        Beyond the factor indeterminacy problem using genome-wide association data
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Margaret L. Clapp Sullivan, Ted Schwaba, K. Paige Harden, Andrew D. Grotzinger, Michel G. Nivard, Elliot M. Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Human Behaviour</span>
-         · 
-        <span class="citation-date">15 Jan 2024</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41562-023-01789-1</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2023">2023</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -1825,96 +1109,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         <span class="citation-date">27 Oct 2023</span>
          · 
         <span class="citation-id">doi:10.1017/s0033291723002957</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72h" class="citation-image" aria-label="Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach">
-        <img src="" alt="Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72h" class="citation-title">
-        Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Kaitlin E. Bountress, Shannon E. Cusack, Sage E. Hawn, Andrew Grotzinger, Daniel Bustamante, Robert M. Kirkpatrick, Howard J. Edenberg, Ananda B. Amstadter
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Scientific Reports</span>
-         · 
-        <span class="citation-date">18 Aug 2023</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41598-023-40199-1</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72j" class="citation-image" aria-label="Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes">
-        <img src="" alt="Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72j" class="citation-title">
-        Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes
-      </a>
-
-      <div class="citation-authors" data-tooltip="Varun Warrier, Eva-Maria Stauffer, Qin Qin Huang, Emilie M. Wigdor, Eric A. W. Slob, Jakob Seidlitz, Lisa Ronan, Sofie L. Valk, Travis T. Mallard, Andrew D. Grotzinger, Rafael Romero-Garcia, Simon Baron-Cohen, Daniel H. Geschwind, Madeline A. Lancaster, Graham K. Murray, Michael J. Gandal, Aaron Alexander-Bloch, Hyejung Won, Hilary C. Martin, Edward T. Bullmore, Richard A. I. Bethlehem" tabindex="0">
-        Varun Warrier, Eva-Maria Stauffer, Qin Qin Huang, Emilie M. Wigdor, Eric A. W. Slob, …, Aaron Alexander-Bloch, Hyejung Won, Hilary C. Martin, Edward T. Bullmore, Richard A. I. Bethlehem
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Genetics</span>
-         · 
-        <span class="citation-date">17 Aug 2023</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41588-023-01475-Y</span>
       </div>
 
       
@@ -1981,6 +1175,1028 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
+      <a href="https://doi.org/g953vm" class="citation-image" aria-label="Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes">
+        <img src="" alt="Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g953vm" class="citation-title">
+        Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jeremy M. Lawrence, Sophie Breunig, Isabelle F. Foote, Connor B. Tallis, Andrew D. Grotzinger
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">openRxiv</span>
+         · 
+        <span class="citation-date">09 May 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.04.29.23289281</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="additional-works">Additional Works</h2>
+
+<div class="citation-details year-heading">
+<span class="citation-date">2026</span>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbncmr" class="citation-image" aria-label="Characterizing the Pleiotropic Architecture of Impulsivity and Its Links to Psychopathology and Neurodevelopment">
+        <img src="" alt="Characterizing the Pleiotropic Architecture of Impulsivity and Its Links to Psychopathology and Neurodevelopment" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbncmr" class="citation-title">
+        Characterizing the Pleiotropic Architecture of Impulsivity and Its Links to Psychopathology and Neurodevelopment
+      </a>
+
+      <div class="citation-authors" data-tooltip="Travis T. Mallard, Justin D. Tubbs, Mariela Jennings, Yingzhe Zhang, Daniel E. Gustavson, Andrew D. Grotzinger, Margaret L. Westwater, Camille M. Williams, Rebecca G. Fortgang, Sarah L. Elson, Pierre Fontanillas, Lea K. Davis, Armin Raznahan, Elliot M. Tucker-Drob, Karmel W. Choi, Tian Ge, Jordan W. Smoller, Abraham A. Palmer, Sandra Sanchez-Roige" tabindex="0">
+        Travis T. Mallard, Justin D. Tubbs, Mariela Jennings, Yingzhe Zhang, Daniel E. Gustavson, …, Karmel W. Choi, Tian Ge, Jordan W. Smoller, Abraham A. Palmer, Sandra Sanchez-Roige
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">American Journal of Psychiatry</span>
+         · 
+        <span class="citation-date">01 Jan 2026</span>
+         · 
+        <span class="citation-id">doi:10.1176/appi.ajp.20240382</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-details year-heading">
+<span class="citation-date">2025</span>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/qh4q" class="citation-image" aria-label="Mapping the genetic landscape across 14 psychiatric disorders">
+        <img src="/images/14psychiatric.png" alt="Mapping the genetic landscape across 14 psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/qh4q" class="citation-title">
+        Mapping the genetic landscape across 14 psychiatric disorders
+      </a>
+
+      <div class="citation-authors" data-tooltip="Andrew D. Grotzinger, Josefin Werme, Wouter J. Peyrot, Oleksandr Frei, Christiaan de Leeuw, Lucy K. Bicks, Qiuyu Guo, Michael P. Margolis, Brandon J. Coombes, Anthony Batzler, Vanessa Pazdernik, Joanna M. Biernacka, Ole A. Andreassen, Verneri Anttila, Anders D. Børglum, Gerome Breen, Na Cai, Ditte Demontis, Howard J. Edenberg, Stephen V. Faraone, Barbara Franke, Michael J. Gandal, Joel Gelernter, Alexander S. Hatoum, John M. Hettema, Emma C. Johnson, Katherine G. Jonas, James A. Knowles, Karestan C. Koenen, Adam X. Maihofer, Travis T. Mallard, Manuel Mattheisen, Karen S. Mitchell, Benjamin M. Neale, Caroline M. Nievergelt, John I. Nurnberger, Kevin S. O’Connell, Roseann E. Peterson, Elise B. Robinson, Sandra S. Sanchez-Roige, Susan L. Santangelo, Jeremiah M. Scharf, Hreinn Stefansson, Kari Stefansson, Murray B. Stein, Nora I. Strom, Laura M. Thornton, Elliot M. Tucker-Drob, Brad Verhulst, Irwin D. Waldman, G. Bragi Walters, Naomi R. Wray, Dongmei Yu, Daniel E. Adkins, Georg W. Alpers, Helga Ask, Sintia I. Belangero, Ottar Bjerkeset, Sigrid Børte, Sandra A. Brown, Enrique Castelao, Hilary Coon, William E. Copeland, Elizabeth C. Corfield, Darina Czamara, Jürgen Deckert, Anna R. Docherty, Katharina Domschke, Ole Kristian Drange, Thalia C. Eley, Angelika Erhardt-Lehmann, Andreas J. Forstner, Miguel Garcia-Argibay, Scott D. Gordon, Ian B. Hickie, Iiris Hovatta, Matthew H. Iveson, James L. Kennedy, Henrik Larsson, Daniel F. Levey, Christine Lochner, Michelle K. Lupton, Hermine HM Maes, Eduard Maron, Nicholas G. Martin, Sandra M. Meier, Christiane A. Melzig, Brittany L. Mitchell, Teemu Palviainen, Giorgio Pistis, Martin Preisig, Börge Schmidt, Johannes Schumacher, Andrey A. Shabalin, Anne Heidi Skogholt, Dan J. Stein, Eystein Stordal, Andreas Ströhle, Elisa Tasanko, Laurent Thomas, Henning Tiemeier, Heike Weber, Bendik S. Winsvold, Clement C. Zai, Gwyneth Zai, John-Anker Zwart, Silvia Alemany, Claiton HD Bau, Dorret I. Boomsma, Rosa Bosch, Isabell Brikell, Christie L. Burton, Miquel Casas, Bru Cormand, Jennifer Crosbie, Alysa E. Doyle, Josephine Elia, Joseph T. Glessner, Eugenio H. Grevet, Jan Haavik, Alexandra Havdahl, Ziarih Hawi, Anke Hinney, Daniel P. Howrigan, Marieke Klein, Henry R. Kranzler, Jonna Kuntsi, Kate Langley, Klaus-Peter Lesch, Calwing Liao, Sandra K. Loo, James J. McGough, Sarah E. Medland, Nina R. Mota, Michael C. O’Donovan, Danielle Posthuma, Josep Antoni Ramos-Quiroga, Andreas Reif, Marta Ribasés, Diego L. Rovaris, Russell J. Schachar, Stephen W. Scherer, Yingjie Shi, María Soler Artigas, Edmund JS Sonuga-Barke, Hans-Christoph Steinhausen, Ludger Tebartz van Elst, Martin Tesli, Raymond K. Walters, Stephanie H. Witt, Yanli Zhang-James, Edwin H. Cook, Jakob Grove, Susan S. Kuo, Joseph Piven, Stephan J. Sanders, Mohammed Uddin, Jacob AS Vorstman, Varun Warrier, Lauren A. Weiss, Martin Alda, Lars Alfredsson, Till F. M. Andlauer, Nicholas Bass, Anthony J. Batzler, Bernhard T. Baune, Eva C. Beins, Tim B. Bigdeli, Sven Cichon, Jonathan RI Coleman, Alfredo B. Cuellar-Barboza, Udo Dannlowski, Friederike S. David, Josef Frank, Janice M. Fullerton, Fernando S. Goes, Maria Grigoroiu-Serbanescu, Per Hoffmann, Janos L. Kalman, Kristi Krebs, Mikael Landén, Cathryn M. Lewis, Qingqin S. Li, Penelope A. Lind, Jurjen J. Luykx, Mirko Manchia, Morten Mattingsdal, Andrew M. McIntosh, Andrew McQuillin, Anna Meloni, Lili Milani, Philip B. Mitchell, Derek W. Morris, Niamh Mullins, Woojae Myung, John I. Nurnberger, Roel A. Ophoff, Michael J. Owen, George P. Patrinos, Claudia Pisanu, James J. Prisciandaro, Eva Z. Reininghaus, John P. Rice, Marcella Rietschel, Eva C. Schulte, Alessandro Serretti, Lea Sirignano, Alessio Squassina, Fabian Streit, Jana Strohmaier, Tracey van der Veen, Marquis P. Vawter, John B. Vincent, Peter P. Zandi, Lea Zillich, Roger A. Adan, Andreas Birgegård, Cynthia M. Bulik, Christian Dina, Monika Dmitrzak-Weglarz, Elisa Docampo, Karin M. Egberts, Fernando Fernandez-Aranda, Katrin E. Giel, Philip Gorwood, Christopher Hübel, James I. Hudson, Susana Jimenez-Murcia, Jennifer Jordan, Gursharan K. Kalsi, Jaakko Kaprio, Leila Karhunen, Martien J. H. Kas, Martin A. Kennedy, Janne T. Larsen, Lisa R. Lilenfeld, Alessio Maria Monteleone, Melissa A. Munn-Chernoff, Benedetta Nacmias, Liselotte V. Petersen, Dalila Pinto, Anu Raevuori, Nicolas Ramoz, Valdo Ricca, Marion E. Roberts, Filip Rybakowski, Ulrike H. Schmidt, Alexandra Schosser, Sandro Sorbi, Michael A. Strober, Hunna J. Watson, Stephan Zipfel, Mark J. Adams, Michael E. Benros, Rodrigo A. Bressan, Enda M. Byrne, Carolina M. Carvalho, Boris Chaumette, Lucia Colodro-Conde, Eske M. Derks, Erin C. Dunn, Chiara Fabbri, Giuseppe Fanelli, Jerome C. Foo, Ary Gadelha, Zachary F. Gerring, Hans J. Grabe, Andrew C. Heath, Kelli Lehto, Douglas F. Levinson, Glyn Lewis, Vanessa K. Ota, Pedro M. Pan, Peristera Paschou, James B. Potash, Brien P. Riley, Giovanni A. Salum, Marcos L. Santoro, Jackson G. Thorp, Sandra Van der Auwera, Bradley T. Webb, Timothy B. Baker, Danielle M. Dick, Dmitriy Drichel, Lindsay A. Farrer, Nathan C. Gaddis, Dana B. Hancock, John E. Hokanson, Jouke-Jan Hottenga, Eric O. Johnson, Pamela A. Madden, Mary L. Marazita, Jesse A. Marks, Daniel W. McNeil, Michael Nothnagel, Bryan C. Quach, Nancy L. Saccone, Nancy YA Sey, Richard Sherva, Scott Vrieze, Alex Waldrop, Georg Winterer, Kendra Young, Stephanie Zellers, Cathy L. Barr, Csaba Barta, Katharina Bey, Oscar J. Bienvenu, Julia Boberg, Jonas Bybjerg-Grauholm, Adrian Camarena, Beatriz Camarena, Danielle C. Cath, James J. Crowley, Andrea Dietrich, Peter Falkai, Thomas V. Fernandez, Daniel A. Geller, Marco A. Grados, Erica L. Greenberg, Edna Grünblatt, Kristen Hagen, Gregory L. Hanna, Bjarne Hansen, Gary A. Heiman, Pieter J. Hoekstra, David M. Hougaard, Norbert Kathmann, Julia Klawohn, Gerd Kvale, Nuria Lanzagorta, Stephanie Le Hellard, Fabio Macciardi, Brion S. Maher, Irene A. Malaty, David Mataix-Cols, Carol A. Mathews, Nicole CR McLaughlin, Euripedes C. Miguel, Kirsten R. Müller-Vahl, Humberto Nicolini, Erika L. Nurmi, Michael S. Okun, Raquel Rabionet, Alfredo Ramirez, Renata Rizzo, Cristina Rodriguez-Fontenla, Paul Sandor, Elles de Schipper, Harvey S. Singer, Eric A. Storch, Jeremy Veenstra-VanderWeele, Michael Wagner, Christopher P. Walker, Søren B. Andersen, Laura J. Bierut, Chia-Yen Chen, Nikolaos P. Daskalakis, Seth G. Disner, Anna R. Docherty, Norah C. Feeny, Lana R. Grasser, Magali Haas, Kelly M. Harrington, Victor M. Hesselbrock, Mohammed H. Ibrahim, Seyma Katrinli, Nathan A. Kimbrel, Jessica L. Maples-Keller, Jacquelyn L. Meyers, Janitza L. Montalvo-Ortiz, Charles P. Morris, Robert H. Pietrzak, Renato Polimanti, Richard J. Rosenblum, Barbara O. Rothbaum, Bart PF Rutten, Soraya Seedat, Alicia K. Smith, Ralph E. Tarter, Muhammad Ayub, Dominique Campion, David Cohen, Angel Consoli, Marta Di Forti, Johan G. Eriksson, Olga YU Fedorenko, Robert Freedman, Raul R. Gainetdinov, Marianna Giannitelli, Ina Giegling, Stephen J. Glatt, Stephanie Godard, Olivier Guillin, Annette M. Hartmann, Svetlana A. Ivanova, Alexander O. Kibitov, Bettina Konte, Claudine Laurent-Levinson, Anastasia Levchenko, Robin Murray, Merete Nordentoft, Cristiano Noto, Diego Quattrone, Dan Rujescu, Safaa Saker-Delye, SIbylle G. Schwab, Florence Thibaut, James TR Walters, Thomas Werge, Dieter B. Wildenauer, Arpana Agrawal, David AA Baranger, Jason D. Boardman, Joseph M. Boden, Ryan Bogdan, Karhleen K. Bucholz, Doo-Sup Choi, Sarah MC Colbert, Joseph D. Deak, Nancy Diazgranados, Alexis C. Edwards, Alison M. Goate, David Goldman, Laura M. Hack, Kathleen Mullan Harris, Sarah M. Hartz, Caroline Hayward, John K. Hewitt, Christian J. Hopfer, Victor M. Karpyak, Kenneth S. Krauter, Evgeny M. Krupitsky, Samuel Kuperman, Jari Lahti, Marius Lahti-Pulkkinen, Dongbing Lai, Alex P. Miller, Abraham A. Palmer, Rohn H. Palmer, John F. Pearson, Bernice Porjesz, Ulrich W. Preuss, Daniel M. Rosenblum, Norbert Scherbaum, Michael Vanyukov, Tamara L. Wall, Robbee Wedow, Stanley H. Weiss, Leah Wetherill, Norbert Wodarz, Haitao Zhang, Hongyu Zhao, Hang Zhou, Peter Zill, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller" tabindex="0">
+        Andrew D. Grotzinger, Josefin Werme, Wouter J. Peyrot, Oleksandr Frei, Christiaan de Leeuw, …, Hang Zhou, Peter Zill, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature</span>
+         · 
+        <span class="citation-date">10 Dec 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41586-025-09820-3</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g993mw" class="citation-image" aria-label="A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders">
+        <img src="" alt="A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g993mw" class="citation-title">
+        A genome-wide analysis of the shared genetic risk architecture of complex neurological and psychiatric disorders
+      </a>
+
+      <div class="citation-authors" data-tooltip="Olav B. Smeland, Gleda Kutrolli, Shahram Bahrami, Vera Fominykh, Nadine Parker, Julian Fuhrer, Guy F. L. Hindley, Linn Rødevand, Piotr Jaholkowski, Markos Tesfaye, Pravesh Parekh, Torbjørn Elvsåshagen, Andrew D. Grotzinger, Nils Eiel Steen, Dennis van der Meer, Kevin S. O’Connell, Srdjan Djurovic, Anders M. Dale, Alexey A. Shadrin, Oleksandr Frei, Ole A. Andreassen" tabindex="0">
+        Olav B. Smeland, Gleda Kutrolli, Shahram Bahrami, Vera Fominykh, Nadine Parker, …, Srdjan Djurovic, Anders M. Dale, Alexey A. Shadrin, Oleksandr Frei, Ole A. Andreassen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Neuroscience</span>
+         · 
+        <span class="citation-date">11 Nov 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41593-025-02090-2</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g9x39m" class="citation-image" aria-label="Modeling the genomic architecture of adiposity and anthropometrics across the lifespan">
+        <img src="" alt="Modeling the genomic architecture of adiposity and anthropometrics across the lifespan" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g9x39m" class="citation-title">
+        Modeling the genomic architecture of adiposity and anthropometrics across the lifespan
+      </a>
+
+      <div class="citation-authors" data-tooltip="Christopher H. Arehart, Meng Lin, Raine A. Gibson, Heather D. Anderson, Christina L. Aquilante, Kelsey Arbogast, Christopher H. Arehart, Ian M. Brooks, Tonya M. Brunetti, Judith Brutus-Lestin, Elizabeth E. Burke, Emily M. Casteel, Joanne B. Cole, Curtis R. Coughlin, Kristy Crooks, Jacob Crawford, Erin Culver, Michelle N. Edelmann, Matthew J. Fisher, Alan W. Franklin, Teresa C. Frye, Hunter George, Christopher R. Gignoux, Elizabeth K. Gilliland, Casey S. Greene, Brooke Hawkes, Emily Hearst, Audrey E. Hendricks, Randi K. Johnson, Colleen G. Julian, Dave Kao, Iain Konigsberg, Lisa Ku, Elizabeth L. Kudron, Rashawnda Lacy, Ethan M. Lange, Yee Ming Lee, Joe A. Lesny, Meng Lin, Jan T. Lowery, Luciana B. Vargas, Betzaida L. Maldonado, Darcy Marceau, James L. Martin, Brianna L. Gates, David Mayer, Nicole L. McDaniel, Andrew Monte, Ethan Moore, Ann Nadrash, Jack Pattee, Nikita Pozdeyev, Alaa Radwan, Nick Rafaels, Sridharan Raghavan, Neda Rasouli, Elise L. Shalowitz, Hoda Sherif, Johnathan A. Shortt, Adrian M. Stewart, Kristen J. Sutton, Carolyn T. Swartz, Anna Tanaka, Matthew R. G. Taylor, Candace Teague, Emily B. Todd, Katy E. Trinkley, Laura K. Wiley, Sridharan Raghavan, Christopher R. Gignoux, Maggie A. Stanislawski, Andrew D. Grotzinger, Luke M. Evans" tabindex="0">
+        Christopher H. Arehart, Meng Lin, Raine A. Gibson, Heather D. Anderson, Christina L. Aquilante, …, Sridharan Raghavan, Christopher R. Gignoux, Maggie A. Stanislawski, Andrew D. Grotzinger, Luke M. Evans
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">13 Aug 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-025-62730-w</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g9vmtd" class="citation-image" aria-label="Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI">
+        <img src="" alt="Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g9vmtd" class="citation-title">
+        Measurement characteristics and genome-wide correlates of lifetime brain atrophy estimated from a single MRI
+      </a>
+
+      <div class="citation-authors" data-tooltip="Anna E. Fürtjes, Isabelle F. Foote, Charley Xia, Gail Davies, Joanna Moodie, Adele Taylor, David C. Liewald, Paul Redmond, Janie Corley, Andrew M. McIntosh, Heather C. Whalley, Susana Muñoz Maniega, Maria Valdés Hernández, Ellen Backhouse, Karen Ferguson, Mark E. Bastin, Joanna Wardlaw, Javier de la Fuente, Andrew D. Grotzinger, Michelle Luciano, W. David Hill, Ian J. Deary, Elliot M. Tucker-Drob, Simon R. Cox" tabindex="0">
+        Anna E. Fürtjes, Isabelle F. Foote, Charley Xia, Gail Davies, Joanna Moodie, …, Michelle Luciano, W. David Hill, Ian J. Deary, Elliot M. Tucker-Drob, Simon R. Cox
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">21 Jul 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-025-61978-6</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z8" class="citation-image" aria-label="Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the i All of Us i Research Program">
+        <img src="" alt="Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the i All of Us i Research Program" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z8" class="citation-title">
+        Transdiagnostic Polygenic Risk Models for Psychopathology and Comorbidity: Cross-Ancestry Analysis in the
+                  <i>All of Us</i>
+                  Research Program
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Phil H. Lee, Jae-Yoon Jung, Brandon T. Sanzo, Rui Duan, Tian Ge, Irwin Waldman, Jordan W. Smoller, Ted Schwaba, Elliot M. Tucker-Drob, Andrew D. Grotzinger
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">openRxiv</span>
+         · 
+        <span class="citation-date">27 Mar 2025</span>
+         · 
+        <span class="citation-id">doi:10.1101/2025.03.26.25324720</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z4" class="citation-image" aria-label="Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex">
+        <img src="" alt="Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z4" class="citation-title">
+        Comparison of the multivariate genetic architecture of eight major psychiatric disorders across sex
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ted Schwaba, Travis T. Mallard, Adam X. Maihofer, Mijke Rhemtulla, Phil H. Lee, Jordan W. Smoller, Lea K. Davis, Michel G. Nivard, Andrew D. Grotzinger, Elliot M. Tucker-Drob
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Genetics</span>
+         · 
+        <span class="citation-date">01 Mar 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41588-025-02093-6</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z3" class="citation-image" aria-label="Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research">
+        <img src="" alt="Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z3" class="citation-title">
+        Correction: Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research
+      </a>
+
+      <div class="citation-authors" data-tooltip="Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, John M. Hettema, Michael Gandal, Andrew Grotzinger, Katherine Jonas, Phil Lee, Travis T. Mallard, Manuel Mattheisen, Michael C. Neale, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler" tabindex="0">
+        Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, …, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Psychiatry</span>
+         · 
+        <span class="citation-date">28 Jan 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41380-025-02914-4</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z6" class="citation-image" aria-label="Impulsivity facets and substance use involvement: insights from genomic structural equation modeling">
+        <img src="" alt="Impulsivity facets and substance use involvement: insights from genomic structural equation modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z6" class="citation-title">
+        Impulsivity facets and substance use involvement: insights from genomic structural equation modeling
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Laura Vilar-Ribó, Alexander S. Hatoum, Andrew D. Grotzinger, Travis T. Mallard, Sarah Elson, Pierre Fontanillas, Abraham A. Palmer, Daniel E. Gustavson, Sandra Sanchez-Roige
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Psychological Medicine</span>
+         · 
+        <span class="citation-date">01 Jan 2025</span>
+         · 
+        <span class="citation-id">doi:10.1017/s0033291725000145</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g953vb" class="citation-image" aria-label="Examining the genetic relationship between Alzheimer s disease, schizophrenia and their shared risk factors using genomic structural equation modelling">
+        <img src="" alt="Examining the genetic relationship between Alzheimer s disease, schizophrenia and their shared risk factors using genomic structural equation modelling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g953vb" class="citation-title">
+        Examining the genetic relationship between Alzheimer’s disease, schizophrenia and their shared risk factors using genomic structural equation modelling
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Inês Almeida e Sousa, Andrew D Grotzinger, Jeremy M Lawrence, Sophie Breunig, Charles R Marshall, Ania Korszun, Isabelle F Foote
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Brain Communications</span>
+         · 
+        <span class="citation-date">01 Jan 2025</span>
+         · 
+        <span class="citation-id">doi:10.1093/braincomms/fcaf112</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-details year-heading">
+<span class="citation-date">2024</span>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g8xjdr" class="citation-image" aria-label="Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research">
+        <img src="" alt="Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g8xjdr" class="citation-title">
+        Assessment and ascertainment in psychiatric molecular genetics: challenges and opportunities for cross-disorder research
+      </a>
+
+      <div class="citation-authors" data-tooltip="Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, John M. Hettema, Michael Gandal, Andrew Grotzinger, Katherine Jonas, Phil Lee, Travis T. Mallard, Manuel Mattheisen, Michael C. Neale, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler" tabindex="0">
+        Na Cai, Brad Verhulst, Ole A. Andreassen, Jan Buitelaar, Howard J. Edenberg, …, John I. Nurnberger, Wouter J. Peyrot, Elliot M. Tucker-Drob, Jordan W. Smoller, Kenneth S. Kendler
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Psychiatry</span>
+         · 
+        <span class="citation-date">27 Dec 2024</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41380-024-02878-x</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z7" class="citation-image" aria-label="Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction">
+        <img src="" alt="Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z7" class="citation-title">
+        Author Correction: Multivariate analysis of 1.5 million people identifies genetic associations with traits related to self-regulation and addiction
+      </a>
+
+      <div class="citation-authors" data-tooltip="Richard Karlsson Linnér, Travis T. Mallard, Peter B. Barr, Sandra Sanchez-Roige, James W. Madole, Morgan N. Driver, Holly E. Poore, Ronald de Vlaming, Andrew D. Grotzinger, Jorim J. Tielbeek, Emma C. Johnson, Mengzhen Liu, Sara Brin Rosenthal, Trey Ideker, Hang Zhou, Rachel L. Kember, Joëlle A. Pasman, Karin J. H. Verweij, Dajiang J. Liu, Scott Vrieze, Bernice Porjesz, Victor Hesselbrock, Tatiana M. Foroud, Arpana Agrawal, Howard J. Edenberg, John I. Nurnberger Jr, Yunlong Liu, Samuel Kuperman, John Kramer, Jacquelyn L. Meyer, Chella Kamarajan, Ashwini K. Pandey, Laura Bierut, John Rice, Kathleen K. Bucholz, Marc A. Schuckit, Jay Tischfield, Andrew Brooks, Ronald P. Hart, Laura Almasy, Danielle M. Dick, Jessica E. Salvatore, Allison Goate, Manav Kapoor, Paul Slesinger, Denise M. Scott, Lance Bauer, Leah Wetherill, Xiaoling Xuei, Dongbing Lai, Sean J. O’Connor, Martin H. Plawecki, Spencer Lourens, Laura Acion, Grace Chan, David B. Chorlian, Jian Zhang, Sivan Kinreich, Gayathri Pandey, Michael J. Chao, Andrey P. Anokhin, Vivia V. McCutcheon, Scott Saccone, Fazil Aliev, Peter B. Barr, Hemin Chin, Abbas Parsian, Henry R. Kranzler, Joel Gelernter, Kathleen Mullan Harris, Elliot M. Tucker-Drob, Irwin D. Waldman, Abraham A. Palmer, K. Paige Harden, Philipp D. Koellinger, Danielle M. Dick" tabindex="0">
+        Richard Karlsson Linnér, Travis T. Mallard, Peter B. Barr, Sandra Sanchez-Roige, James W. Madole, …, Irwin D. Waldman, Abraham A. Palmer, K. Paige Harden, Philipp D. Koellinger, Danielle M. Dick
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Neuroscience</span>
+         · 
+        <span class="citation-date">06 Dec 2024</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41593-024-01853-7</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbncms" class="citation-image" aria-label="Genomic network analysis characterizes genetic architecture and identifies trait-specific biology">
+        <img src="" alt="Genomic network analysis characterizes genetic architecture and identifies trait-specific biology" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbncms" class="citation-title">
+        Genomic network analysis characterizes genetic architecture and identifies trait-specific biology
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jackson G. Thorp, Zachary F. Gerring, William R. Reay, Eske M. Derks, Andrew D. Grotzinger
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">openRxiv</span>
+         · 
+        <span class="citation-date">05 Dec 2024</span>
+         · 
+        <span class="citation-id">doi:10.1101/2024.12.03.24318432</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g749bc" class="citation-image" aria-label="Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts">
+        <img src="" alt="Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g749bc" class="citation-title">
+        Genome-wide meta-analysis of ascertainment and symptom structures of major depression in case-enriched and community cohorts
+      </a>
+
+      <div class="citation-authors" data-tooltip="Mark J. Adams, Jackson G. Thorp, Bradley S. Jermy, Alex S. F. Kwong, Kadri Kõiv, Andrew D. Grotzinger, Michel G. Nivard, Sally Marshall, Yuri Milaneschi, Bernhard T. Baune, Bertram Müller-Myhsok, Brenda W. J. H. Penninx, Dorret I. Boomsma, Douglas F. Levinson, Gerome Breen, Giorgio Pistis, Hans J. Grabe, Henning Tiemeier, Klaus Berger, Marcella Rietschel, Patrik K. Magnusson, Rudolf Uher, Steven P. Hamilton, Susanne Lucae, Kelli Lehto, Qingqin S. Li, Enda M. Byrne, Ian B. Hickie, Nicholas G. Martin, Sarah E Medland, Naomi R. Wray, Elliot M. Tucker-Drob, Cathryn M. Lewis, Andrew M McIntosh, Eske M. Derks" tabindex="0">
+        Mark J. Adams, Jackson G. Thorp, Bradley S. Jermy, Alex S. F. Kwong, Kadri Kõiv, …, Naomi R. Wray, Elliot M. Tucker-Drob, Cathryn M. Lewis, Andrew M McIntosh, Eske M. Derks
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Psychological Medicine</span>
+         · 
+        <span class="citation-date">01 Sep 2024</span>
+         · 
+        <span class="citation-id">doi:10.1017/s0033291724001880</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/g9753s" class="citation-image" aria-label="Genetic associations between non-cognitive skills and academic achievement over development">
+        <img src="" alt="Genetic associations between non-cognitive skills and academic achievement over development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/g9753s" class="citation-title">
+        Genetic associations between non-cognitive skills and academic achievement over development
+      </a>
+
+      <div class="citation-authors" data-tooltip="Margherita Malanchini, Andrea G. Allegrini, Michel G. Nivard, Pietro Biroli, Kaili Rimfeld, Rosa Cheesman, Sophie von Stumm, Perline A. Demange, Elsje van Bergen, Andrew D. Grotzinger, Laurel Raffington, Javier De la Fuente, Jean-Baptiste Pingault, Elliot M. Tucker-Drob, K. Paige Harden, Robert Plomin" tabindex="0">
+        Margherita Malanchini, Andrea G. Allegrini, Michel G. Nivard, Pietro Biroli, Kaili Rimfeld, …, Javier De la Fuente, Jean-Baptiste Pingault, Elliot M. Tucker-Drob, K. Paige Harden, Robert Plomin
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Human Behaviour</span>
+         · 
+        <span class="citation-date">26 Aug 2024</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41562-024-01967-9</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbncmt" class="citation-image" aria-label="Partitioning the Genomic Components of Behavioral Disinhibition and Substance Use Disorder Using Genomic Structural Equation Modeling">
+        <img src="" alt="Partitioning the Genomic Components of Behavioral Disinhibition and Substance Use Disorder Using Genomic Structural Equation Modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbncmt" class="citation-title">
+        Partitioning the Genomic Components of Behavioral Disinhibition and Substance Use (Disorder) Using Genomic Structural Equation Modeling
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Tanya B. Horwitz, Katerina Zorina-Lichtenwalter, Daniel E. Gustavson, Andrew D. Grotzinger, Michael C. Stallings
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Behavior Genetics</span>
+         · 
+        <span class="citation-date">09 Jul 2024</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10519-024-10188-9</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk72c" class="citation-image" aria-label="Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin adoptive approaches.">
+        <img src="" alt="Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin adoptive approaches." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk72c" class="citation-title">
+        Evidence for strong genetic correlations among internalizing psychopathology and related self-reported measures using both genomic and twin/adoptive approaches.
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Daniel E. Gustavson, Elisa F. Stern, Chandra A. Reynolds, Andrew D. Grotzinger, Robin P. Corley, Sally J. Wadsworth, Soo H. Rhee, Naomi P. Friedman
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Psychopathology and Clinical Science</span>
+         · 
+        <span class="citation-date">01 Jul 2024</span>
+         · 
+        <span class="citation-id">doi:10.1037/abn0000905</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk72b" class="citation-image" aria-label="Disentangling differing relationships between internalizing disorders and alcohol use">
+        <img src="" alt="Disentangling differing relationships between internalizing disorders and alcohol use" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk72b" class="citation-title">
+        Disentangling differing relationships between internalizing disorders and alcohol use
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Maizy S. Brasher, Andrew D. Grotzinger, Naomi P. Friedman, Harry R. Smolker, Luke M. Evans
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">American Journal of Medical Genetics Part B: Neuropsychiatric Genetics</span>
+         · 
+        <span class="citation-date">20 Feb 2024</span>
+         · 
+        <span class="citation-id">doi:10.1002/ajmg.b.32975</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk7z9" class="citation-image" aria-label="Beyond the factor indeterminacy problem using genome-wide association data">
+        <img src="" alt="Beyond the factor indeterminacy problem using genome-wide association data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk7z9" class="citation-title">
+        Beyond the factor indeterminacy problem using genome-wide association data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Margaret L. Clapp Sullivan, Ted Schwaba, K. Paige Harden, Andrew D. Grotzinger, Michel G. Nivard, Elliot M. Tucker-Drob
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Human Behaviour</span>
+         · 
+        <span class="citation-date">15 Jan 2024</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41562-023-01789-1</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-details year-heading">
+<span class="citation-date">2023</span>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk72h" class="citation-image" aria-label="Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach">
+        <img src="" alt="Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk72h" class="citation-title">
+        Genetic associations between alcohol phenotypes and life satisfaction: a genomic structural equation modelling approach
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Kaitlin E. Bountress, Shannon E. Cusack, Sage E. Hawn, Andrew Grotzinger, Daniel Bustamante, Robert M. Kirkpatrick, Howard J. Edenberg, Ananda B. Amstadter
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Reports</span>
+         · 
+        <span class="citation-date">18 Aug 2023</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41598-023-40199-1</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbk72j" class="citation-image" aria-label="Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes">
+        <img src="" alt="Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/hbk72j" class="citation-title">
+        Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes
+      </a>
+
+      <div class="citation-authors" data-tooltip="Varun Warrier, Eva-Maria Stauffer, Qin Qin Huang, Emilie M. Wigdor, Eric A. W. Slob, Jakob Seidlitz, Lisa Ronan, Sofie L. Valk, Travis T. Mallard, Andrew D. Grotzinger, Rafael Romero-Garcia, Simon Baron-Cohen, Daniel H. Geschwind, Madeline A. Lancaster, Graham K. Murray, Michael J. Gandal, Aaron Alexander-Bloch, Hyejung Won, Hilary C. Martin, Edward T. Bullmore, Richard A. I. Bethlehem" tabindex="0">
+        Varun Warrier, Eva-Maria Stauffer, Qin Qin Huang, Emilie M. Wigdor, Eric A. W. Slob, …, Aaron Alexander-Bloch, Hyejung Won, Hilary C. Martin, Edward T. Bullmore, Richard A. I. Bethlehem
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Genetics</span>
+         · 
+        <span class="citation-date">17 Aug 2023</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41588-023-01475-y</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
       <a href="https://doi.org/hbk72n" class="citation-image" aria-label="Transcriptome-Wide Structural Equation Modeling of 13 Major Psychiatric Disorders for Cross-Disorder Risk and Drug Repurposing">
         <img src="" alt="Transcriptome-Wide Structural Equation Modeling of 13 Major Psychiatric Disorders for Cross-Disorder Risk and Drug Repurposing" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
@@ -2004,7 +2220,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Aug 2023</span>
          · 
-        <span class="citation-id">doi:10.1001/JAMAPSYCHIATRY.2023.1808</span>
+        <span class="citation-id">doi:10.1001/jamapsychiatry.2023.1808</span>
       </div>
 
       
@@ -2049,7 +2265,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">23 May 2023</span>
          · 
-        <span class="citation-id">doi:10.1097/J.PAIN.0000000000002922</span>
+        <span class="citation-id">doi:10.1097/j.pain.0000000000002922</span>
       </div>
 
       
@@ -2094,7 +2310,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">22 May 2023</span>
          · 
-        <span class="citation-id">doi:10.1371/JOURNAL.PGEN.1010693</span>
+        <span class="citation-id">doi:10.1371/journal.pgen.1010693</span>
       </div>
 
       
@@ -2116,8 +2332,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/g953vm" class="citation-image" aria-label="Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes">
-        <img src="" alt="Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/hbncmv" class="citation-image" aria-label="Genetic contributions of noncognitive skills to academic development">
+        <img src="" alt="Genetic contributions of noncognitive skills to academic development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -2125,21 +2341,21 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
   <i class="icon fa-solid fa-scroll"></i>
 
-      <a href="https://doi.org/g953vm" class="citation-title">
-        Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes
+      <a href="https://doi.org/hbncmv" class="citation-title">
+        Genetic contributions of noncognitive skills to academic development
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        Jeremy M. Lawrence, Sophie Breunig, Isabelle F. Foote, Connor B. Tallis, Andrew D. Grotzinger
+      <div class="citation-authors" data-tooltip="Margherita Malanchini, Andrea Allegrini, Michel G Nivard, Pietro Biroli, Kaili Rimfeld, Rosa Cheesman, Sophie von Stumm, Perline Demange, Elsje van Bergen, Andrew Grotzinger, Laurel Raffington, Javier de la Fuente, Jean-Baptiste Pingault, K Harden, Elliot Tucker-Drob, Robert Plomin" tabindex="0">
+        Margherita Malanchini, Andrea Allegrini, Michel G Nivard, Pietro Biroli, Kaili Rimfeld, …, Javier de la Fuente, Jean-Baptiste Pingault, K Harden, Elliot Tucker-Drob, Robert Plomin
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
+        <span class="citation-publisher">Springer Science and Business Media LLC</span>
          · 
-        <span class="citation-date">09 May 2023</span>
+        <span class="citation-date">07 Apr 2023</span>
          · 
-        <span class="citation-id">doi:10.1101/2023.04.29.23289281</span>
+        <span class="citation-id">doi:10.21203/rs.3.rs-2775994/v1</span>
       </div>
 
       
@@ -2184,7 +2400,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Apr 2023</span>
          · 
-        <span class="citation-id">doi:10.1152/PHYSREV.00016.2022</span>
+        <span class="citation-id">doi:10.1152/physrev.00016.2022</span>
       </div>
 
       
@@ -2229,7 +2445,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">22 Mar 2023</span>
          · 
-        <span class="citation-id">doi:10.1038/S44220-023-00034-Y</span>
+        <span class="citation-id">doi:10.1038/s44220-023-00034-y</span>
       </div>
 
       
@@ -2274,7 +2490,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">20 Feb 2023</span>
          · 
-        <span class="citation-id">doi:10.1038/S41467-023-36605-X</span>
+        <span class="citation-id">doi:10.1038/s41467-023-36605-x</span>
       </div>
 
       
@@ -2319,7 +2535,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jan 2023</span>
          · 
-        <span class="citation-id">doi:10.1016/J.BIOPSYCH.2022.05.029</span>
+        <span class="citation-id">doi:10.1016/j.biopsych.2022.05.029</span>
       </div>
 
       
@@ -2338,7 +2554,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2022">2022</h3>
+<div class="citation-details year-heading">
+<span class="citation-date">2022</span>
+</div>
 
 <div class="citation-container">
   <div class="citation">
@@ -2366,7 +2584,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">18 Nov 2022</span>
          · 
-        <span class="citation-id">doi:10.1126/SCIENCE.ADE8002</span>
+        <span class="citation-id">doi:10.1126/science.ade8002</span>
       </div>
 
       
@@ -2411,7 +2629,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">10 Nov 2022</span>
          · 
-        <span class="citation-id">doi:10.1111/JORA.12807</span>
+        <span class="citation-id">doi:10.1111/jora.12807</span>
       </div>
 
       
@@ -2456,7 +2674,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">21 Oct 2022</span>
          · 
-        <span class="citation-id">doi:10.1038/S41467-022-33724-9</span>
+        <span class="citation-id">doi:10.1038/s41467-022-33724-9</span>
       </div>
 
       
@@ -2501,7 +2719,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Oct 2022</span>
          · 
-        <span class="citation-id">doi:10.1037/DEV0001393</span>
+        <span class="citation-id">doi:10.1037/dev0001393</span>
       </div>
 
       
@@ -2546,7 +2764,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">03 Jun 2022</span>
          · 
-        <span class="citation-id">doi:10.1371/JOURNAL.PGEN.1010208</span>
+        <span class="citation-id">doi:10.1371/journal.pgen.1010208</span>
       </div>
 
       
@@ -2591,7 +2809,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jun 2022</span>
          · 
-        <span class="citation-id">doi:10.1016/J.XGEN.2022.100140</span>
+        <span class="citation-id">doi:10.1016/j.xgen.2022.100140</span>
       </div>
 
       
@@ -2636,52 +2854,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">04 May 2022</span>
          · 
-        <span class="citation-id">doi:10.1038/S41539-022-00121-2</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gp4xcr" class="citation-image" aria-label="Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis">
-        <img src="" alt="Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/gp4xcr" class="citation-title">
-        Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis
-      </a>
-
-      <div class="citation-authors" data-tooltip="Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, Cathryn M. Lewis, Andrew M. McIntosh, Jakob Grove, Søren Dalsgaard, Klaus-Peter Lesch, Nora Strom, Sandra M. Meier, Manuel Mattheisen, Anders D. Børglum, Ole Mors, Gerome Breen, Manuel Mattheisen, Ole Mors, Sandra M. Meier, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard" tabindex="0">
-        Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, …, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Nature Genetics</span>
-         · 
-        <span class="citation-date">01 May 2022</span>
-         · 
-        <span class="citation-id">doi:10.1038/S41588-022-01057-4</span>
+        <span class="citation-id">doi:10.1038/s41539-022-00121-2</span>
       </div>
 
       
@@ -2726,7 +2899,52 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 May 2022</span>
          · 
-        <span class="citation-id">doi:10.1016/J.DRUGALCDEP.2022.109430</span>
+        <span class="citation-id">doi:10.1016/j.drugalcdep.2022.109430</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            
+
+          </div>
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gp4xcr" class="citation-image" aria-label="Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis">
+        <img src="" alt="Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+  
+  <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gp4xcr" class="citation-title">
+        Genetic architecture of 11 major psychiatric disorders at biobehavioral, functional genomic and molecular genetic levels of analysis
+      </a>
+
+      <div class="citation-authors" data-tooltip="Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, Cathryn M. Lewis, Andrew M. McIntosh, Jakob Grove, Søren Dalsgaard, Klaus-Peter Lesch, Nora Strom, Sandra M. Meier, Manuel Mattheisen, Anders D. Børglum, Ole Mors, Gerome Breen, Manuel Mattheisen, Ole Mors, Sandra M. Meier, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard" tabindex="0">
+        Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, …, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Genetics</span>
+         · 
+        <span class="citation-date">01 May 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41588-022-01057-4</span>
       </div>
 
       
@@ -2771,7 +2989,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jan 2022</span>
          · 
-        <span class="citation-id">doi:10.1176/APPI.AJP.2020.20091390</span>
+        <span class="citation-id">doi:10.1176/appi.ajp.2020.20091390</span>
       </div>
 
       
@@ -2790,7 +3008,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
+<div class="citation-details year-heading">
+<span class="citation-date">2021</span>
+</div>
 
 <div class="citation-container">
   <div class="citation">
@@ -2818,52 +3038,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">26 Aug 2021</span>
          · 
-        <span class="citation-id">doi:10.1038/S41593-021-00908-3</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72v" class="citation-image" aria-label="Transcriptome-wide and Stratified Genomic Structural Equation Modeling Identify Neurobiological Pathways Underlying General and Specific Cognitive Functions">
-        <img src="" alt="Transcriptome-wide and Stratified Genomic Structural Equation Modeling Identify Neurobiological Pathways Underlying General and Specific Cognitive Functions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72v" class="citation-title">
-        Transcriptome-wide and Stratified Genomic Structural Equation Modeling Identify Neurobiological Pathways Underlying General and Specific Cognitive Functions
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Andrew D. Grotzinger, Javier de la Fuente, Gail Davies, Michel G. Nivard, Elliot M. Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">04 May 2021</span>
-         · 
-        <span class="citation-id">doi:10.1101/2021.04.30.21256409</span>
+        <span class="citation-id">doi:10.1038/s41593-021-00908-3</span>
       </div>
 
       
@@ -2908,7 +3083,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">15 Apr 2021</span>
          · 
-        <span class="citation-id">doi:10.1038/S41562-021-01094-9</span>
+        <span class="citation-id">doi:10.1038/s41562-021-01094-9</span>
       </div>
 
       
@@ -2953,7 +3128,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">17 Mar 2021</span>
          · 
-        <span class="citation-id">doi:10.1017/S0033291721000829</span>
+        <span class="citation-id">doi:10.1017/s0033291721000829</span>
       </div>
 
       
@@ -2998,7 +3173,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jan 2021</span>
          · 
-        <span class="citation-id">doi:10.1038/S41588-020-00754-2</span>
+        <span class="citation-id">doi:10.1038/s41588-020-00754-2</span>
       </div>
 
       
@@ -3043,7 +3218,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jan 2021</span>
          · 
-        <span class="citation-id">doi:10.1037/DEV0001135</span>
+        <span class="citation-id">doi:10.1037/dev0001135</span>
       </div>
 
       
@@ -3062,96 +3237,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2020">2020</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gmwngw" class="citation-image" aria-label="Genetic Architecture of 11 Major Psychiatric Disorders at Biobehavioral, Functional Genomic, and Molecular Genetic Levels of Analysis">
-        <img src="" alt="Genetic Architecture of 11 Major Psychiatric Disorders at Biobehavioral, Functional Genomic, and Molecular Genetic Levels of Analysis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/gmwngw" class="citation-title">
-        Genetic Architecture of 11 Major Psychiatric Disorders at Biobehavioral, Functional Genomic, and Molecular Genetic Levels of Analysis
-      </a>
-
-      <div class="citation-authors" data-tooltip="Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, Cathryn M. Lewis, Andrew M. McIntosh, Jakob Grove, Søren Dalsgaard, Klaus-Peter Lesch, Nora Strom, Sandra M. Meier, Manuel Mattheisen, Anders D. Børglum, Ole Mors, Gerome Breen, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard" tabindex="0">
-        Andrew D. Grotzinger, Travis T. Mallard, Wonuola A. Akingbuwa, Hill F. Ip, Mark J. Adams, …, Phil H. Lee, Kenneth S. Kendler, Jordan W. Smoller, Elliot M. Tucker-Drob, Michel G. Nivard
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">23 Sep 2020</span>
-         · 
-        <span class="citation-id">doi:10.1101/2020.09.22.20196089</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72w" class="citation-image" aria-label="Multivariate GWAS elucidates the genetic architecture of alcohol consumption and misuse, corrects biases, and reveals novel associations with disease">
-        <img src="" alt="Multivariate GWAS elucidates the genetic architecture of alcohol consumption and misuse, corrects biases, and reveals novel associations with disease" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72w" class="citation-title">
-        Multivariate GWAS elucidates the genetic architecture of alcohol consumption and misuse, corrects biases, and reveals novel associations with disease
-      </a>
-
-      <div class="citation-authors" data-tooltip="Travis T Mallard, Jeanne E Savage, Emma C Johnson, Yuye Huang, Alexis C Edwards, Jouke J Hottenga, Andrew D Grotzinger, Daniel E Gustavson, Mariela V Jennings, Andrey Anokhin, Danielle M Dick, Howard J Edenberg, John R Kramer, Dongbing Lai, Jacquelyn L Meyers, Ashwini K Pandey, Kathryn Paige Harden, Michel G Nivard, Eco JC de Geus, Dorret I Boomsma, Arpana Agrawal, Lea K Davis, Toni-Kim Clarke, Abraham A Palmer, Sandra Sanchez-Roige" tabindex="0">
-        Travis T Mallard, Jeanne E Savage, Emma C Johnson, Yuye Huang, Alexis C Edwards, …, Arpana Agrawal, Lea K Davis, Toni-Kim Clarke, Abraham A Palmer, Sandra Sanchez-Roige
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">22 Sep 2020</span>
-         · 
-        <span class="citation-id">doi:10.1101/2020.09.21.304196</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2020</span>
 </div>
 
 <div class="citation-container">
@@ -3180,7 +3267,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">07 Sep 2020</span>
          · 
-        <span class="citation-id">doi:10.1038/S41562-020-00936-2</span>
+        <span class="citation-id">doi:10.1038/s41562-020-00936-2</span>
       </div>
 
       
@@ -3225,7 +3312,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">14 Jul 2020</span>
          · 
-        <span class="citation-id">doi:10.1038/S41467-020-17117-4</span>
+        <span class="citation-id">doi:10.1038/s41467-020-17117-4</span>
       </div>
 
       
@@ -3270,7 +3357,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jun 2020</span>
          · 
-        <span class="citation-id">doi:10.1016/J.JAAC.2019.05.006</span>
+        <span class="citation-id">doi:10.1016/j.jaac.2019.05.006</span>
       </div>
 
       
@@ -3315,7 +3402,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">04 May 2020</span>
          · 
-        <span class="citation-id">doi:10.1038/S41380-020-0747-Z</span>
+        <span class="citation-id">doi:10.1038/s41380-020-0747-z</span>
       </div>
 
       
@@ -3334,141 +3421,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72x" class="citation-image" aria-label="Symptom-level genetic modelling identifies novel risk loci and unravels the shared genetic architecture of anxiety and depression">
-        <img src="" alt="Symptom-level genetic modelling identifies novel risk loci and unravels the shared genetic architecture of anxiety and depression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72x" class="citation-title">
-        Symptom-level genetic modelling identifies novel risk loci and unravels the shared genetic architecture of anxiety and depression
-      </a>
-
-      <div class="citation-authors" data-tooltip="Jackson G. Thorp, Adrian I. Campos, Andrew D. Grotzinger, Zachary Gerring, Jiyuan An, Jue-Sheng Ong, Wei Wang, Suyash Shringarpure, Enda M. Byrne, Stuart MacGregor, Nicholas G. Martin, Sarah E. Medland, Christel M. Middeldorp, Eske M. Derks" tabindex="0">
-        Jackson G. Thorp, Adrian I. Campos, Andrew D. Grotzinger, Zachary Gerring, Jiyuan An, …, Stuart MacGregor, Nicholas G. Martin, Sarah E. Medland, Christel M. Middeldorp, Eske M. Derks
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">14 Apr 2020</span>
-         · 
-        <span class="citation-id">doi:10.1101/2020.04.08.20057653</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ggk6hs" class="citation-image" aria-label="Investigating the Genetic Architecture of Non-Cognitive Skills Using GWAS-by-Subtraction">
-        <img src="" alt="Investigating the Genetic Architecture of Non-Cognitive Skills Using GWAS-by-Subtraction" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/ggk6hs" class="citation-title">
-        Investigating the Genetic Architecture of Non-Cognitive Skills Using GWAS-by-Subtraction
-      </a>
-
-      <div class="citation-authors" data-tooltip="Perline A. Demange, Margherita Malanchini, Travis T. Mallard, Pietro Biroli, Simon R. Cox, Andrew D. Grotzinger, Elliot M. Tucker-Drob, Abdel Abdellaoui, Louise Arseneault, Avshalom Caspi, David Corcoran, Benjamin Domingue, Colter Mitchell, Elsje van Bergen, Dorret I. Boomsma, Kathleen M. Harris, Hill F. Ip, Terrie E. Moffitt, Richie Poulton, Joseph Prinz, Karen Sugden, Jasmin Wertz, Benjamin Williams, Eveline L. de Zeeuw, Daniel W. Belsky, K. Paige Harden, Michel G. Nivard" tabindex="0">
-        Perline A. Demange, Margherita Malanchini, Travis T. Mallard, Pietro Biroli, Simon R. Cox, …, Benjamin Williams, Eveline L. de Zeeuw, Daniel W. Belsky, K. Paige Harden, Michel G. Nivard
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">15 Jan 2020</span>
-         · 
-        <span class="citation-id">doi:10.1101/2020.01.14.905794</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ggr84q" class="citation-image" aria-label="Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders">
-        <img src="" alt="Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/ggr84q" class="citation-title">
-        Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders
-      </a>
-
-      <div class="citation-authors" data-tooltip="Phil H. Lee, Verneri Anttila, Hyejung Won, Yen-Chen A. Feng, Jacob Rosenthal, Zhaozhong Zhu, Elliot M. Tucker-Drob, Michel G. Nivard, Andrew D. Grotzinger, Danielle Posthuma, Meg M.-J. Wang, Dongmei Yu, Eli A. Stahl, Raymond K. Walters, Richard J.L. Anney, Laramie E. Duncan, Tian Ge, Rolf Adolfsson, Tobias Banaschewski, Sintia Belangero, Edwin H. Cook, Giovanni Coppola, Eske M. Derks, Pieter J. Hoekstra, Jaakko Kaprio, Anna Keski-Rahkonen, George Kirov, Henry R. Kranzler, Jurjen J. Luykx, Luis A. Rohde, Clement C. Zai, Esben Agerbo, M.J. Arranz, Philip Asherson, Marie Bækvad-Hansen, Gísli Baldursson, Mark Bellgrove, Richard A. Belliveau, Jan Buitelaar, Christie L. Burton, Jonas Bybjerg-Grauholm, Miquel Casas, Felecia Cerrato, Kimberly Chambert, Claire Churchhouse, Bru Cormand, Jennifer Crosbie, Søren Dalsgaard, Ditte Demontis, Alysa E. Doyle, Ashley Dumont, Josephine Elia, Jakob Grove, Olafur O. Gudmundsson, Jan Haavik, Hakon Hakonarson, Christine S. Hansen, Catharina A. Hartman, Ziarih Hawi, Amaia Hervás, David M. Hougaard, Daniel P. Howrigan, Hailiang Huang, Jonna Kuntsi, Kate Langley, Klaus-Peter Lesch, Patrick W.L. Leung, Sandra K. Loo, Joanna Martin, Alicia R. Martin, James J. McGough, Sarah E. Medland, Jennifer L. Moran, Ole Mors, Preben B. Mortensen, Robert D. Oades, Duncan S. Palmer, Carsten B. Pedersen, Marianne G. Pedersen, Triinu Peters, Timothy Poterba, Jesper B. Poulsen, Josep Antoni Ramos-Quiroga, Andreas Reif, Marta Ribasés, Aribert Rothenberger, Paula Rovira, Cristina Sánchez-Mora, F. Kyle Satterstrom, Russell Schachar, Maria Soler Artigas, Stacy Steinberg, Hreinn Stefansson, Patrick Turley, G. Bragi Walters, Thomas Werge, Tetyana Zayats, Dan E. Arking, Francesco Bettella, Joseph D. Buxbaum, Jane H. Christensen, Ryan L. Collins, Hilary Coon, Silvia De Rubeis, Richard Delorme, Dorothy E. Grice, Thomas F. Hansen, Peter A. Holmans, Sigrun Hope, Christina M. Hultman, Lambertus Klei, Christine Ladd-Acosta, Pall Magnusson, Terje Nærland, Mette Nyegaard, Dalila Pinto, Per Qvist, Karola Rehnström, Abraham Reichenberg, Jennifer Reichert, Kathryn Roeder, Guy A. Rouleau, Evald Saemundsen, Stephan J. Sanders, Sven Sandin, Beate St Pourcain, Kari Stefansson, James S. Sutcliffe, Michael E. Talkowski, Lauren A. Weiss, A. Jeremy Willsey, Ingrid Agartz, Huda Akil, Diego Albani, Martin Alda, Thomas D. Als, Adebayo Anjorin, Lena Backlund, Nicholas Bass, Michael Bauer, Bernhard T. Baune, Frank Bellivier, Sarah E. Bergen, Wade H. Berrettini, Joanna M. Biernacka, Douglas H.R. Blackwood, Erlend Bøen, Monika Budde, William Bunney, Margit Burmeister, William Byerley, Enda M. Byrne, Sven Cichon, Toni-Kim Clarke, Jonathan R.I. Coleman, Nicholas Craddock, David Curtis, Piotr M. Czerski, Anders M. Dale, Nina Dalkner, Udo Dannlowski, Franziska Degenhardt, Arianna Di Florio, Torbjørn Elvsåshagen, Bruno Etain, Sascha B. Fischer, Andreas J. Forstner, Liz Forty, Josef Frank, Mark Frye, Janice M. Fullerton, Katrin Gade, Héléna A. Gaspar, Elliot S. Gershon, Michael Gill, Fernando S. Goes, Scott D. Gordon, Katherine Gordon-Smith, Melissa J. Green, Tiffany A. Greenwood, Maria Grigoroiu-Serbanescu, José Guzman-Parra, Joanna Hauser, Martin Hautzinger, Urs Heilbronner, Stefan Herms, Per Hoffmann, Dominic Holland, Stéphane Jamain, Ian Jones, Lisa A. Jones, Radhika Kandaswamy, John R. Kelsoe, James L. Kennedy, Oedegaard Ketil Joachim, Sarah Kittel-Schneider, Manolis Kogevinas, Anna C. Koller, Catharina Lavebratt, Cathryn M. Lewis, Qingqin S. Li, Jolanta Lissowska, Loes M.O. Loohuis, Susanne Lucae, Anna Maaser, Ulrik F. Malt, Nicholas G. Martin, Lina Martinsson, Susan L. McElroy, Francis J. McMahon, Andrew McQuillin, Ingrid Melle, Andres Metspalu, Vincent Millischer, Philip B. Mitchell, Grant W. Montgomery, Gunnar Morken, Derek W. Morris, Bertram Müller-Myhsok, Niamh Mullins, Richard M. Myers, Caroline M. Nievergelt, Merete Nordentoft, Annelie Nordin Adolfsson, Markus M. Nöthen, Roel A. Ophoff, Michael J. Owen, Sara A. Paciga, Carlos N. Pato, Michele T. Pato, Roy H. Perlis, Amy Perry, James B. Potash, Céline S. Reinbold, Marcella Rietschel, Margarita Rivera, Mary Roberson, Martin Schalling, Peter R. Schofield, Thomas G. Schulze, Laura J. Scott, Alessandro Serretti, Engilbert Sigurdsson, Olav B. Smeland, Eystein Stordal, Fabian Streit, Jana Strohmaier, Thorgeir E. Thorgeirsson, Jens Treutlein, Gustavo Turecki, Arne E. Vaaler, Eduard Vieta, John B. Vincent, Yunpeng Wang, Stephanie H. Witt, Peter Zandi, Roger A.H. Adan, Lars Alfredsson, Tetsuya Ando, Harald Aschauer, Jessica H. Baker, Vladimir Bencko, Andrew W. Bergen, Andreas Birgegård, Vesna Boraska Perica, Harry Brandt, Roland Burghardt, Laura Carlberg, Matteo Cassina, Maurizio Clementi, Philippe Courtet, Steven Crawford, Scott Crow, James J. Crowley, Unna N. Danner, Oliver S.P. Davis, Daniela Degortes, Janiece E. DeSocio, Danielle M. Dick, Christian Dina, Elisa Docampo, Karin Egberts, Stefan Ehrlich, Thomas Espeseth, Fernando Fernández-Aranda, Manfred M. Fichter, Lenka Foretova, Monica Forzan, Giovanni Gambaro, Ina Giegling, Fragiskos Gonidakis, Philip Gorwood, Monica Gratacos Mayora, Yiran Guo, Katherine A. Halmi, Konstantinos Hatzikotoulas, Johannes Hebebrand, Sietske G. Helder, Beate Herpertz-Dahlmann, Wolfgang Herzog, Anke Hinney, Hartmut Imgart, Susana Jiménez-Murcia, Craig Johnson, Jennifer Jordan, Antonio Julià, Deborah Kaminská, Leila Karhunen, Andreas Karwautz, Martien J.H. Kas, Walter H. Kaye, Martin A. Kennedy, Youl-Ri Kim, Lars Klareskog, Kelly L. Klump, Gun Peggy S. Knudsen, Mikael Landén, Stephanie Le Hellard, Robert D. Levitan, Dong Li, Paul Lichtenstein, Mario Maj, Sara Marsal, Sara McDevitt, James Mitchell, Palmiero Monteleone, Alessio Maria Monteleone, Melissa A. Munn-Chernoff, Benedetta Nacmias, Marie Navratilova, Julie K. O’Toole, Leonid Padyukov, Jacques Pantel, Hana Papezova, Raquel Rabionet, Anu Raevuori, Nicolas Ramoz, Ted Reichborn-Kjennerud, Valdo Ricca, Marion Roberts, Dan Rujescu, Filip Rybakowski, André Scherag, Ulrike Schmidt, Jochen Seitz, Lenka Slachtova, Margarita C.T. Slof-Op‘t Landt, Agnieszka Slopien, Sandro Sorbi, Lorraine Southam, Michael Strober, Alfonso Tortorella, Federica Tozzi, Janet Treasure, Konstantinos Tziouvas, Annemarie A. van Elburg, Tracey D. Wade, Gudrun Wagner, Esther Walton, Hunna J. Watson, H-Erich Wichmann, D. Blake Woodside, Eleftheria Zeggini, Stephanie Zerwas, Stephan Zipfel, Mark J. Adams, Till F.M. Andlauer, Klaus Berger, Elisabeth B. Binder, Dorret I. Boomsma, Enrique Castelao, Lucía Colodro-Conde, Nese Direk, Anna R. Docherty, Enrico Domenici, Katharina Domschke, Erin C. Dunn, Jerome C. Foo, E.J.C. de. Geus, Hans J. Grabe, Steven P. Hamilton, Carsten Horn, Jouke-Jan Hottenga, David Howard, Marcus Ising, Stefan Kloiber, Douglas F. Levinson, Glyn Lewis, Patrik K.E. Magnusson, Hamdi Mbarek, Christel M. Middeldorp, Sara Mostafavi, Dale R. Nyholt, Brenda WJH. Penninx, Roseann E. Peterson, Giorgio Pistis, David J. Porteous, Martin Preisig, Jorge A. Quiroz, Catherine Schaefer, Eva C. Schulte, Jianxin Shi, Daniel J. Smith, Pippa A. Thomson, Henning Tiemeier, Rudolf Uher, Sandra van der Auwera, Myrna M. Weissman, Madeline Alexander, Martin Begemann, Elvira Bramon, Nancy G. Buccola, Murray J. Cairns, Dominique Campion, Vaughan J. Carr, C. Robert Cloninger, David Cohen, David A. Collier, Aiden Corvin, Lynn E. DeLisi, Gary Donohoe, Frank Dudbridge, Jubao Duan, Robert Freedman, Pablo V. Gejman, Vera Golimbet, Stephanie Godard, Hannelore Ehrenreich, Annette M. Hartmann, Frans A. Henskens, Masashi Ikeda, Nakao Iwata, Assen V. Jablensky, Inge Joa, Erik G. Jönsson, Brian J. Kelly, Jo Knight, Bettina Konte, Claudine Laurent-Levinson, Jimmy Lee, Todd Lencz, Bernard Lerer, Carmel M. Loughland, Anil K. Malhotra, Jacques Mallet, Colm McDonald, Marina Mitjans, Bryan J. Mowry, Kieran C. Murphy, Robin M. Murray, F. Anthony O’Neill, Sang-Yun Oh, Aarno Palotie, Christos Pantelis, Ann E. Pulver, Tracey L. Petryshen, Digby J. Quested, Brien Riley, Alan R. Sanders, Ulrich Schall, Sibylle G. Schwab, Rodney J. Scott, Pak C. Sham, Jeremy M. Silverman, Kang Sim, Agnes A. Steixner, Paul A. Tooney, Jim van Os, Marquis P. Vawter, Dermot Walsh, Mark Weiser, Dieter B. Wildenauer, Nigel M. Williams, Brandon K. Wormley, Fuquan Zhang, Christos Androutsos, Paul D. Arnold, Cathy L. Barr, Csaba Barta, Katharina Bey, O. Joseph Bienvenu, Donald W. Black, Lawrence W. Brown, Cathy Budman, Danielle Cath, Keun-Ah Cheon, Valentina Ciullo, Barbara J. Coffey, Daniele Cusi, Lea K. Davis, Damiaan Denys, Christel Depienne, Andrea Dietrich, Valsamma Eapen, Peter Falkai, Thomas V. Fernandez, Blanca Garcia-Delgar, Daniel A. Geller, Donald L. Gilbert, Marco A. Grados, Erica Greenberg, Edna Grünblatt, Julie Hagstrøm, Gregory L. Hanna, Andreas Hartmann, Tammy Hedderly, Gary A. Heiman, Isobel Heyman, Hyun Ju Hong, Alden Huang, Chaim Huyser, Laura Ibanez-Gomez, Ekaterina A. Khramtsova, Young Key Kim, Young-Shin Kim, Robert A. King, Yun-Joo Koh, Anastasios Konstantinidis, Sodahm Kook, Samuel Kuperman, Bennett L. Leventhal, Christine Lochner, Andrea G. Ludolph, Marcos Madruga-Garrido, Irene Malaty, Athanasios Maras, James T. McCracken, Inge A. Meijer, Pablo Mir, Astrid Morer, Kirsten R. Müller-Vahl, Alexander Münchau, Tara L. Murphy, Allan Naarden, Peter Nagy, Gerald Nestadt, Paul S. Nestadt, Humberto Nicolini, Erika L. Nurmi, Michael S. Okun, Peristera Paschou, Fabrizio Piras, Federica Piras, Christopher Pittenger, Kerstin J. Plessen, Margaret A. Richter, Renata Rizzo, Mary Robertson, Veit Roessner, Stephan Ruhrmann, Jack F. Samuels, Paul Sandor, Monika Schlögelhofer, Eun-Young Shin, Harvey Singer, Dong-Ho Song, Jungeun Song, Gianfranco Spalletta, Dan J. Stein, S Evelyn Stewart, Eric A. Storch, Barbara Stranger, Manfred Stuhrmann, Zsanett Tarnok, Jay A. Tischfield, Jennifer Tübing, Frank Visscher, Nienke Vulink, Michael Wagner, Susanne Walitza, Sina Wanderer, Martin Woods, Yulia Worbe, Gwyneth Zai, Samuel H. Zinner, Patrick F. Sullivan, Barbara Franke, Mark J. Daly, Cynthia M. Bulik, Cathryn M. Lewis, Andrew M. McIntosh, Michael C. O’Donovan, Amanda Zheutlin, Ole A. Andreassen, Anders D. Børglum, Gerome Breen, Howard J. Edenberg, Ayman H. Fanous, Stephen V. Faraone, Joel Gelernter, Carol A. Mathews, Manuel Mattheisen, Karen S. Mitchell, Michael C. Neale, John I. Nurnberger, Stephan Ripke, Susan L. Santangelo, Jeremiah M. Scharf, Murray B. Stein, Laura M. Thornton, James T.R. Walters, Naomi R. Wray, Daniel H. Geschwind, Benjamin M. Neale, Kenneth S. Kendler, Jordan W. Smoller" tabindex="0">
-        Phil H. Lee, Verneri Anttila, Hyejung Won, Yen-Chen A. Feng, Jacob Rosenthal, …, Naomi R. Wray, Daniel H. Geschwind, Benjamin M. Neale, Kenneth S. Kendler, Jordan W. Smoller
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Cell</span>
-         · 
-        <span class="citation-date">01 Dec 2019</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.CELL.2019.11.020</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2019</span>
 </div>
 
 <div class="citation-container">
@@ -3497,7 +3451,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Dec 2019</span>
          · 
-        <span class="citation-id">doi:10.1037/PSPP0000224</span>
+        <span class="citation-id">doi:10.1037/pspp0000224</span>
       </div>
 
       
@@ -3519,8 +3473,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/gkz2tk" class="citation-image" aria-label="Changing environments reveal innovative genetic variation in children s cortisol responses">
-        <img src="" alt="Changing environments reveal innovative genetic variation in children s cortisol responses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      <a href="https://doi.org/ggr84q" class="citation-image" aria-label="Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders">
+        <img src="" alt="Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
@@ -3528,111 +3482,21 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
   <i class="icon fa-solid fa-scroll"></i>
 
-      <a href="https://doi.org/gkz2tk" class="citation-title">
-        Changing environments reveal innovative genetic variation in children’s cortisol responses
+      <a href="https://doi.org/ggr84q" class="citation-title">
+        Genomic Relationships, Novel Loci, and Pleiotropic Mechanisms across Eight Psychiatric Disorders
       </a>
 
-      <div class="citation-authors" tabindex="0">
-        Laurel Raffington, Margherita Malanchini, Andrew D. Grotzinger, James W. Madole, Laura E. Engelhardt, Aditi Sabhlok, Cherry Youn, Megan W. Patterson, K. Paige Harden, Elliot M. Tucker-Drob
+      <div class="citation-authors" data-tooltip="Phil H. Lee, Verneri Anttila, Hyejung Won, Yen-Chen A. Feng, Jacob Rosenthal, Zhaozhong Zhu, Elliot M. Tucker-Drob, Michel G. Nivard, Andrew D. Grotzinger, Danielle Posthuma, Meg M.-J. Wang, Dongmei Yu, Eli A. Stahl, Raymond K. Walters, Richard J.L. Anney, Laramie E. Duncan, Tian Ge, Rolf Adolfsson, Tobias Banaschewski, Sintia Belangero, Edwin H. Cook, Giovanni Coppola, Eske M. Derks, Pieter J. Hoekstra, Jaakko Kaprio, Anna Keski-Rahkonen, George Kirov, Henry R. Kranzler, Jurjen J. Luykx, Luis A. Rohde, Clement C. Zai, Esben Agerbo, M.J. Arranz, Philip Asherson, Marie Bækvad-Hansen, Gísli Baldursson, Mark Bellgrove, Richard A. Belliveau, Jan Buitelaar, Christie L. Burton, Jonas Bybjerg-Grauholm, Miquel Casas, Felecia Cerrato, Kimberly Chambert, Claire Churchhouse, Bru Cormand, Jennifer Crosbie, Søren Dalsgaard, Ditte Demontis, Alysa E. Doyle, Ashley Dumont, Josephine Elia, Jakob Grove, Olafur O. Gudmundsson, Jan Haavik, Hakon Hakonarson, Christine S. Hansen, Catharina A. Hartman, Ziarih Hawi, Amaia Hervás, David M. Hougaard, Daniel P. Howrigan, Hailiang Huang, Jonna Kuntsi, Kate Langley, Klaus-Peter Lesch, Patrick W.L. Leung, Sandra K. Loo, Joanna Martin, Alicia R. Martin, James J. McGough, Sarah E. Medland, Jennifer L. Moran, Ole Mors, Preben B. Mortensen, Robert D. Oades, Duncan S. Palmer, Carsten B. Pedersen, Marianne G. Pedersen, Triinu Peters, Timothy Poterba, Jesper B. Poulsen, Josep Antoni Ramos-Quiroga, Andreas Reif, Marta Ribasés, Aribert Rothenberger, Paula Rovira, Cristina Sánchez-Mora, F. Kyle Satterstrom, Russell Schachar, Maria Soler Artigas, Stacy Steinberg, Hreinn Stefansson, Patrick Turley, G. Bragi Walters, Thomas Werge, Tetyana Zayats, Dan E. Arking, Francesco Bettella, Joseph D. Buxbaum, Jane H. Christensen, Ryan L. Collins, Hilary Coon, Silvia De Rubeis, Richard Delorme, Dorothy E. Grice, Thomas F. Hansen, Peter A. Holmans, Sigrun Hope, Christina M. Hultman, Lambertus Klei, Christine Ladd-Acosta, Pall Magnusson, Terje Nærland, Mette Nyegaard, Dalila Pinto, Per Qvist, Karola Rehnström, Abraham Reichenberg, Jennifer Reichert, Kathryn Roeder, Guy A. Rouleau, Evald Saemundsen, Stephan J. Sanders, Sven Sandin, Beate St Pourcain, Kari Stefansson, James S. Sutcliffe, Michael E. Talkowski, Lauren A. Weiss, A. Jeremy Willsey, Ingrid Agartz, Huda Akil, Diego Albani, Martin Alda, Thomas D. Als, Adebayo Anjorin, Lena Backlund, Nicholas Bass, Michael Bauer, Bernhard T. Baune, Frank Bellivier, Sarah E. Bergen, Wade H. Berrettini, Joanna M. Biernacka, Douglas H.R. Blackwood, Erlend Bøen, Monika Budde, William Bunney, Margit Burmeister, William Byerley, Enda M. Byrne, Sven Cichon, Toni-Kim Clarke, Jonathan R.I. Coleman, Nicholas Craddock, David Curtis, Piotr M. Czerski, Anders M. Dale, Nina Dalkner, Udo Dannlowski, Franziska Degenhardt, Arianna Di Florio, Torbjørn Elvsåshagen, Bruno Etain, Sascha B. Fischer, Andreas J. Forstner, Liz Forty, Josef Frank, Mark Frye, Janice M. Fullerton, Katrin Gade, Héléna A. Gaspar, Elliot S. Gershon, Michael Gill, Fernando S. Goes, Scott D. Gordon, Katherine Gordon-Smith, Melissa J. Green, Tiffany A. Greenwood, Maria Grigoroiu-Serbanescu, José Guzman-Parra, Joanna Hauser, Martin Hautzinger, Urs Heilbronner, Stefan Herms, Per Hoffmann, Dominic Holland, Stéphane Jamain, Ian Jones, Lisa A. Jones, Radhika Kandaswamy, John R. Kelsoe, James L. Kennedy, Oedegaard Ketil Joachim, Sarah Kittel-Schneider, Manolis Kogevinas, Anna C. Koller, Catharina Lavebratt, Cathryn M. Lewis, Qingqin S. Li, Jolanta Lissowska, Loes M.O. Loohuis, Susanne Lucae, Anna Maaser, Ulrik F. Malt, Nicholas G. Martin, Lina Martinsson, Susan L. McElroy, Francis J. McMahon, Andrew McQuillin, Ingrid Melle, Andres Metspalu, Vincent Millischer, Philip B. Mitchell, Grant W. Montgomery, Gunnar Morken, Derek W. Morris, Bertram Müller-Myhsok, Niamh Mullins, Richard M. Myers, Caroline M. Nievergelt, Merete Nordentoft, Annelie Nordin Adolfsson, Markus M. Nöthen, Roel A. Ophoff, Michael J. Owen, Sara A. Paciga, Carlos N. Pato, Michele T. Pato, Roy H. Perlis, Amy Perry, James B. Potash, Céline S. Reinbold, Marcella Rietschel, Margarita Rivera, Mary Roberson, Martin Schalling, Peter R. Schofield, Thomas G. Schulze, Laura J. Scott, Alessandro Serretti, Engilbert Sigurdsson, Olav B. Smeland, Eystein Stordal, Fabian Streit, Jana Strohmaier, Thorgeir E. Thorgeirsson, Jens Treutlein, Gustavo Turecki, Arne E. Vaaler, Eduard Vieta, John B. Vincent, Yunpeng Wang, Stephanie H. Witt, Peter Zandi, Roger A.H. Adan, Lars Alfredsson, Tetsuya Ando, Harald Aschauer, Jessica H. Baker, Vladimir Bencko, Andrew W. Bergen, Andreas Birgegård, Vesna Boraska Perica, Harry Brandt, Roland Burghardt, Laura Carlberg, Matteo Cassina, Maurizio Clementi, Philippe Courtet, Steven Crawford, Scott Crow, James J. Crowley, Unna N. Danner, Oliver S.P. Davis, Daniela Degortes, Janiece E. DeSocio, Danielle M. Dick, Christian Dina, Elisa Docampo, Karin Egberts, Stefan Ehrlich, Thomas Espeseth, Fernando Fernández-Aranda, Manfred M. Fichter, Lenka Foretova, Monica Forzan, Giovanni Gambaro, Ina Giegling, Fragiskos Gonidakis, Philip Gorwood, Monica Gratacos Mayora, Yiran Guo, Katherine A. Halmi, Konstantinos Hatzikotoulas, Johannes Hebebrand, Sietske G. Helder, Beate Herpertz-Dahlmann, Wolfgang Herzog, Anke Hinney, Hartmut Imgart, Susana Jiménez-Murcia, Craig Johnson, Jennifer Jordan, Antonio Julià, Deborah Kaminská, Leila Karhunen, Andreas Karwautz, Martien J.H. Kas, Walter H. Kaye, Martin A. Kennedy, Youl-Ri Kim, Lars Klareskog, Kelly L. Klump, Gun Peggy S. Knudsen, Mikael Landén, Stephanie Le Hellard, Robert D. Levitan, Dong Li, Paul Lichtenstein, Mario Maj, Sara Marsal, Sara McDevitt, James Mitchell, Palmiero Monteleone, Alessio Maria Monteleone, Melissa A. Munn-Chernoff, Benedetta Nacmias, Marie Navratilova, Julie K. O’Toole, Leonid Padyukov, Jacques Pantel, Hana Papezova, Raquel Rabionet, Anu Raevuori, Nicolas Ramoz, Ted Reichborn-Kjennerud, Valdo Ricca, Marion Roberts, Dan Rujescu, Filip Rybakowski, André Scherag, Ulrike Schmidt, Jochen Seitz, Lenka Slachtova, Margarita C.T. Slof-Op‘t Landt, Agnieszka Slopien, Sandro Sorbi, Lorraine Southam, Michael Strober, Alfonso Tortorella, Federica Tozzi, Janet Treasure, Konstantinos Tziouvas, Annemarie A. van Elburg, Tracey D. Wade, Gudrun Wagner, Esther Walton, Hunna J. Watson, H-Erich Wichmann, D. Blake Woodside, Eleftheria Zeggini, Stephanie Zerwas, Stephan Zipfel, Mark J. Adams, Till F.M. Andlauer, Klaus Berger, Elisabeth B. Binder, Dorret I. Boomsma, Enrique Castelao, Lucía Colodro-Conde, Nese Direk, Anna R. Docherty, Enrico Domenici, Katharina Domschke, Erin C. Dunn, Jerome C. Foo, E.J.C. de. Geus, Hans J. Grabe, Steven P. Hamilton, Carsten Horn, Jouke-Jan Hottenga, David Howard, Marcus Ising, Stefan Kloiber, Douglas F. Levinson, Glyn Lewis, Patrik K.E. Magnusson, Hamdi Mbarek, Christel M. Middeldorp, Sara Mostafavi, Dale R. Nyholt, Brenda WJH. Penninx, Roseann E. Peterson, Giorgio Pistis, David J. Porteous, Martin Preisig, Jorge A. Quiroz, Catherine Schaefer, Eva C. Schulte, Jianxin Shi, Daniel J. Smith, Pippa A. Thomson, Henning Tiemeier, Rudolf Uher, Sandra van der Auwera, Myrna M. Weissman, Madeline Alexander, Martin Begemann, Elvira Bramon, Nancy G. Buccola, Murray J. Cairns, Dominique Campion, Vaughan J. Carr, C. Robert Cloninger, David Cohen, David A. Collier, Aiden Corvin, Lynn E. DeLisi, Gary Donohoe, Frank Dudbridge, Jubao Duan, Robert Freedman, Pablo V. Gejman, Vera Golimbet, Stephanie Godard, Hannelore Ehrenreich, Annette M. Hartmann, Frans A. Henskens, Masashi Ikeda, Nakao Iwata, Assen V. Jablensky, Inge Joa, Erik G. Jönsson, Brian J. Kelly, Jo Knight, Bettina Konte, Claudine Laurent-Levinson, Jimmy Lee, Todd Lencz, Bernard Lerer, Carmel M. Loughland, Anil K. Malhotra, Jacques Mallet, Colm McDonald, Marina Mitjans, Bryan J. Mowry, Kieran C. Murphy, Robin M. Murray, F. Anthony O’Neill, Sang-Yun Oh, Aarno Palotie, Christos Pantelis, Ann E. Pulver, Tracey L. Petryshen, Digby J. Quested, Brien Riley, Alan R. Sanders, Ulrich Schall, Sibylle G. Schwab, Rodney J. Scott, Pak C. Sham, Jeremy M. Silverman, Kang Sim, Agnes A. Steixner, Paul A. Tooney, Jim van Os, Marquis P. Vawter, Dermot Walsh, Mark Weiser, Dieter B. Wildenauer, Nigel M. Williams, Brandon K. Wormley, Fuquan Zhang, Christos Androutsos, Paul D. Arnold, Cathy L. Barr, Csaba Barta, Katharina Bey, O. Joseph Bienvenu, Donald W. Black, Lawrence W. Brown, Cathy Budman, Danielle Cath, Keun-Ah Cheon, Valentina Ciullo, Barbara J. Coffey, Daniele Cusi, Lea K. Davis, Damiaan Denys, Christel Depienne, Andrea Dietrich, Valsamma Eapen, Peter Falkai, Thomas V. Fernandez, Blanca Garcia-Delgar, Daniel A. Geller, Donald L. Gilbert, Marco A. Grados, Erica Greenberg, Edna Grünblatt, Julie Hagstrøm, Gregory L. Hanna, Andreas Hartmann, Tammy Hedderly, Gary A. Heiman, Isobel Heyman, Hyun Ju Hong, Alden Huang, Chaim Huyser, Laura Ibanez-Gomez, Ekaterina A. Khramtsova, Young Key Kim, Young-Shin Kim, Robert A. King, Yun-Joo Koh, Anastasios Konstantinidis, Sodahm Kook, Samuel Kuperman, Bennett L. Leventhal, Christine Lochner, Andrea G. Ludolph, Marcos Madruga-Garrido, Irene Malaty, Athanasios Maras, James T. McCracken, Inge A. Meijer, Pablo Mir, Astrid Morer, Kirsten R. Müller-Vahl, Alexander Münchau, Tara L. Murphy, Allan Naarden, Peter Nagy, Gerald Nestadt, Paul S. Nestadt, Humberto Nicolini, Erika L. Nurmi, Michael S. Okun, Peristera Paschou, Fabrizio Piras, Federica Piras, Christopher Pittenger, Kerstin J. Plessen, Margaret A. Richter, Renata Rizzo, Mary Robertson, Veit Roessner, Stephan Ruhrmann, Jack F. Samuels, Paul Sandor, Monika Schlögelhofer, Eun-Young Shin, Harvey Singer, Dong-Ho Song, Jungeun Song, Gianfranco Spalletta, Dan J. Stein, S Evelyn Stewart, Eric A. Storch, Barbara Stranger, Manfred Stuhrmann, Zsanett Tarnok, Jay A. Tischfield, Jennifer Tübing, Frank Visscher, Nienke Vulink, Michael Wagner, Susanne Walitza, Sina Wanderer, Martin Woods, Yulia Worbe, Gwyneth Zai, Samuel H. Zinner, Patrick F. Sullivan, Barbara Franke, Mark J. Daly, Cynthia M. Bulik, Cathryn M. Lewis, Andrew M. McIntosh, Michael C. O’Donovan, Amanda Zheutlin, Ole A. Andreassen, Anders D. Børglum, Gerome Breen, Howard J. Edenberg, Ayman H. Fanous, Stephen V. Faraone, Joel Gelernter, Carol A. Mathews, Manuel Mattheisen, Karen S. Mitchell, Michael C. Neale, John I. Nurnberger, Stephan Ripke, Susan L. Santangelo, Jeremiah M. Scharf, Murray B. Stein, Laura M. Thornton, James T.R. Walters, Naomi R. Wray, Daniel H. Geschwind, Benjamin M. Neale, Kenneth S. Kendler, Jordan W. Smoller" tabindex="0">
+        Phil H. Lee, Verneri Anttila, Hyejung Won, Yen-Chen A. Feng, Jacob Rosenthal, …, Naomi R. Wray, Daniel H. Geschwind, Benjamin M. Neale, Kenneth S. Kendler, Jordan W. Smoller
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
+        <span class="citation-publisher">Cell</span>
          · 
-        <span class="citation-date">30 Nov 2019</span>
+        <span class="citation-date">01 Dec 2019</span>
          · 
-        <span class="citation-id">doi:10.1101/856658</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk724" class="citation-image" aria-label="Positive risk-taking: Mixed-methods validation of a self-report scale and evidence for genetic links to personality and negative risk-taking">
-        <img src="" alt="Positive risk-taking: Mixed-methods validation of a self-report scale and evidence for genetic links to personality and negative risk-taking" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk724" class="citation-title">
-        Positive risk-taking: Mixed-methods validation of a self-report scale and evidence for genetic links to personality and negative risk-taking
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Megan Wales Patterson, Lilla Pivnick, Frank D Mann, Andrew D Grotzinger, Kathryn C Monahan, Laurence Steinberg, Jennifer L Tackett, Elliot M. Tucker-Drob, K. Paige Harden
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Center for Open Science</span>
-         · 
-        <span class="citation-date">31 Oct 2019</span>
-         · 
-        <span class="citation-id">doi:10.31234/OSF.IO/BQ63F</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk726" class="citation-image" aria-label="USING PARTITIONED GENOMIC STRUCTURAL EQUATION MODELLING TO IDENTIFY RELATIONSHIPS BETWEEN PSYCHOPATHOLOGY AND RESILIENCY FACTORS WITHIN BIOLOGICAL CATEGORIES">
-        <img src="" alt="USING PARTITIONED GENOMIC STRUCTURAL EQUATION MODELLING TO IDENTIFY RELATIONSHIPS BETWEEN PSYCHOPATHOLOGY AND RESILIENCY FACTORS WITHIN BIOLOGICAL CATEGORIES" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk726" class="citation-title">
-        USING PARTITIONED GENOMIC STRUCTURAL EQUATION MODELLING TO IDENTIFY RELATIONSHIPS BETWEEN PSYCHOPATHOLOGY AND RESILIENCY FACTORS WITHIN BIOLOGICAL CATEGORIES
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Andrew Grotzinger, Travis Mallard, Kirstin Purves, Gerome Breen, Phil Lee, Jordan Smoller, Michel Nivard, Elliot Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">European Neuropsychopharmacology</span>
-         · 
-        <span class="citation-date">01 Oct 2019</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.EURONEURO.2019.07.060</span>
+        <span class="citation-id">doi:10.1016/j.cell.2019.11.020</span>
       </div>
 
       
@@ -3677,97 +3541,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Oct 2019</span>
          · 
-        <span class="citation-id">doi:10.1093/AJCN/NQZ109</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk722" class="citation-image" aria-label="S41GENOMIC STRUCTURAL EQUATION MODELS OF MAJOR DEPRESSION SYMPTOMS">
-        <img src="" alt="S41GENOMIC STRUCTURAL EQUATION MODELS OF MAJOR DEPRESSION SYMPTOMS" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk722" class="citation-title">
-        S41GENOMIC STRUCTURAL EQUATION MODELS OF MAJOR DEPRESSION SYMPTOMS
-      </a>
-
-      <div class="citation-authors" data-tooltip="Mark Adams, Andrew Grotzinger, Bradley Jermy, Jackson Thorp, Michel Nivard, Enda Byrne, Ian Hickie, Nick Martin, Sarah Medland, Naomi Wray, Elliot Tucker-Drob, Cathryn Lewis, Eske Derks, Andrew McIntosh" tabindex="0">
-        Mark Adams, Andrew Grotzinger, Bradley Jermy, Jackson Thorp, Michel Nivard, …, Naomi Wray, Elliot Tucker-Drob, Cathryn Lewis, Eske Derks, Andrew McIntosh
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">European Neuropsychopharmacology</span>
-         · 
-        <span class="citation-date">01 Oct 2019</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.EURONEURO.2019.08.042</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gkxcjv" class="citation-image" aria-label="Weak and uneven associations of home, neighborhood and school environments with stress hormone output across multiple time scales">
-        <img src="" alt="Weak and uneven associations of home, neighborhood and school environments with stress hormone output across multiple time scales" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/gkxcjv" class="citation-title">
-        Weak and uneven associations of home, neighborhood and school environments with stress hormone output across multiple time scales
-      </a>
-
-      <div class="citation-authors" data-tooltip="Margherita Malanchini, Laura E. Engelhardt, Laurel Raffington, Aditi Sabhlok, Andrew D. Grotzinger, Daniel A. Briley, James W. Madole, Samantha M. Freis, Megan W. Patterson, K. Paige Harden, Elliot M. Tucker-Drob" tabindex="0">
-        Margherita Malanchini, Laura E. Engelhardt, Laurel Raffington, Aditi Sabhlok, Andrew D. Grotzinger, …, James W. Madole, Samantha M. Freis, Megan W. Patterson, K. Paige Harden, Elliot M. Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">18 Jul 2019</span>
-         · 
-        <span class="citation-id">doi:10.1101/705996</span>
+        <span class="citation-id">doi:10.1093/ajcn/nqz109</span>
       </div>
 
       
@@ -3813,96 +3587,6 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         <span class="citation-date">06 May 2019</span>
          · 
         <span class="citation-id">doi:10.1177/2167702619842466</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/ggnvsr" class="citation-image" aria-label="Within-family studies for Mendelian randomization: avoiding dynastic, assortative mating, and population stratification biases">
-        <img src="" alt="Within-family studies for Mendelian randomization: avoiding dynastic, assortative mating, and population stratification biases" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/ggnvsr" class="citation-title">
-        Within-family studies for Mendelian randomization: avoiding dynastic, assortative mating, and population stratification biases
-      </a>
-
-      <div class="citation-authors" data-tooltip="Ben Brumpton, Eleanor Sanderson, Fernando Pires Hartwig, Sean Harrison, Gunnhild Åberge Vie, Yoonsu Cho, Laura D Howe, Amanda Hughes, Dorret I Boomsma, Alexandra Havdahl, John Hopper, Michael Neale, Michel G Nivard, Nancy L Pedersen, Chandra A Reynolds, Elliot M Tucker-Drob, Andrew Grotzinger, Laurence Howe, Tim Morris, Shuai Li, Wei-Min Chen, Johan Håkon Bjørngaard, Kristian Hveem, Cristen Willer, David M Evans, Jaakko Kaprio, Bjørn Olav Åsvol, George Davey Smith, Bjørn Olav Åsvold, Gibran Hemani, Neil M Davies" tabindex="0">
-        Ben Brumpton, Eleanor Sanderson, Fernando Pires Hartwig, Sean Harrison, Gunnhild Åberge Vie, …, Bjørn Olav Åsvol, George Davey Smith, Bjørn Olav Åsvold, Gibran Hemani, Neil M Davies
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">09 Apr 2019</span>
-         · 
-        <span class="citation-id">doi:10.1101/602516</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gg8zpv" class="citation-image" aria-label="Multivariate GWAS of psychiatric disorders and their cardinal symptoms reveal two dimensions of cross-cutting genetic liabilities">
-        <img src="" alt="Multivariate GWAS of psychiatric disorders and their cardinal symptoms reveal two dimensions of cross-cutting genetic liabilities" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/gg8zpv" class="citation-title">
-        Multivariate GWAS of psychiatric disorders and their cardinal symptoms reveal two dimensions of cross-cutting genetic liabilities
-      </a>
-
-      <div class="citation-authors" data-tooltip="Travis T. Mallard, Richard K. Linnér, Andrew D. Grotzinger, Sandra Sanchez-Roige, Jakob Seidlitz, Aysu Okbay, Ronald de Vlaming, S. Fleur W. Meddens, Abraham A. Palmer, Lea K. Davis, Elliot M. Tucker-Drob, Kenneth S. Kendler, Matthew C. Keller, Philipp D. Koellinger, K. Paige Harden" tabindex="0">
-        Travis T. Mallard, Richard K. Linnér, Andrew D. Grotzinger, Sandra Sanchez-Roige, Jakob Seidlitz, …, Elliot M. Tucker-Drob, Kenneth S. Kendler, Matthew C. Keller, Philipp D. Koellinger, K. Paige Harden
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">09 Apr 2019</span>
-         · 
-        <span class="citation-id">doi:10.1101/603134</span>
       </div>
 
       
@@ -4011,141 +3695,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk725" class="citation-image" aria-label="SU88THE EXTERNALIZING CONSORTIUM: A NEW EFFORT TO IDENTIFY GENES INVOLVED IN A SPECTRUM OF PSYCHIATRIC AND SUBSTANCE USE DISORDERS CHARACTERIZED BY BEHAVIORAL UNDERCONTROL">
-        <img src="" alt="SU88THE EXTERNALIZING CONSORTIUM: A NEW EFFORT TO IDENTIFY GENES INVOLVED IN A SPECTRUM OF PSYCHIATRIC AND SUBSTANCE USE DISORDERS CHARACTERIZED BY BEHAVIORAL UNDERCONTROL" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk725" class="citation-title">
-        SU88THE EXTERNALIZING CONSORTIUM: A NEW EFFORT TO IDENTIFY GENES INVOLVED IN A SPECTRUM OF PSYCHIATRIC AND SUBSTANCE USE DISORDERS CHARACTERIZED BY BEHAVIORAL UNDERCONTROL
-      </a>
-
-      <div class="citation-authors" data-tooltip="Danielle Dick, Philipp Koellinger, Paige Harden, Richard Karlsson Linnér, Travis Mallard, Ronald de Vlaming, Andrew Grotzinger, Peter Barr, Elliot Tucker-Drob, Irwin Waldman, Arpana Agrawal, Abraham Palmer" tabindex="0">
-        Danielle Dick, Philipp Koellinger, Paige Harden, Richard Karlsson Linnér, Travis Mallard, …, Peter Barr, Elliot Tucker-Drob, Irwin Waldman, Arpana Agrawal, Abraham Palmer
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">European Neuropsychopharmacology</span>
-         · 
-        <span class="citation-date">01 Jan 2019</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.EURONEURO.2018.08.452</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk72z" class="citation-image" aria-label="72GENOMIC SEM: A POWERFUL FRAMEWORK TO INTERROGATE THE CAUSES AND CONSEQUENCES OF PSYCHIATRIC DISEASE">
-        <img src="" alt="72GENOMIC SEM: A POWERFUL FRAMEWORK TO INTERROGATE THE CAUSES AND CONSEQUENCES OF PSYCHIATRIC DISEASE" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk72z" class="citation-title">
-        72GENOMIC SEM: A POWERFUL FRAMEWORK TO INTERROGATE THE CAUSES AND CONSEQUENCES OF PSYCHIATRIC DISEASE
-      </a>
-
-      <div class="citation-authors" data-tooltip="Michel Nivard, Andrew Grotzinger, Mijke Rhemtulla, Ronald de Vlaming, Stuart Ritchie, Travis Mallard, W David Hill, Hill Fung Ip, Andrew McIntosh, Ian J. Deary, Dorret Boomsma, Philipp Koellinger, Paige Harden, Elliot Tucker-Drob" tabindex="0">
-        Michel Nivard, Andrew Grotzinger, Mijke Rhemtulla, Ronald de Vlaming, Stuart Ritchie, …, Ian J. Deary, Dorret Boomsma, Philipp Koellinger, Paige Harden, Elliot Tucker-Drob
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">European Neuropsychopharmacology</span>
-         · 
-        <span class="citation-date">01 Jan 2019</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.EURONEURO.2018.08.079</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<h3 id="2018">2018</h3>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk727" class="citation-image" aria-label="Corrigendum to Genetic and environmental influences on pubertal hormones in human hair across development Psychoneuroendocrinology 90 2018 76 84">
-        <img src="" alt="Corrigendum to Genetic and environmental influences on pubertal hormones in human hair across development Psychoneuroendocrinology 90 2018 76 84" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk727" class="citation-title">
-        Corrigendum to “Genetic and environmental influences on pubertal hormones in human hair across development” [Psychoneuroendocrinology 90 (2018) 76–84]
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Andrew D. Grotzinger, Daniel A. Briley, Laura E. Engelhardt, Frank D. Mann, Megan W. Patterson, Jennifer L. Tackett, Elliot M. Tucker-Drob, K. Paige Harden
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Psychoneuroendocrinology</span>
-         · 
-        <span class="citation-date">01 Dec 2018</span>
-         · 
-        <span class="citation-id">doi:10.1016/J.PSYNEUEN.2018.08.011</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2018</span>
 </div>
 
 <div class="citation-container">
@@ -4174,7 +3725,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Oct 2018</span>
          · 
-        <span class="citation-id">doi:10.1037/DEV0000578</span>
+        <span class="citation-id">doi:10.1037/dev0000578</span>
       </div>
 
       
@@ -4264,7 +3815,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jul 2018</span>
          · 
-        <span class="citation-id">doi:10.1037/PSPP0000172</span>
+        <span class="citation-id">doi:10.1037/pspp0000172</span>
       </div>
 
       
@@ -4309,7 +3860,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Apr 2018</span>
          · 
-        <span class="citation-id">doi:10.1016/J.PSYNEUEN.2018.02.005</span>
+        <span class="citation-id">doi:10.1016/j.psyneuen.2018.02.005</span>
       </div>
 
       
@@ -4373,7 +3924,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2017">2017</h3>
+<div class="citation-details year-heading">
+<span class="citation-date">2017</span>
+</div>
 
 <div class="citation-container">
   <div class="citation">
@@ -4401,52 +3954,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">14 Dec 2017</span>
          · 
-        <span class="citation-id">doi:10.1111/CEN.13522</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
-</div>
-
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/gkxgsg" class="citation-image" aria-label="Genetic and Environmental Influences on Pubertal Hormones in Human Hair across Development">
-        <img src="" alt="Genetic and Environmental Influences on Pubertal Hormones in Human Hair across Development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/gkxgsg" class="citation-title">
-        Genetic and Environmental Influences on Pubertal Hormones in Human Hair across Development
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Andrew D. Grotzinger, Daniel A. Briley, Laura E. Engelhardt, Frank D. Mann, Megan W. Patterson, Jennifer L. Tackett, Elliot M. Tucker-Drob, K. Paige Harden
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">openRxiv</span>
-         · 
-        <span class="citation-date">20 Jun 2017</span>
-         · 
-        <span class="citation-id">doi:10.1101/152470</span>
+        <span class="citation-id">doi:10.1111/cen.13522</span>
       </div>
 
       
@@ -4491,7 +3999,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">19 Jan 2017</span>
          · 
-        <span class="citation-id">doi:10.1017/S0033291716003068</span>
+        <span class="citation-id">doi:10.1017/s0033291716003068</span>
       </div>
 
       
@@ -4536,7 +4044,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jan 2017</span>
          · 
-        <span class="citation-id">doi:10.1016/J.PAID.2016.09.018</span>
+        <span class="citation-id">doi:10.1016/j.paid.2016.09.018</span>
       </div>
 
       
@@ -4555,7 +4063,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2016">2016</h3>
+<div class="citation-details year-heading">
+<span class="citation-date">2016</span>
+</div>
 
 <div class="citation-container">
   <div class="citation">
@@ -4583,7 +4093,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Nov 2016</span>
          · 
-        <span class="citation-id">doi:10.1016/J.PSYNEUEN.2016.07.216</span>
+        <span class="citation-id">doi:10.1016/j.psyneuen.2016.07.216</span>
       </div>
 
       
@@ -4628,7 +4138,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Jul 2016</span>
          · 
-        <span class="citation-id">doi:10.1037/ABN0000160</span>
+        <span class="citation-id">doi:10.1037/abn0000160</span>
       </div>
 
       
@@ -4647,52 +4157,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/f86ngx" class="citation-image" aria-label="Grandiose Narcissism Predicts Willingness to Behave Badly, Without Proportional Tolerance for Others Bad Behavior">
-        <img src="" alt="Grandiose Narcissism Predicts Willingness to Behave Badly, Without Proportional Tolerance for Others Bad Behavior" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/f86ngx" class="citation-title">
-        Grandiose Narcissism Predicts Willingness to Behave Badly, Without Proportional Tolerance for Others’ Bad Behavior
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Harry M. Wallace, Benjamin R. M. Scheiner, Andrew Grotzinger
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Current Psychology</span>
-         · 
-        <span class="citation-date">23 Jan 2016</span>
-         · 
-        <span class="citation-id">doi:10.1007/S12144-016-9410-X</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2015</span>
 </div>
-
-<h3 id="2015">2015</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -4720,7 +4187,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">31 Aug 2015</span>
          · 
-        <span class="citation-id">doi:10.1002/EAT.22456</span>
+        <span class="citation-id">doi:10.1002/eat.22456</span>
       </div>
 
       
@@ -4765,7 +4232,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">01 Aug 2015</span>
          · 
-        <span class="citation-id">doi:10.1016/J.BRAT.2015.06.008</span>
+        <span class="citation-id">doi:10.1016/j.brat.2015.06.008</span>
       </div>
 
       
@@ -4784,52 +4251,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="citation-container">
-  <div class="citation">
-    
-      <a href="https://doi.org/hbk73c" class="citation-image" aria-label="When People Evaluate Others, the Level of Others Narcissism Matters Less to Evaluators Who Are Narcissistic">
-        <img src="" alt="When People Evaluate Others, the Level of Others Narcissism Matters Less to Evaluators Who Are Narcissistic" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="citation-text">
-  
-  <i class="icon fa-solid fa-scroll"></i>
-
-      <a href="https://doi.org/hbk73c" class="citation-title">
-        When People Evaluate Others, the Level of Others’ Narcissism Matters Less to Evaluators Who Are Narcissistic
-      </a>
-
-      <div class="citation-authors" tabindex="0">
-        Harry M. Wallace, Andrew Grotzinger, Tyler J. Howard, Nousha Parkhill
-
-      </div>
-
-      <div class="citation-details">
-        <span class="citation-publisher">Social Psychological and Personality Science</span>
-         · 
-        <span class="citation-date">26 May 2015</span>
-         · 
-        <span class="citation-id">doi:10.1177/1948550615587985</span>
-      </div>
-
-      
-        
-          <div class="citation-description">
-            
-
-          </div>
-        
-
-        
-
-        
-      
-    </div>
-  </div>
+<div class="citation-details year-heading">
+<span class="citation-date">2014</span>
 </div>
-
-<h3 id="2014">2014</h3>
 
 <div class="citation-container">
   <div class="citation">
@@ -4857,7 +4281,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
          · 
         <span class="citation-date">05 Sep 2014</span>
          · 
-        <span class="citation-id">doi:10.1002/EAT.22351</span>
+        <span class="citation-id">doi:10.1002/eat.22351</span>
       </div>
 
       

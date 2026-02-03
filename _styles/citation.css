@@ -94,6 +94,8 @@
   margin: 0;
 }
 
+/* Year headings used on the Research page should match the site's h2 styling */
+/* year-heading styles moved to _styles/heading.scss to match site headings */
 @container (max-width: 800px) {
   .citation {
     flex-direction: column;
