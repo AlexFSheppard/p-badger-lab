@@ -29,6 +29,21 @@ h2 {
   font-weight: var(--regular);
 }
 
+/* Year heading variant used on Research page */
+.year-heading {
+  margin: 40px 0 20px 0;
+  font-family: var(--heading);
+  font-weight: var(--regular);
+  font-size: 1.6rem;
+  padding-bottom: 5px;
+  border-bottom: solid 1px var(--light-gray);
+  text-align: left;
+}
+
+.year-heading .citation-date {
+  display: inline-block;
+}
+
 h3 {
   font-size: 1.5rem;
 }
