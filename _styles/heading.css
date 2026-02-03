@@ -33,7 +33,6 @@ h2 {
   font-weight: var(--regular);
   font-size: 1.6rem;
   padding-bottom: 5px;
-  border-bottom: solid 1px var(--light-gray);
   text-align: left;
 }
 
