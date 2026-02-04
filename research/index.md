@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Research coming out of our lab utilizes multivariate methods we developed to characterize the emergent genetic signal for human complex traits. Our empirical applications focus on psychiatric disorders, neurodegenerative disorders, and cognitive aging. With that said, our extensive collaborative and international network (highlighted below in interactive network plot) has resulted in partnerships to help apply methods with researchers who bring etiological expertise for a wide-range of outcomes, including heart disease, chronic pain, immune-mediated conditions, and medical outcomes more generally. 
 
 {% include section.html %}
 
