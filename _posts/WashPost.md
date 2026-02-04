@@ -6,6 +6,6 @@ tags: psychiatric comorbidity
 external_link: "https://www.washingtonpost.com/health/2026/01/01/psychiatric-disorders-genetic-bipolar-schizophrenia/"
 ---
 
-Washington Post coverage of Dr. Grotzinger's work with the PGC cross-disorder group: 
+Washington Post coverage of Dr. Grotzinger's work with the PGC cross-disorder group published in Nature: 
 
-[Read the article on CU Today →](https://www.washingtonpost.com/health/2026/01/01/psychiatric-disorders-genetic-bipolar-schizophrenia/){:target="_blank" rel="noopener"}
+[Read the article on the Washington Post →](https://www.washingtonpost.com/health/2026/01/01/psychiatric-disorders-genetic-bipolar-schizophrenia/){:target="_blank" rel="noopener"}
