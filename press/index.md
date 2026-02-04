@@ -1,11 +1,11 @@
 ---
-title: In-Press
+title: News
 nav:
   order: 4
   tooltip: Media showcasing our work 
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %} In-Press
+# {% include icon.html icon="fa-solid fa-feather-pointed" %} News
 
 
 
