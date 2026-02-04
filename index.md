@@ -3,7 +3,7 @@
  
 # The P-Badger Lab
 
-Genetic studies of any outcome are going to capture a blend of risk pathways that more directly confer risk, along with the signal for any genetically correlated risk factors. It should then come as no surprise that high genetic correlations are pervasive across human complex traits. This includes psychiatric disorders, for which the majority of the genetic signal for most disorders overlaps with other disorders. Our lab views this overlapping signal as a statistical problem to be solved. To this end, we develop and apply multivariate genomic methods (e.g., Genomic SME) to functionally characterize and statistically disambiguate shared and disorder-specific risk pathways. 
+Genetic studies of any outcome are going to capture a blend of risk pathways that more directly confer risk, along with the signal for any genetically correlated risk factors. It should then come as no surprise that high genetic correlations are pervasive across human complex traits. This includes psychiatric disorders, for which the majority of the genetic signal for most disorders overlaps with other disorders. Our lab views this overlapping signal as a statistical problem to be solved. To this end, we develop and apply multivariate genomic methods (e.g., Genomic SEM) to functionally characterize and statistically disambiguate shared and disorder-specific risk pathways. 
  
 
 {% include section.html %}
