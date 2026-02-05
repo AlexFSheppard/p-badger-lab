@@ -28,6 +28,9 @@ nav:
 <div class="grid team-gallery">
   {% include feature.html image="images/Gamblingisfun.jpg" %}
   {% include feature.html image="images/Gamblingisfun2.jpg" %}
+  {% include feature.html image="images/GetTogether.jpg" %}
+  {% include feature.html image="images/OutdoorLab.jpg" %}
+  {% include feature.html image="images/OutdoorLab2.jpg" %}
   {% include feature.html image="images/Holiday2025.jpg" %}
 </div>
 
