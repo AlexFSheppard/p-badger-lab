@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
-Open source software for genomic data science are available at the links below. 
+Open source R packages for multivariate analyses of genetic data. 
 
 
 {% include search-info.html %}
