@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Funding
 nav:
   order: 2
   tooltip: Collaborations, grants, and more
