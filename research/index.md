@@ -45,6 +45,14 @@ Research coming out of our lab utilizes multivariate methods we developed to cha
     {% continue %}
   {% endif %}
 
+  {% assign venue = citation["container-title"] | default: citation.journal | default: citation.publisher | default: citation.venue | default: "" | downcase %}
+{% assign url = citation.url | default: citation.link | default: "" | downcase %}
+
+{% if venue contains "openrxiv" or url contains "openrxiv" %}
+  {% continue %}
+{% endif %}
+
+
   {% comment %} Check member name and each alias individually (previous code joined aliases which prevented matching). {% endcomment %}
   {% assign is_mentee = false %}
   {% for m in site.members %}
@@ -91,6 +99,12 @@ Research coming out of our lab utilizes multivariate methods we developed to cha
   {% if cid == "" %}
     {% continue %}
   {% endif %}
+  {% assign venue = citation["container-title"] | default: citation.journal | default: citation.publisher | default: citation.venue | default: "" | downcase %}
+{% assign url = citation.url | default: citation.link | default: "" | downcase %}
+
+{% if venue contains "openrxiv" or url contains "openrxiv" %}
+  {% continue %}
+{% endif %}
 
   {% assign first = citation.authors | first | default: "" %}
   {% assign first_lc = first | downcase %}
