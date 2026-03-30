@@ -2974,6 +2974,22 @@
   orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.64898/2026.03.02.26347449
+  title: Genetic Signal Augmentation of Childhood-Onset and Treatment-Resistant Major
+    Depression Reveals Distinct Biological Disorders
+  authors:
+  - Jeremy M. Lawrence
+  - Sophie Breunig
+  - Lukas S. Schaffer
+  - Alexander Sheppard
+  - Katerina Zorina-Lichtenwalter
+  - Andrew D. Grotzinger
+  publisher: openRxiv
+  date: '2026-03-03'
+  link: https://doi.org/hbrs62
+  orcid: 0000-0001-6594-0587
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41467-026-69218-1
   title: Shared Genetic Liability across Systems of Psychiatric and Physical Illness
   authors:
