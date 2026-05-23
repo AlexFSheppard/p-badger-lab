@@ -1,12 +1,12 @@
 ---
-title: Six Psychological Scientists Receive 2026 APS Janet Taylor Spence Award
-date: 2026-02-23
-author: Association for Psychological Science
+title: Twenty-two faculty recognized as exceptional mentors
+date: 2026-03-26
+author: University of Colorado Boulder Graduate School
 tags: award
-external_link: "https://www.psychologicalscience.org/news/2026-feb-spence-awards.html"
+external_link: "https://www.colorado.edu/graduateschool/2026/03/26/twenty-two-faculty-recognized-exceptional-mentors"
 ---
 
-Dr. Grotzinger recognized as an early career scientist leading trailblazing research in the field of Psychology.
+Dr. Grotzinger recognized as an outstanding and trusted mentor to graduate students.
 
-[Read the article at the Association for Psychological Science Website →](https://www.psychologicalscience.org/news/2026-feb-spence-awards.html)
+[Read the article at the CU Boulder Website →](https://www.colorado.edu/graduateschool/2026/03/26/twenty-two-faculty-recognized-exceptional-mentors)
 {:target="_blank" rel="noopener"}
