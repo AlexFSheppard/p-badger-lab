@@ -669,7 +669,7 @@
   publisher: Translational Psychiatry
   date: '2025-07-21'
   link: https://doi.org/g953t9
-  orcid: 0000-0001-6594-0587
+  orcid: 0000-0001-7852-9244
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1038/s41467-025-61978-6
@@ -781,7 +781,7 @@
   - Brandon T. Sanzo
   - Rui Duan
   - Tian Ge
-  - Irwin Waldman
+  - Irwin D. Waldman
   - Jordan W. Smoller
   - Ted Schwaba
   - Elliot M. Tucker-Drob
@@ -3023,51 +3023,6 @@
   publisher: openRxiv
   date: '2024-07-19'
   link: https://doi.org/g953vd
-  orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2024.06.07.24308616
-  title: Characterizing Genetic Pathways Unique to Autism Spectrum Disorder at Multiple
-    Levels of Biological Analysis
-  authors:
-  - Lukas S. Schaffer
-  - Sophie Breunig
-  - Jeremy M. Lawrence
-  - Isabelle F. Foote
-  - Andrew D. Grotzinger
-  publisher: openRxiv
-  date: '2024-06-09'
-  link: https://doi.org/g953vg
-  orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.08.02.23293439
-  title: Examining Differences in the Genetic and Functional Architecture of ADHD
-    Diagnosed in Childhood and Adulthood
-  authors:
-  - Sophie Breunig
-  - Jeremy M. Lawrence
-  - Isabelle F. Foote
-  - Hannah J. Gebhardt
-  - Erik G. Willcutt
-  - Andrew D. Grotzinger
-  publisher: openRxiv
-  date: '2023-08-07'
-  link: https://doi.org/g953vk
-  orcid: 0000-0001-6594-0587
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.04.29.23289281
-  title: Genomic SEM Applied to Explore Etiological Divergences in Bipolar Subtypes
-  authors:
-  - Jeremy M. Lawrence
-  - Sophie Breunig
-  - Isabelle F. Foote
-  - Connor B. Tallis
-  - Andrew D. Grotzinger
-  publisher: openRxiv
-  date: '2023-05-09'
-  link: https://doi.org/g953vm
   orcid: 0000-0001-6594-0587
   plugin: orcid.py
   file: orcid.yaml
