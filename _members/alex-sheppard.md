@@ -23,5 +23,6 @@ links:
   linkedin: alex-sheppard-522a081b9
 ---
 
-**Research Interests:**
-I am interested in what promotes healthy functioning in later life. I seek to understand psychological and neurological factors impacting health using genomic methods. And to leverage these factors, such as apathy or dementia biomarkers, to promote well-being.
+I am a second-year graduate student pursuing a degree in Clinical Psychology. While working as a research coordinator tracking the development and progression of dementia, I observed numerous barriers to care. Barriers such as an inability to identify disease processes prior to significant impacts on one's life, shared symptoms across dementias prolonging inaccurate diagnosis, and a scarcity of effective interventions. I believe genetic methods paired with neuropsychological and neurological measurements are uniquely able to intervene on these problems through improved characterization of disease and underlying biological pathways. I use a variety of statistical tools in this pursuit and am always eager to learn more.
+ 
+Alongside my enjoyment of this work, you can find me cycling to mountain town cafes, reading a sci-fi book, or dancing about the kitchen.
